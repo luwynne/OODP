@@ -1,5 +1,5 @@
 
-package products;
+package commercialtradesystem.OODP;
 
 import java.util.ArrayList;
 
@@ -8,15 +8,23 @@ public class Company implements Companies{
     
     
     private String CompanyType;
-    private double companyWallet;
-    private int totalDepotProductsFromA;
-    private int totalDepotProductsFromB;
-    private int totalDepotProductsFromC;
-    private double deliveryPrice;
-    private double totalDeliveryExpenses;
+    private double companyWallet = 0;
+    private final int totalDepot = 100;
+    private double deliveryPrice = 0;
+    private double totalDeliveryExpenses = 0;
     private final int totalDepots = 100;
     private ArrayList<Transaction> transactions;
+    //this has to be populated or commented before testing
     
+    
+    
+    
+   public Company(String CompanyType){
+    
+       this.CompanyType = CompanyType;
+      
+   
+   }
     
 
     @Override
@@ -30,19 +38,10 @@ public class Company implements Companies{
     }
 
     @Override
-    public int getTotalDepotProductsFromA() {
-       return this.totalDepotProductsFromA;
+    public int getTotalDepot() {
+       return this.totalDepot;
     }
-
-    @Override
-    public int getTotalDepotProductsFromB() {
-        return this.totalDepotProductsFromB;
-    }
-
-    @Override
-    public int getTotalDepotProductsFromC() {
-        return this.totalDepotProductsFromC;
-    }
+   
 
     @Override
     public double getDeliveryPrice() {
@@ -57,14 +56,9 @@ public class Company implements Companies{
     @Override
     public ArrayList<Transaction> getTransactions() {
         return this.transactions;
+        //this has to be populated or commented before testing
     }
 
-   
-  
-    
-    
 
-    
-    
     
 }

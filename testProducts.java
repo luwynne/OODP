@@ -1,3 +1,5 @@
+package commercialtradesystem.OODP;
+
 import java.util.ArrayList;
 
 public class testProducts {
@@ -28,7 +30,7 @@ public class testProducts {
 
 
         
-
+//this has to be populated or commented before testing the testCompanies
 
         
     }

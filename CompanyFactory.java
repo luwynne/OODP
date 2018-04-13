@@ -1,22 +1,34 @@
 
-package products;
+package commercialtradesystem.OODP;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 
-public class CompanyFactory {
+public class CompanyFactory{
     
-    //Map <String, String> depot = new HashMap<String, String>();
-    double companyWallet;
-    int totalDepotProductsFromA;
-    int totalDepotProductsFromB;
-    int totalDepotProductsFromC;
-    double deliveryPrice;
-    double totalDeliveryExpenses;
-    final int totalDepots = 100;
-    //ArrayList<Transaction> transactions;
+    
+    
+    public static Company getCompany(String CompanyType){
+        
+        if("A".equalsIgnoreCase(CompanyType)){
+            
+            return new Company("A");
+        
+        }else if("B".equalsIgnoreCase(CompanyType)){
+            
+            return new Company("B");
+            
+        }else{
+            
+            return new Company("C");
+            
+        }
+        
+        
+       
+    }
     
     
     
