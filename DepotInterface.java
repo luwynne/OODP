@@ -12,8 +12,6 @@ public interface DepotInterface {
     public ArrayList getProductsB();
     public ArrayList getProductsC();
     public double getDepotWallet();
-    public final int minFrom = 15;
-    public final int maxFrom = 50;
     public int getDeliveryPrice();
     
 }

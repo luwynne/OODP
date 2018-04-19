@@ -1,29 +1,40 @@
 
 package commercialtradesystem.OODP;
 
+import static commercialtradesystem.OODP.DepotFactory.getRandom;
+import java.util.ArrayList;
+
 
 public class CompanyFactory{
     
     
     
-    public static Company getCompany(String CompanyType){
+    public ArrayList<CompanyInterface> getCompany(){
         
-        if("A".equalsIgnoreCase(CompanyType)){
+       return createCompanies();
+    }
+    
+    public ArrayList<CompanyInterface> createCompanies(){
+        ArrayList<CompanyInterface> list = new ArrayList<>();
+        DepotFactory factory = new DepotFactory();
+       
+        for(int i=1;i<=3;i++){
             
-            return new Company("A");
-        
-        }else if("B".equalsIgnoreCase(CompanyType)){
-            
-            return new Company("B");
-            
-        }else{
-            
-            return new Company("C");
+            switch(i){
+                case 1:
+                    list.add(new Company("A",factory.getDepot("A")));
+                    break;
+                case 2:
+                    list.add(new Company("B",factory.getDepot("B")));
+                    break;
+             
+                case 3:
+                    list.add(new Company("C",factory.getDepot("C")));
+                    break;
+            }
             
         }
-        
-        
-       
+        return list;
     }
     
     

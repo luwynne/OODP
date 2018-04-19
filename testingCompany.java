@@ -5,6 +5,8 @@
  */
 package commercialtradesystem.OODP;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author mynahone0
@@ -15,14 +17,26 @@ public class testingCompany {
     public static void main(String[] args) {
    
                                            
-    Company companyA = CompanyFactory.getCompany("A");
-    Company companyB = CompanyFactory.getCompany("B");
-    Company companyC = CompanyFactory.getCompany("C");
-                                           
+    CompanyFactory compa = new CompanyFactory();
     
-    System.out.println("Company A Config::"+ companyA.getCompanyType());
-    System.out.println("Company B Config::"+ companyB.getCompanyType());
-    System.out.println("Company C Config::"+ companyC.getCompanyType());
+    ArrayList<CompanyInterface> co= compa.getCompany();
+    
+        for(CompanyInterface tempComp : co){
+            System.out.println(tempComp.getCompanyType());
+            //System.out.println(tempComp.getArrayListDepot());
+            
+            for(DepotInterface  eachDepot: tempComp.getArrayListDepot()){
+                System.out.println("Depot Id"+eachDepot.getDepotId());
+            System.out.println("Number of A "+eachDepot.getProductsA().size()+" Price "+eachDepot.getProductsA().get(1));
+            System.out.println("Number of B "+eachDepot.getProductsB().size()+" Price "+eachDepot.getProductsB().get(1));
+            System.out.println("Number of C "+eachDepot.getProductsC().size()+" Price "+eachDepot.getProductsC().get(1));
+            System.out.println("Delivery price "+eachDepot.getDeliveryPrice());
+            System.out.println("---------------------------");
+            }
+            
+            System.out.println("*********************************************");
+            
+        }
     
     }
 

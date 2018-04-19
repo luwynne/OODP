@@ -6,15 +6,21 @@ import java.util.ArrayList;
 
 public class Depot implements DepotInterface{
 
-    final int depotId = 0;
-    String belongsTo;
-    ArrayList productsFromA = new ArrayList();
-    ArrayList productsFromB = new ArrayList();
-    ArrayList productsFromC = new ArrayList();
-    double depotWallet;
+     int depotId;
+//    String belongsTo;
+    ArrayList<Products> productsFromA = new ArrayList<>();
+    ArrayList<Products> productsFromB = new ArrayList<>();
+    ArrayList<Products> productsFromC = new ArrayList<>();
+    int depotWallet;
+    int deliveryPrice;
 
-    Depot(String a) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    Depot(int id,ArrayList<Products> A, ArrayList<Products> B,ArrayList<Products> C,int deliveryPrice) {
+        //this.belongsTo=a; //To change body of generated methods, choose Tools | Templates.
+        this.depotId=id;
+        this.productsFromA=A;
+        this.productsFromB=B;
+        this.productsFromC=C;
+        this.deliveryPrice=deliveryPrice;
     }
     
    
@@ -23,10 +29,21 @@ public class Depot implements DepotInterface{
         return this.depotId;
     }
 
-    
-    public void setBelongsTo(String belongsTo){
-        this.belongsTo = belongsTo;
+    public void setProductsFromA(ArrayList<Products> productsFromA) {
+        this.productsFromA = productsFromA;
     }
+
+    public void setProductsFromB(ArrayList<Products> productsFromB) {
+        this.productsFromB = productsFromB;
+    }
+
+    public void setProductsFromC(ArrayList<Products> productsFromC) {
+        this.productsFromC = productsFromC;
+    } 
+    
+//    public void setBelongsTo(String belongsTo){
+//        this.belongsTo = belongsTo;
+//    }
    
     
     @Override
@@ -35,7 +52,7 @@ public class Depot implements DepotInterface{
     }
 
     @Override
-    public ArrayList getProductsA() {
+    public ArrayList<Products> getProductsA() {
         return this.productsFromA;
     }
 
@@ -50,7 +67,7 @@ public class Depot implements DepotInterface{
     }
 
     
-    public void setDepotWallet(double depotWallet){
+    public void setDepotWallet(int depotWallet){
         this.depotWallet = depotWallet;
     }
     
@@ -61,7 +78,8 @@ public class Depot implements DepotInterface{
 
     @Override
     public int getDeliveryPrice() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.deliveryPrice;
     }
     
 }

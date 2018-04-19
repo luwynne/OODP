@@ -10,8 +10,8 @@ import java.util.Random;
 public class ProductFactory {
     
 
-    static int max = 10;
-    static int min = 1;
+    static int maxPrice = 10;
+    static int minPrice = 1;
     static int maxProducOwner =50;
     static int minProducOwner =15;
     static int minProducOthers =3;
@@ -29,7 +29,7 @@ public class ProductFactory {
         
         if("A".equalsIgnoreCase(productName)){
 
-            cost=getRandom(max,min);
+            cost=getRandom(maxPrice,minPrice);
             if(owner){
                 numberOfProducts=getRandom(maxProducOwner,minProducOwner);
             }else{
@@ -42,7 +42,7 @@ public class ProductFactory {
 
         }else if("B".equalsIgnoreCase(productName)){
 
-            cost=getRandom(max,min);
+            cost=getRandom(maxPrice,minPrice);
             if(owner){
                 numberOfProducts=getRandom(maxProducOwner,minProducOwner);
             }else{
@@ -55,7 +55,7 @@ public class ProductFactory {
             
         }else {
 
-            cost=getRandom(max,min);
+            cost=getRandom(maxPrice,minPrice);
             if(owner){
                 numberOfProducts=getRandom(maxProducOwner,minProducOwner);
             }else{

@@ -36,7 +36,7 @@ public class Product implements  Products{
     
     //@Override
     public String toString(){
-        return this.name;
+        return Integer.toString(this.price);
     }
 
     
