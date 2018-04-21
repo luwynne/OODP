@@ -1,26 +1,30 @@
 
 package commercialtradesystem.OODP;
 
+import com.sun.xml.internal.bind.v2.TODO;
 import java.util.ArrayList;
 
 
 public class Depot implements DepotInterface{
 
-     int depotId;
+    int depotId;
 //    String belongsTo;
-    ArrayList<Products> productsFromA = new ArrayList<>();
-    ArrayList<Products> productsFromB = new ArrayList<>();
-    ArrayList<Products> productsFromC = new ArrayList<>();
-    int depotWallet;
-    int deliveryPrice;
+    private ArrayList<Products> productsFromA = new ArrayList<>();
+    private ArrayList<Products> productsFromB = new ArrayList<>();
+    private ArrayList<Products> productsFromC = new ArrayList<>();
+    
+    private int depotWallet;
+    private final int deliveryPrice;
+    // create a arralist of transactions empty one;
 
-    Depot(int id,ArrayList<Products> A, ArrayList<Products> B,ArrayList<Products> C,int deliveryPrice) {
+    Depot(int id,ArrayList<Products> A, ArrayList<Products> B,ArrayList<Products> C,int deliveryPrice, int cash) {
         //this.belongsTo=a; //To change body of generated methods, choose Tools | Templates.
         this.depotId=id;
         this.productsFromA=A;
         this.productsFromB=B;
         this.productsFromC=C;
         this.deliveryPrice=deliveryPrice;
+        this.depotWallet=cash;
     }
     
    
@@ -29,22 +33,20 @@ public class Depot implements DepotInterface{
         return this.depotId;
     }
 
-    public void setProductsFromA(ArrayList<Products> productsFromA) {
-        this.productsFromA = productsFromA;
+     @Override
+    public void buyProductsFromA(Products Newproduct) {
+        this.productsFromA.add(Newproduct);
     }
 
-    public void setProductsFromB(ArrayList<Products> productsFromB) {
-        this.productsFromB = productsFromB;
+     @Override
+    public void buyProductsFromB(Products Newproduct) {
+        this.productsFromB.add(Newproduct);
     }
 
-    public void setProductsFromC(ArrayList<Products> productsFromC) {
-        this.productsFromC = productsFromC;
+     @Override
+    public void buyProductsFromC(Products Newproduct) {
+        this.productsFromC.add(Newproduct);
     } 
-    
-//    public void setBelongsTo(String belongsTo){
-//        this.belongsTo = belongsTo;
-//    }
-   
     
     @Override
     public String getBelongsTo() {
@@ -65,14 +67,31 @@ public class Depot implements DepotInterface{
     public ArrayList getProductsC() {
         return this.productsFromC;
     }
+    
+     @Override
+    public Products sellProductsA() {
+        return this.productsFromA.remove((this.productsFromA.size()-1));
+    }
+
+     @Override
+    public Products sellProductsB() {
+        return this.productsFromB.remove((this.productsFromB.size()-1));
+    }
+
+     @Override
+    public Products sellProductsC() {
+        return this.productsFromC.remove((this.productsFromC.size()-1));
+    }
+
 
     
-    public void setDepotWallet(int depotWallet){
-        this.depotWallet = depotWallet;
+    @Override
+    public void setDepotWallet(int money){
+        this.depotWallet += money;
     }
     
     @Override
-    public double getDepotWallet() {
+    public int getDepotWallet() {
         return this.depotWallet;
     }
 
@@ -81,5 +100,6 @@ public class Depot implements DepotInterface{
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         return this.deliveryPrice;
     }
-    
+
+
 }

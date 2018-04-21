@@ -1,12 +1,8 @@
 package commercialtradesystem.OODP;
 
-
-
-
-
 public class Product implements  Products{
     
-    final int price;
+    int price=0;
     final String name;
     
     
@@ -25,8 +21,8 @@ public class Product implements  Products{
         return this.name;
     
     }
-
-    //@Override
+    
+    @Override
     public int getPrice() {
         
         return this.price;
@@ -35,6 +31,7 @@ public class Product implements  Products{
     
     
     //@Override
+    @Override
     public String toString(){
         return Integer.toString(this.price);
     }

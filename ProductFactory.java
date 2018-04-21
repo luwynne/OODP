@@ -19,56 +19,51 @@ public class ProductFactory {
 
 
 
-    public static ArrayList<Products> getProduct(String productName,boolean owner){
+    public ArrayList<Products> getProduct(String productName,boolean owner){
         ArrayList<Products> listOfProductsX = new ArrayList<>();
-        int cost=0;
         int numberOfProducts=0;
 
-
-        Products product = null;
-        
-        if("A".equalsIgnoreCase(productName)){
-
-            cost=getRandom(maxPrice,minPrice);
-            if(owner){
-                numberOfProducts=getRandom(maxProducOwner,minProducOwner);
-            }else{
-                numberOfProducts=getRandom(maxProducOthers,minProducOthers);
-            }
-
-            listOfProductsX = createListProductsX(cost,numberOfProducts,"A");
-
-            return listOfProductsX;
-
-        }else if("B".equalsIgnoreCase(productName)){
-
-            cost=getRandom(maxPrice,minPrice);
-            if(owner){
-                numberOfProducts=getRandom(maxProducOwner,minProducOwner);
-            }else{
-                numberOfProducts=getRandom(maxProducOthers,minProducOthers);
-            }
-
-            listOfProductsX = createListProductsX(cost,numberOfProducts,"B");
-
-            return listOfProductsX;
-            
-        }else {
-
-            cost=getRandom(maxPrice,minPrice);
-            if(owner){
-                numberOfProducts=getRandom(maxProducOwner,minProducOwner);
-            }else{
-                numberOfProducts=getRandom(maxProducOthers,minProducOthers);
-            }
-
-            listOfProductsX = createListProductsX(cost,numberOfProducts,"C");
-
-            return listOfProductsX;
-            
-        }
+           switch(productName){
+               case "A":
+                   if(owner){
+                       numberOfProducts=getRandom(maxProducOwner,minProducOwner);
+                   }else{
+                       numberOfProducts=getRandom(maxProducOthers,minProducOthers);
+                   }
+                   listOfProductsX.clear();
+                   listOfProductsX.addAll(createListProductsX(getRandom(maxPrice,minPrice),numberOfProducts,productName));
+                   break;
+                   
+                case "B":
+                   if(owner){
+                       numberOfProducts=getRandom(maxProducOwner,minProducOwner);
+                   }else{
+                       numberOfProducts=getRandom(maxProducOthers,minProducOthers);
+                   }
+                   
+                   listOfProductsX.clear();
+                   listOfProductsX.addAll(createListProductsX(getRandom(maxPrice,minPrice),numberOfProducts,productName));
+                   break;
+                   
+                case "C":
+                   if(owner){
+                       numberOfProducts=getRandom(maxProducOwner,minProducOwner);
+                   }else{
+                       numberOfProducts=getRandom(maxProducOthers,minProducOthers);
+                   }
+                   
+                   listOfProductsX.clear();
+                   listOfProductsX.addAll(createListProductsX(getRandom(maxPrice,minPrice),numberOfProducts,productName));
+                   break;
+                   
+           }
+           return listOfProductsX;
         
     }
+    
+    
+    
+    
 
     public static ArrayList<Products> createListProductsX(int cost, int numberOfProducts,String company) {
         ArrayList<Products> list = new ArrayList<>();
@@ -80,9 +75,9 @@ public class ProductFactory {
 
     public static int getRandom(int max, int min){
 
-        int price;
+        int randNumber;
         Random rand = new Random();
-        return  price = rand.nextInt((max-min)+1)+min;
+        return  randNumber = rand.nextInt((max-min)+1)+min;
     }
 
 
