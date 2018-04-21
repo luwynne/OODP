@@ -28,9 +28,9 @@ public class Trader {
     
     public void  tradingA(){
         
-        int counterDepot =0;
+        //int counterDepot =0;
         for(int i=0;i<depotsA.size()-1;i++){
-            
+            int counterDepot =0;
             int pricePlusDelivery=depotsA.get(i).getDeliveryPrice()+depotsA.get(i).getProductsA().get(1).getPrice();
             while(depotsA.get(i).getProductsA().size()> 16 && counterDepot<100){
                 
@@ -54,9 +54,9 @@ public class Trader {
     
     public void  tradingB(){
         
-        int counterDepot =0;
+        //int counterDepot =0;
         for(int i=0;i<depotsB.size()-1;i++){
-           
+           int counterDepot =0;
             int pricePlusDelivery=depotsB.get(i).getDeliveryPrice()+depotsB.get(i).getProductsB().get(1).getPrice();
             
             while(depotsB.get(i).getProductsB().size()> 16 && counterDepot<100){
@@ -81,9 +81,9 @@ public class Trader {
     
     public void  tradingC(){
         
-        int counterDepot =0;
+        //int counterDepot =0;
         for(int i=0;i<depotsC.size()-1;i++){
-            
+            int counterDepot =0;
             int pricePlusDelivery=depotsC.get(i).getDeliveryPrice()+depotsC.get(i).getProductsC().get(1).getPrice();
             
             while(depotsC.get(i).getProductsC().size()> 16 && counterDepot<100){
