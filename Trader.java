@@ -41,6 +41,7 @@ public class Trader {
                     depotsB.get(counterDepot).setDepotWallet(pricePlusDelivery*(-1));
                     
                     // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsA.get(i) and depotsB.get(counterDepot)
+                    // you have to create the arraylist<transactions> in the depot class. and a method to add a transaction to the ArrayList
                 }
                 
                 if((depotsC.get(counterDepot).getDepotWallet()-minCashAllowance>pricePlusDelivery) && (depotsC.get(counterDepot).getProductsA().size()<40) ){
@@ -72,7 +73,7 @@ public class Trader {
                     depotsA.get(counterDepot).setDepotWallet(pricePlusDelivery*(-1));
                     
                     // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsB.get(i) and depotsA.get(counterDepot)
-                    // you have to create the arraylist<transactions> in the depot class. and a method to add a transaction to the ArrayList
+                    
                 }
                 
                 if((depotsC.get(counterDepot).getDepotWallet()-minCashAllowance>pricePlusDelivery) && (depotsC.get(counterDepot).getProductsB().size()<40) ){
