@@ -25,6 +25,7 @@ public interface DepotInterface {
     public void buyProductsFromA(Products newProduct);
     public void buyProductsFromB(Products newProduct);
     public void buyProductsFromC(Products newProduct);
-    
+    public ArrayList<Transaction> getListOfTransactions();
+    public void addTransactions(Transaction newTransaction);
     
 }

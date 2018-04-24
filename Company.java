@@ -19,6 +19,10 @@ public class Company implements CompanyInterface{
     //private ArrayList<Transaction> transactions;
     //this has to be populated or commented before testing
     private ArrayList<DepotInterface> ArrayListDepot;
+    
+    private ArrayList<Transaction> ListOfTransactions= new ArrayList<>();
+
+   
 
     
     
@@ -29,8 +33,7 @@ public class Company implements CompanyInterface{
     
        this.name = name;
        this.ArrayListDepot=list;
-      
-
+    
    }
    
     @Override
@@ -61,6 +64,16 @@ public class Company implements CompanyInterface{
     
     public void setTotalDeliveryExpenses(double totalDeliveryExpenses) {
         this.totalDeliveryExpenses = totalDeliveryExpenses;
+    }
+    
+    @Override
+     public ArrayList<Transaction> getListOfTransactions() {
+        return ListOfTransactions;
+    }
+
+    @Override
+    public void addListOfTransactions(ArrayList<Transaction> ListOfTransactions) {
+        this.ListOfTransactions.addAll(ListOfTransactions);
     }
     //@Override
 //    public ArrayList<Transaction> getTransactions() {

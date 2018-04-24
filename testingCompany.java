@@ -5,7 +5,10 @@
  */
 package commercialtradesystem.OODP;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
+
 
 /**
  *
@@ -14,32 +17,27 @@ import java.util.ArrayList;
 public class testingCompany {
     
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
    
                                            
     CompanyFactory compa = new CompanyFactory();
     
-            ArrayList<CompanyInterface> co= compa.getCompany();
+            ArrayList<CompanyInterface> companies= compa.getCompany();
+            String outputBeforeTrade = "";
+            String outputAfterTrafe="";
     
-        for(CompanyInterface eachComp : co){
-            System.out.println(eachComp.getCompanyType());
-            //System.out.println(tempComp.getArrayListDepot());
+        for(CompanyInterface eachComp : companies){
+            
+            outputBeforeTrade+="\n ********************** Start Company "+eachComp.getCompanyType() +" **********************";
             
             for(DepotInterface  eachDepot: eachComp.getArrayListDepot()){
-                System.out.println("Depot Id: "+eachDepot.getDepotId());
-            System.out.println("Number of A: "+eachDepot.getProductsA().size()+" Price "+eachDepot.getProductsA().get(1));
-            System.out.println("Number of B: "+eachDepot.getProductsB().size()+" Price "+eachDepot.getProductsB().get(1));
-            System.out.println("Number of C: "+eachDepot.getProductsC().size()+" Price "+eachDepot.getProductsC().get(1));
-            System.out.println("Delivery price: "+eachDepot.getDeliveryPrice());
-            System.out.println("wallet: "+eachDepot.getDepotWallet());
-            System.out.println("---------------------------");
+                outputBeforeTrade +="\n"+ eachDepot+ "\n ---------------------------";
             }
-            
-            System.out.println("*********************************************");
-            
+          
+            outputBeforeTrade+="\n ********************** End Company "+eachComp.getCompanyType() +" **********************";
         }
-        System.out.println("////////////////////////////////////////////////////////////////////////");
-        Trader newTrader = new Trader(co.get(0).getArrayListDepot(),co.get(1).getArrayListDepot(),co.get(2).getArrayListDepot());
+       // System.out.println("////////////////////////////////////////////////////////////////////////");
+        Trader newTrader = new Trader(companies.get(0).getArrayListDepot(),companies.get(1).getArrayListDepot(),companies.get(2).getArrayListDepot());
         newTrader.tradingA();
         newTrader.tradingB();
         newTrader.tradingC();
@@ -49,25 +47,52 @@ public class testingCompany {
         
         
         
-        for(CompanyInterface eachComp : co){
-            System.out.println(eachComp.getCompanyType());
-            //System.out.println(tempComp.getArrayListDepot());
+        for(CompanyInterface eachComp : companies){
+            
+            outputAfterTrafe+="\n ********************** Start Company "+eachComp.getCompanyType() +" **********************";
             
             for(DepotInterface  eachDepot: eachComp.getArrayListDepot()){
-                System.out.println("Depot Id: "+eachDepot.getDepotId());
-            System.out.println("Number of A: "+eachDepot.getProductsA().size()+" Price "+eachDepot.getProductsA().get(1));
-            System.out.println("Number of B: "+eachDepot.getProductsB().size()+" Price "+eachDepot.getProductsB().get(1));
-            System.out.println("Number of C: "+eachDepot.getProductsC().size()+" Price "+eachDepot.getProductsC().get(1));
-            System.out.println("Delivery price: "+eachDepot.getDeliveryPrice());
-            System.out.println("wallet: "+eachDepot.getDepotWallet());
-            System.out.println("---------------------------");
+                outputAfterTrafe +="\n"+ eachDepot+ "\n ---------------------------";
+                eachComp.addListOfTransactions(eachDepot.getListOfTransactions());
+//                for(Transaction eachTran: eachDepot.getListOfTransactions()){
+//                    System.out.println(eachTran);
+//                }
+//                System.out.println("------------------------ end depot transactions -----------------------------------");
+                
             }
             
-            System.out.println("*********************************************");
+            outputAfterTrafe+="\n ********************** End Company "+eachComp.getCompanyType() +" **********************";
             
         }
+        //writingResultToFile();
+        
+        // printing transaction by company
+        for(CompanyInterface eachComp : companies){
+            for (Transaction eachTran  : eachComp.getListOfTransactions()){
+                System.out.println(eachTran);
+            }
+            
+            System.out.println("------------------------ end company transactions -----------------------------------");
+                
+        }
+        writingResultToFile(outputBeforeTrade,"before");
+        writingResultToFile(outputAfterTrafe,"after");
+        //System.out.println(outputBeforeTrade);
+        // System.out.println("////////////////////////////////////////////////////////////////////////");
+        //System.out.println(outputAfterTrafe);
     }
+    
+    
+    public static void writingResultToFile (String info, String fileName) 
+        throws IOException {
+          //String fileName="before";
+          //String str = "Hello";
+          FileOutputStream outputStream = new FileOutputStream("/Users/yoseph/NetBeansProjects/CommercialTradeSystem/src/commercialtradesystem/OODP/Results/"+fileName);
+          byte[] strToBytes = info.getBytes();
+          outputStream.write(strToBytes);
 
+          outputStream.close();
+    }
     
    
     

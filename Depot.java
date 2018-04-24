@@ -12,7 +12,7 @@ public class Depot implements DepotInterface{
     private ArrayList<Products> productsFromA = new ArrayList<>();
     private ArrayList<Products> productsFromB = new ArrayList<>();
     private ArrayList<Products> productsFromC = new ArrayList<>();
-    
+    private ArrayList<Transaction> listOfTransactions = new ArrayList<>();
     private int depotWallet;
     private final int deliveryPrice;
     // create a arralist of transactions empty one;
@@ -100,6 +100,23 @@ public class Depot implements DepotInterface{
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         return this.deliveryPrice;
     }
+    
+    @Override
+    public ArrayList<Transaction> getListOfTransactions() {
+        return listOfTransactions;
+    }
+
+    @Override
+    public void addTransactions(Transaction newTransaction) {
+        this.listOfTransactions.add(newTransaction);
+    }
+
+    @Override
+    public String toString() {
+        return "Depot{" + "\n depotId = " + depotId + "\n productsFromA = " + productsFromA.size() + " Price = "+productsFromA.get(1)+ "\n productsFromB = " + productsFromB.size() + " Price = "+productsFromB.get(1)+ "\n productsFromC = " + productsFromC.size() + " Price = "+productsFromC.get(1)+"\n depotWallet = " + depotWallet + "\n deliveryPrice = " + deliveryPrice + "\n }";
+    }
+    
+    
 
 
 }

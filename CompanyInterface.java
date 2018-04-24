@@ -11,6 +11,8 @@ public interface CompanyInterface {
     //public abstract double getDeliveryPrice();
     public abstract double getTotalDeliveryExpenses();
     public abstract ArrayList<DepotInterface> getArrayListDepot();
+    public ArrayList<Transaction> getListOfTransactions();
+    public void addListOfTransactions(ArrayList<Transaction> ListOfTransactions);
     //public abstract ArrayList<Transaction> getTransactions();//this has to be populated or commented before testing
    
 
