@@ -26,8 +26,8 @@ public class Depot implements DepotInterface{
         this.deliveryPrice=deliveryPrice;
         this.depotWallet=cash;
     }
-    
-   
+
+
     @Override
     public int getDepotId() {
         return this.depotId;
@@ -46,8 +46,8 @@ public class Depot implements DepotInterface{
      @Override
     public void buyProductsFromC(Products Newproduct) {
         this.productsFromC.add(Newproduct);
-    } 
-    
+    }
+
     @Override
     public String getBelongsTo() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -67,7 +67,7 @@ public class Depot implements DepotInterface{
     public ArrayList getProductsC() {
         return this.productsFromC;
     }
-    
+
      @Override
     public Products sellProductsA() {
         return this.productsFromA.remove((this.productsFromA.size()-1));
@@ -84,12 +84,12 @@ public class Depot implements DepotInterface{
     }
 
 
-    
+
     @Override
     public void setDepotWallet(int money){
         this.depotWallet += money;
     }
-    
+
     @Override
     public int getDepotWallet() {
         return this.depotWallet;
@@ -100,7 +100,7 @@ public class Depot implements DepotInterface{
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         return this.deliveryPrice;
     }
-    
+
     @Override
     public ArrayList<Transaction> getListOfTransactions() {
         return listOfTransactions;
@@ -115,8 +115,8 @@ public class Depot implements DepotInterface{
     public String toString() {
         return "Depot{" + "\n depotId = " + depotId + "\n productsFromA = " + productsFromA.size() + " Price = "+productsFromA.get(1)+ "\n productsFromB = " + productsFromB.size() + " Price = "+productsFromB.get(1)+ "\n productsFromC = " + productsFromC.size() + " Price = "+productsFromC.get(1)+"\n depotWallet = " + depotWallet + "\n deliveryPrice = " + deliveryPrice + "\n }";
     }
-    
-    
+
+
 
 
 }

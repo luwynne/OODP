@@ -8,7 +8,7 @@ import java.util.Random;
 
 
 public class ProductFactory {
-    
+
 
     static int maxPrice = 10;
     static int minPrice = 1;
@@ -33,37 +33,37 @@ public class ProductFactory {
                    listOfProductsX.clear();
                    listOfProductsX.addAll(createListProductsX(getRandom(maxPrice,minPrice),numberOfProducts,productName));
                    break;
-                   
+
                 case "B":
                    if(owner){
                        numberOfProducts=getRandom(maxProducOwner,minProducOwner);
                    }else{
                        numberOfProducts=getRandom(maxProducOthers,minProducOthers);
                    }
-                   
+
                    listOfProductsX.clear();
                    listOfProductsX.addAll(createListProductsX(getRandom(maxPrice,minPrice),numberOfProducts,productName));
                    break;
-                   
+
                 case "C":
                    if(owner){
                        numberOfProducts=getRandom(maxProducOwner,minProducOwner);
                    }else{
                        numberOfProducts=getRandom(maxProducOthers,minProducOthers);
                    }
-                   
+
                    listOfProductsX.clear();
                    listOfProductsX.addAll(createListProductsX(getRandom(maxPrice,minPrice),numberOfProducts,productName));
                    break;
-                   
+
            }
            return listOfProductsX;
-        
+
     }
-    
-    
-    
-    
+
+
+
+
 
     public static ArrayList<Products> createListProductsX(int cost, int numberOfProducts,String company) {
         ArrayList<Products> list = new ArrayList<>();
@@ -81,5 +81,5 @@ public class ProductFactory {
     }
 
 
-    
+
 }

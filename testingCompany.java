@@ -15,25 +15,25 @@ import java.util.ArrayList;
  * @author mynahone0
  */
 public class testingCompany {
-    
-    
+
+
     public static void main(String[] args) throws IOException {
-   
-                                           
+
+
     CompanyFactory compa = new CompanyFactory();
-    
+
             ArrayList<CompanyInterface> companies= compa.getCompany();
             String outputBeforeTrade = "";
             String outputAfterTrafe="";
-    
+
         for(CompanyInterface eachComp : companies){
-            
+
             outputBeforeTrade+="\n ********************** Start Company "+eachComp.getCompanyType() +" **********************";
-            
+
             for(DepotInterface  eachDepot: eachComp.getArrayListDepot()){
                 outputBeforeTrade +="\n"+ eachDepot+ "\n ---------------------------";
             }
-          
+
             outputBeforeTrade+="\n ********************** End Company "+eachComp.getCompanyType() +" **********************";
         }
        // System.out.println("////////////////////////////////////////////////////////////////////////");
@@ -44,13 +44,13 @@ public class testingCompany {
         newTrader.tradingC();
         newTrader.tradingB();
         newTrader.tradingA();
-        
-        
-        
+
+
+
         for(CompanyInterface eachComp : companies){
-            
+
             outputAfterTrafe+="\n ********************** Start Company "+eachComp.getCompanyType() +" **********************";
-            
+
             for(DepotInterface  eachDepot: eachComp.getArrayListDepot()){
                 outputAfterTrafe +="\n"+ eachDepot+ "\n ---------------------------";
                 eachComp.addListOfTransactions(eachDepot.getListOfTransactions());
@@ -58,22 +58,22 @@ public class testingCompany {
 //                    System.out.println(eachTran);
 //                }
 //                System.out.println("------------------------ end depot transactions -----------------------------------");
-                
+
             }
-            
+
             outputAfterTrafe+="\n ********************** End Company "+eachComp.getCompanyType() +" **********************";
-            
+
         }
         //writingResultToFile();
-        
+
         // printing transaction by company
         for(CompanyInterface eachComp : companies){
             for (Transaction eachTran  : eachComp.getListOfTransactions()){
                 System.out.println(eachTran);
             }
-            
+
             System.out.println("------------------------ end company transactions -----------------------------------");
-                
+
         }
         writingResultToFile(outputBeforeTrade,"before");
         writingResultToFile(outputAfterTrafe,"after");
@@ -81,9 +81,9 @@ public class testingCompany {
         // System.out.println("////////////////////////////////////////////////////////////////////////");
         //System.out.println(outputAfterTrafe);
     }
-    
-    
-    public static void writingResultToFile (String info, String fileName) 
+
+
+    public static void writingResultToFile (String info, String fileName)
         throws IOException {
           //String fileName="before";
           //String str = "Hello";
@@ -93,7 +93,7 @@ public class testingCompany {
 
           outputStream.close();
     }
-    
-   
-    
+
+
+
 }

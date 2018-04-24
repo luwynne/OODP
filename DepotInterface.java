@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 
 public interface DepotInterface {
-    
+
     public abstract int getDepotId();
     public String getBelongsTo();
     public ArrayList<Products> getProductsA();
@@ -27,5 +27,5 @@ public interface DepotInterface {
     public void buyProductsFromC(Products newProduct);
     public ArrayList<Transaction> getListOfTransactions();
     public void addTransactions(Transaction newTransaction);
-    
+
 }

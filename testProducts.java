@@ -3,9 +3,9 @@ package commercialtradesystem.OODP;
 import java.util.ArrayList;
 
 public class testProducts {
-    
+
     //ProductFactory factory = new ProductFactory();
-    
+
     public static void main(String[] args) {
 //        ProductFactory factory = new ProductFactory();
 //        ArrayList<Products> listProductsA= null;
@@ -27,11 +27,11 @@ public class testProducts {
 //        System.out.println(listProductsC.size());
 //
 //        System.out.println("--------------------------");
-        
+
         DepotFactory  depotFactory = new DepotFactory();
         ArrayList<DepotInterface> de = depotFactory.getDepot("A");
         //de.productsFromA=listProductsA;
-        
+
         for(DepotInterface  eachDepot: de){
             System.out.println("Depot Id"+eachDepot.getDepotId());
             System.out.println("Number of A "+eachDepot.getProductsA().size()+" Price "+eachDepot.getProductsA().get(1));
@@ -40,15 +40,15 @@ public class testProducts {
             System.out.println("Delivery price "+eachDepot.getDeliveryPrice());
             System.out.println("---------------------------");
         }
-        
-       
-        
 
 
-        
+
+
+
+
 //this has to be populated or commented before testing the testCompanies
 
-        
+
     }
-    
+
 }

@@ -22,5 +22,5 @@ class Singleton {
             single_instance = new Singleton();
         }
         return single_instance;
-    }   
+    }
 }

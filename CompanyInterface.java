@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 
 public interface CompanyInterface {
-    
+
     public abstract String getCompanyType();
     public abstract double getCompanyWallet();
     //public abstract double getDeliveryPrice();
@@ -14,7 +14,7 @@ public interface CompanyInterface {
     public ArrayList<Transaction> getListOfTransactions();
     public void addListOfTransactions(ArrayList<Transaction> ListOfTransactions);
     //public abstract ArrayList<Transaction> getTransactions();//this has to be populated or commented before testing
-   
 
-    
+
+
 }

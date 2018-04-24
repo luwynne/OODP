@@ -16,7 +16,7 @@ public class MenuTrader {
     public static void main(String args[]){
 
         Singleton sing = Singleton.getInstance();
-        
+
         System.out.println("|--------------------------------------------------------------|");
         System.out.println("|----------- WELCOME TO COMMERCIAL TRADDING SYSTEM ------------|");
         System.out.println("|--------------------------------------------------------------|");
@@ -25,7 +25,7 @@ public class MenuTrader {
         Scanner scanner = new Scanner(System.in);
         String opt = scanner.nextLine();
         opt = opt.toLowerCase();
-        
+
         if(null != opt)switch (opt) {
             case "a":
                 System.out.println("...");
@@ -50,12 +50,12 @@ public class MenuTrader {
             default:
                 break;
         }
-        
+
         System.out.println("|--------------------------------------------------------------|");
         System.out.println("|------------------- COMPANY TRADE REPORT ---------------------|");
         System.out.println("|--------------------------------------------------------------|");
         System.out.println("|- Bla: bla bla bla -|");
         System.out.println("|--------------------------------------------------------------|");
-        
+
     }
 }
