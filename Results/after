@@ -2,974 +2,974 @@
  ********************** Start Company A **********************
 Depot{
  depotId = 1
- productsFromA = 15 Price = 9
- productsFromB = 23 Price = 3
- productsFromC = 11 Price = 10
+ productsFromA = 16 Price = 4
+ productsFromB = 40 Price = 6
+ productsFromC = 33 Price = 4
+ depotWallet = 52
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 2
+ productsFromA = 16 Price = 1
+ productsFromB = 30 Price = 10
+ productsFromC = 27 Price = 7
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 3
+ productsFromA = 15 Price = 2
+ productsFromB = 40 Price = 9
+ productsFromC = 40 Price = 6
+ depotWallet = 196
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 4
+ productsFromA = 15 Price = 4
+ productsFromB = 22 Price = 8
+ productsFromC = 28 Price = 1
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 5
+ productsFromA = 15 Price = 6
+ productsFromB = 40 Price = 7
+ productsFromC = 39 Price = 8
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 6
+ productsFromA = 15 Price = 7
+ productsFromB = 39 Price = 5
+ productsFromC = 34 Price = 2
+ depotWallet = 52
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 7
+ productsFromA = 16 Price = 5
+ productsFromB = 40 Price = 3
+ productsFromC = 40 Price = 8
+ depotWallet = 270
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 8
+ productsFromA = 15 Price = 5
+ productsFromB = 40 Price = 1
+ productsFromC = 9 Price = 5
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 9
+ productsFromA = 15 Price = 5
+ productsFromB = 40 Price = 2
+ productsFromC = 27 Price = 2
  depotWallet = 51
  deliveryPrice = 7
  }
  ---------------------------
 Depot{
- depotId = 2
+ depotId = 10
+ productsFromA = 15 Price = 10
+ productsFromB = 40 Price = 7
+ productsFromC = 40 Price = 7
+ depotWallet = 495
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 11
+ productsFromA = 15 Price = 3
+ productsFromB = 40 Price = 5
+ productsFromC = 27 Price = 8
+ depotWallet = 51
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 12
+ productsFromA = 16 Price = 4
+ productsFromB = 40 Price = 7
+ productsFromC = 35 Price = 9
+ depotWallet = 52
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 13
+ productsFromA = 16 Price = 4
+ productsFromB = 38 Price = 8
+ productsFromC = 12 Price = 9
+ depotWallet = 52
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 14
+ productsFromA = 16 Price = 9
+ productsFromB = 40 Price = 8
+ productsFromC = 40 Price = 3
+ depotWallet = 261
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 15
  productsFromA = 16 Price = 10
+ productsFromB = 18 Price = 7
+ productsFromC = 13 Price = 3
+ depotWallet = 471
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 16
+ productsFromA = 16 Price = 10
+ productsFromB = 22 Price = 8
+ productsFromC = 40 Price = 3
+ depotWallet = 276
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 17
+ productsFromA = 16 Price = 8
+ productsFromB = 40 Price = 8
+ productsFromC = 40 Price = 7
+ depotWallet = 471
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 18
+ productsFromA = 16 Price = 2
+ productsFromB = 13 Price = 3
+ productsFromC = 19 Price = 8
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 19
+ productsFromA = 15 Price = 2
+ productsFromB = 34 Price = 6
+ productsFromC = 40 Price = 6
+ depotWallet = 51
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 20
+ productsFromA = 16 Price = 10
+ productsFromB = 40 Price = 6
+ productsFromC = 37 Price = 9
+ depotWallet = 327
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 21
+ productsFromA = 16 Price = 3
+ productsFromB = 31 Price = 4
+ productsFromC = 37 Price = 10
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 22
+ productsFromA = 16 Price = 1
+ productsFromB = 38 Price = 6
+ productsFromC = 24 Price = 1
+ depotWallet = 236
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 23
+ productsFromA = 22 Price = 5
+ productsFromB = 40 Price = 7
+ productsFromC = 22 Price = 8
+ depotWallet = 303
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 24
+ productsFromA = 16 Price = 1
+ productsFromB = 39 Price = 1
+ productsFromC = 5 Price = 2
+ depotWallet = 61
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 25
+ productsFromA = 16 Price = 9
+ productsFromB = 27 Price = 3
+ productsFromC = 17 Price = 4
+ depotWallet = 204
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 26
+ productsFromA = 16 Price = 6
+ productsFromB = 36 Price = 7
+ productsFromC = 8 Price = 6
+ depotWallet = 61
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 27
+ productsFromA = 16 Price = 5
+ productsFromB = 40 Price = 2
+ productsFromC = 20 Price = 6
+ depotWallet = 112
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 28
+ productsFromA = 16 Price = 3
+ productsFromB = 29 Price = 2
+ productsFromC = 27 Price = 6
+ depotWallet = 151
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 29
+ productsFromA = 16 Price = 8
+ productsFromB = 33 Price = 8
+ productsFromC = 18 Price = 6
+ depotWallet = 211
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 30
+ productsFromA = 16 Price = 5
+ productsFromB = 40 Price = 7
+ productsFromC = 21 Price = 2
+ depotWallet = 94
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 31
+ productsFromA = 16 Price = 10
+ productsFromB = 22 Price = 7
+ productsFromC = 23 Price = 6
+ depotWallet = 191
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 32
+ productsFromA = 16 Price = 3
+ productsFromB = 12 Price = 7
+ productsFromC = 23 Price = 5
+ depotWallet = 75
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 33
+ productsFromA = 25 Price = 9
+ productsFromB = 23 Price = 8
+ productsFromC = 33 Price = 4
+ depotWallet = 233
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 34
+ productsFromA = 16 Price = 3
+ productsFromB = 22 Price = 1
+ productsFromC = 35 Price = 1
+ depotWallet = 61
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 35
+ productsFromA = 16 Price = 7
+ productsFromB = 25 Price = 9
+ productsFromC = 18 Price = 4
+ depotWallet = 124
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 36
+ productsFromA = 16 Price = 6
+ productsFromB = 9 Price = 10
+ productsFromC = 18 Price = 8
+ depotWallet = 124
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 37
+ productsFromA = 34 Price = 6
+ productsFromB = 27 Price = 1
+ productsFromC = 8 Price = 2
+ depotWallet = 123
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 38
+ productsFromA = 23 Price = 9
+ productsFromB = 33 Price = 7
+ productsFromC = 17 Price = 4
+ depotWallet = 118
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 39
+ productsFromA = 42 Price = 5
+ productsFromB = 12 Price = 6
+ productsFromC = 13 Price = 8
+ depotWallet = 107
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 40
+ productsFromA = 43 Price = 7
+ productsFromB = 34 Price = 10
+ productsFromC = 34 Price = 10
+ depotWallet = 103
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 41
+ productsFromA = 30 Price = 3
+ productsFromB = 38 Price = 7
+ productsFromC = 21 Price = 5
+ depotWallet = 100
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 42
+ productsFromA = 48 Price = 1
+ productsFromB = 27 Price = 6
+ productsFromC = 9 Price = 5
+ depotWallet = 65
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 43
+ productsFromA = 48 Price = 5
+ productsFromB = 16 Price = 5
+ productsFromC = 20 Price = 6
+ depotWallet = 76
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 44
+ productsFromA = 40 Price = 8
+ productsFromB = 23 Price = 6
+ productsFromC = 17 Price = 3
+ depotWallet = 64
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 45
+ productsFromA = 31 Price = 6
+ productsFromB = 12 Price = 5
+ productsFromC = 21 Price = 2
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 46
+ productsFromA = 16 Price = 1
+ productsFromB = 27 Price = 1
+ productsFromC = 28 Price = 10
+ depotWallet = 51
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 47
+ productsFromA = 35 Price = 7
+ productsFromB = 9 Price = 10
+ productsFromC = 7 Price = 9
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 48
+ productsFromA = 42 Price = 3
+ productsFromB = 9 Price = 10
+ productsFromC = 24 Price = 4
+ depotWallet = 59
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 49
+ productsFromA = 40 Price = 10
+ productsFromB = 18 Price = 7
+ productsFromC = 19 Price = 4
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 50
+ productsFromA = 46 Price = 2
+ productsFromB = 14 Price = 9
+ productsFromC = 3 Price = 4
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 51
+ productsFromA = 16 Price = 8
+ productsFromB = 38 Price = 8
+ productsFromC = 23 Price = 4
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 52
+ productsFromA = 22 Price = 5
+ productsFromB = 8 Price = 1
+ productsFromC = 29 Price = 1
+ depotWallet = 52
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 53
+ productsFromA = 43 Price = 5
+ productsFromB = 38 Price = 3
+ productsFromC = 33 Price = 10
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 54
+ productsFromA = 17 Price = 7
+ productsFromB = 40 Price = 3
+ productsFromC = 21 Price = 9
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 55
+ productsFromA = 35 Price = 8
+ productsFromB = 14 Price = 7
+ productsFromC = 19 Price = 10
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 56
+ productsFromA = 38 Price = 8
+ productsFromB = 12 Price = 1
+ productsFromC = 31 Price = 5
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 57
+ productsFromA = 41 Price = 8
+ productsFromB = 35 Price = 10
+ productsFromC = 11 Price = 9
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 58
+ productsFromA = 36 Price = 7
+ productsFromB = 36 Price = 8
+ productsFromC = 23 Price = 1
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 59
+ productsFromA = 22 Price = 5
+ productsFromB = 8 Price = 1
+ productsFromC = 13 Price = 9
+ depotWallet = 52
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 60
+ productsFromA = 19 Price = 4
+ productsFromB = 28 Price = 4
+ productsFromC = 31 Price = 9
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 61
+ productsFromA = 42 Price = 3
+ productsFromB = 25 Price = 2
+ productsFromC = 40 Price = 10
+ depotWallet = 52
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 62
+ productsFromA = 30 Price = 1
+ productsFromB = 16 Price = 6
+ productsFromC = 10 Price = 10
+ depotWallet = 52
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 63
+ productsFromA = 39 Price = 9
+ productsFromB = 23 Price = 6
+ productsFromC = 15 Price = 7
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 64
+ productsFromA = 17 Price = 2
+ productsFromB = 39 Price = 4
+ productsFromC = 34 Price = 2
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 65
+ productsFromA = 35 Price = 3
+ productsFromB = 39 Price = 2
+ productsFromC = 4 Price = 3
+ depotWallet = 52
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 66
+ productsFromA = 31 Price = 1
+ productsFromB = 30 Price = 7
+ productsFromC = 12 Price = 5
+ depotWallet = 51
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 67
+ productsFromA = 50 Price = 3
+ productsFromB = 38 Price = 7
+ productsFromC = 13 Price = 7
+ depotWallet = 51
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 68
+ productsFromA = 36 Price = 6
+ productsFromB = 33 Price = 1
+ productsFromC = 37 Price = 6
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 69
+ productsFromA = 29 Price = 3
+ productsFromB = 12 Price = 4
+ productsFromC = 8 Price = 9
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 70
+ productsFromA = 28 Price = 3
+ productsFromB = 27 Price = 1
+ productsFromC = 25 Price = 5
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 71
+ productsFromA = 23 Price = 7
+ productsFromB = 30 Price = 9
+ productsFromC = 33 Price = 3
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 72
+ productsFromA = 35 Price = 6
+ productsFromB = 33 Price = 5
+ productsFromC = 15 Price = 4
+ depotWallet = 52
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 73
+ productsFromA = 15 Price = 3
+ productsFromB = 35 Price = 9
+ productsFromC = 13 Price = 8
+ depotWallet = 52
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 74
+ productsFromA = 17 Price = 6
+ productsFromB = 16 Price = 3
+ productsFromC = 21 Price = 10
+ depotWallet = 51
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 75
+ productsFromA = 26 Price = 5
+ productsFromB = 25 Price = 1
+ productsFromC = 12 Price = 7
+ depotWallet = 52
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 76
+ productsFromA = 34 Price = 10
+ productsFromB = 22 Price = 6
+ productsFromC = 27 Price = 10
+ depotWallet = 51
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 77
+ productsFromA = 15 Price = 4
+ productsFromB = 24 Price = 3
+ productsFromC = 16 Price = 8
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 78
+ productsFromA = 36 Price = 9
+ productsFromB = 36 Price = 4
+ productsFromC = 4 Price = 6
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 79
+ productsFromA = 26 Price = 2
+ productsFromB = 13 Price = 6
+ productsFromC = 30 Price = 5
+ depotWallet = 51
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 80
+ productsFromA = 41 Price = 2
+ productsFromB = 33 Price = 2
+ productsFromC = 25 Price = 8
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 81
+ productsFromA = 39 Price = 3
+ productsFromB = 13 Price = 3
+ productsFromC = 15 Price = 7
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 82
+ productsFromA = 40 Price = 5
+ productsFromB = 11 Price = 4
+ productsFromC = 7 Price = 3
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 83
+ productsFromA = 34 Price = 6
  productsFromB = 31 Price = 3
+ productsFromC = 13 Price = 2
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 84
+ productsFromA = 32 Price = 2
+ productsFromB = 34 Price = 3
+ productsFromC = 35 Price = 8
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 85
+ productsFromA = 37 Price = 5
+ productsFromB = 25 Price = 3
+ productsFromC = 34 Price = 7
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 86
+ productsFromA = 42 Price = 3
+ productsFromB = 24 Price = 7
+ productsFromC = 40 Price = 10
+ depotWallet = 52
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 87
+ productsFromA = 21 Price = 3
+ productsFromB = 25 Price = 8
+ productsFromC = 23 Price = 4
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 88
+ productsFromA = 50 Price = 1
+ productsFromB = 9 Price = 3
+ productsFromC = 36 Price = 7
+ depotWallet = 51
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 89
+ productsFromA = 43 Price = 5
+ productsFromB = 38 Price = 7
+ productsFromC = 16 Price = 7
+ depotWallet = 50
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 90
+ productsFromA = 15 Price = 10
+ productsFromB = 19 Price = 6
+ productsFromC = 14 Price = 2
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 91
+ productsFromA = 16 Price = 9
+ productsFromB = 17 Price = 4
+ productsFromC = 35 Price = 2
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 92
+ productsFromA = 36 Price = 4
+ productsFromB = 18 Price = 7
+ productsFromC = 14 Price = 5
+ depotWallet = 52
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 93
+ productsFromA = 47 Price = 3
+ productsFromB = 40 Price = 2
+ productsFromC = 34 Price = 1
+ depotWallet = 51
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 94
+ productsFromA = 21 Price = 4
+ productsFromB = 40 Price = 9
+ productsFromC = 18 Price = 10
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 95
+ productsFromA = 42 Price = 8
+ productsFromB = 11 Price = 1
+ productsFromC = 21 Price = 5
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 96
+ productsFromA = 39 Price = 5
+ productsFromB = 14 Price = 10
+ productsFromC = 25 Price = 4
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 97
+ productsFromA = 32 Price = 8
+ productsFromB = 19 Price = 6
  productsFromC = 9 Price = 2
  depotWallet = 52
  deliveryPrice = 4
  }
  ---------------------------
 Depot{
- depotId = 3
- productsFromA = 15 Price = 3
- productsFromB = 22 Price = 8
- productsFromC = 31 Price = 7
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 4
- productsFromA = 16 Price = 1
- productsFromB = 35 Price = 1
- productsFromC = 16 Price = 2
- depotWallet = 52
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 5
- productsFromA = 16 Price = 3
- productsFromB = 10 Price = 1
- productsFromC = 6 Price = 7
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 6
- productsFromA = 16 Price = 10
- productsFromB = 30 Price = 1
- productsFromC = 21 Price = 3
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 7
- productsFromA = 16 Price = 6
- productsFromB = 38 Price = 10
- productsFromC = 14 Price = 10
- depotWallet = 52
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 8
- productsFromA = 15 Price = 6
- productsFromB = 40 Price = 9
- productsFromC = 17 Price = 9
- depotWallet = 51
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 9
- productsFromA = 16 Price = 1
- productsFromB = 37 Price = 2
- productsFromC = 17 Price = 7
- depotWallet = 51
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 10
- productsFromA = 16 Price = 6
- productsFromB = 37 Price = 3
- productsFromC = 16 Price = 5
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 11
- productsFromA = 16 Price = 9
- productsFromB = 40 Price = 9
- productsFromC = 38 Price = 4
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 12
- productsFromA = 16 Price = 4
- productsFromB = 27 Price = 5
- productsFromC = 23 Price = 2
- depotWallet = 51
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 13
- productsFromA = 15 Price = 4
- productsFromB = 37 Price = 1
- productsFromC = 15 Price = 5
- depotWallet = 52
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 14
- productsFromA = 15 Price = 4
- productsFromB = 40 Price = 2
- productsFromC = 40 Price = 4
- depotWallet = 321
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 15
- productsFromA = 16 Price = 3
- productsFromB = 40 Price = 7
- productsFromC = 32 Price = 8
- depotWallet = 54
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 16
- productsFromA = 15 Price = 5
- productsFromB = 40 Price = 2
- productsFromC = 9 Price = 7
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 17
- productsFromA = 16 Price = 9
- productsFromB = 40 Price = 8
- productsFromC = 40 Price = 3
- depotWallet = 124
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 18
- productsFromA = 15 Price = 6
- productsFromB = 35 Price = 7
- productsFromC = 23 Price = 6
- depotWallet = 51
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 19
- productsFromA = 16 Price = 7
- productsFromB = 40 Price = 1
- productsFromC = 22 Price = 4
- depotWallet = 54
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 20
- productsFromA = 16 Price = 2
- productsFromB = 35 Price = 10
- productsFromC = 24 Price = 6
- depotWallet = 52
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 21
- productsFromA = 16 Price = 8
- productsFromB = 29 Price = 1
- productsFromC = 28 Price = 6
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 22
- productsFromA = 16 Price = 1
- productsFromB = 40 Price = 5
- productsFromC = 23 Price = 9
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 23
- productsFromA = 16 Price = 4
- productsFromB = 16 Price = 4
- productsFromC = 35 Price = 3
- depotWallet = 51
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 24
- productsFromA = 16 Price = 8
- productsFromB = 40 Price = 7
- productsFromC = 12 Price = 3
- depotWallet = 51
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 25
- productsFromA = 16 Price = 4
- productsFromB = 40 Price = 10
- productsFromC = 40 Price = 9
- depotWallet = 254
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 26
- productsFromA = 16 Price = 7
- productsFromB = 33 Price = 8
- productsFromC = 28 Price = 4
- depotWallet = 196
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 27
- productsFromA = 16 Price = 10
- productsFromB = 22 Price = 2
- productsFromC = 12 Price = 10
- depotWallet = 317
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 28
- productsFromA = 16 Price = 1
- productsFromB = 15 Price = 6
- productsFromC = 8 Price = 3
- depotWallet = 52
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 29
- productsFromA = 16 Price = 3
- productsFromB = 23 Price = 9
- productsFromC = 18 Price = 10
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 30
- productsFromA = 16 Price = 2
- productsFromB = 37 Price = 2
- productsFromC = 16 Price = 8
- depotWallet = 100
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 31
- productsFromA = 16 Price = 6
- productsFromB = 24 Price = 10
- productsFromC = 40 Price = 3
- depotWallet = 172
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 32
- productsFromA = 16 Price = 9
- productsFromB = 6 Price = 8
- productsFromC = 23 Price = 7
- depotWallet = 323
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 33
- productsFromA = 16 Price = 4
- productsFromB = 15 Price = 9
- productsFromC = 35 Price = 3
- depotWallet = 188
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 34
- productsFromA = 16 Price = 8
- productsFromB = 40 Price = 1
- productsFromC = 38 Price = 7
- depotWallet = 143
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 35
- productsFromA = 16 Price = 3
- productsFromB = 27 Price = 9
- productsFromC = 24 Price = 1
- depotWallet = 207
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 36
- productsFromA = 16 Price = 6
- productsFromB = 25 Price = 7
- productsFromC = 4 Price = 3
- depotWallet = 161
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 37
- productsFromA = 16 Price = 8
- productsFromB = 24 Price = 5
- productsFromC = 11 Price = 6
- depotWallet = 443
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 38
- productsFromA = 16 Price = 9
- productsFromB = 40 Price = 6
- productsFromC = 35 Price = 9
- depotWallet = 51
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 39
- productsFromA = 16 Price = 5
- productsFromB = 28 Price = 10
- productsFromC = 26 Price = 1
- depotWallet = 141
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 40
- productsFromA = 16 Price = 7
- productsFromB = 19 Price = 10
- productsFromC = 37 Price = 8
- depotWallet = 259
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 41
- productsFromA = 16 Price = 8
- productsFromB = 32 Price = 5
- productsFromC = 28 Price = 5
- depotWallet = 389
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 42
- productsFromA = 16 Price = 5
- productsFromB = 32 Price = 9
- productsFromC = 22 Price = 3
- depotWallet = 274
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 43
- productsFromA = 16 Price = 5
- productsFromB = 40 Price = 10
- productsFromC = 40 Price = 10
- depotWallet = 135
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 44
- productsFromA = 16 Price = 10
- productsFromB = 19 Price = 6
- productsFromC = 5 Price = 8
- depotWallet = 292
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 45
- productsFromA = 16 Price = 2
- productsFromB = 28 Price = 4
- productsFromC = 40 Price = 6
- depotWallet = 52
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 46
- productsFromA = 16 Price = 3
- productsFromB = 31 Price = 10
- productsFromC = 36 Price = 3
- depotWallet = 163
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 47
- productsFromA = 18 Price = 8
- productsFromB = 9 Price = 2
- productsFromC = 22 Price = 2
- depotWallet = 326
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 48
- productsFromA = 16 Price = 6
- productsFromB = 38 Price = 9
- productsFromC = 11 Price = 5
- depotWallet = 325
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 49
- productsFromA = 29 Price = 8
- productsFromB = 34 Price = 4
- productsFromC = 33 Price = 7
- depotWallet = 291
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 50
- productsFromA = 16 Price = 6
- productsFromB = 31 Price = 2
- productsFromC = 3 Price = 3
- depotWallet = 197
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 51
- productsFromA = 22 Price = 8
- productsFromB = 37 Price = 7
- productsFromC = 22 Price = 9
- depotWallet = 192
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 52
- productsFromA = 16 Price = 2
- productsFromB = 30 Price = 1
- productsFromC = 6 Price = 2
- depotWallet = 124
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 53
- productsFromA = 16 Price = 1
- productsFromB = 40 Price = 10
- productsFromC = 27 Price = 3
- depotWallet = 51
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 54
- productsFromA = 26 Price = 8
- productsFromB = 35 Price = 8
- productsFromC = 19 Price = 3
- depotWallet = 219
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 55
- productsFromA = 16 Price = 5
- productsFromB = 15 Price = 8
- productsFromC = 9 Price = 6
- depotWallet = 121
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 56
- productsFromA = 32 Price = 3
- productsFromB = 13 Price = 7
- productsFromC = 36 Price = 6
- depotWallet = 140
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 57
- productsFromA = 37 Price = 6
- productsFromB = 20 Price = 3
- productsFromC = 24 Price = 5
- depotWallet = 131
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 58
- productsFromA = 16 Price = 4
- productsFromB = 28 Price = 5
- productsFromC = 26 Price = 10
- depotWallet = 115
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 59
- productsFromA = 46 Price = 7
- productsFromB = 34 Price = 7
- productsFromC = 14 Price = 9
- depotWallet = 95
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 60
- productsFromA = 27 Price = 2
- productsFromB = 25 Price = 2
- productsFromC = 26 Price = 8
- depotWallet = 92
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 61
- productsFromA = 28 Price = 6
- productsFromB = 22 Price = 9
- productsFromC = 40 Price = 8
- depotWallet = 78
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 62
- productsFromA = 23 Price = 9
- productsFromB = 28 Price = 2
- productsFromC = 17 Price = 1
- depotWallet = 77
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 63
- productsFromA = 46 Price = 7
- productsFromB = 25 Price = 2
- productsFromC = 39 Price = 6
- depotWallet = 71
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 64
- productsFromA = 19 Price = 4
- productsFromB = 14 Price = 3
- productsFromC = 33 Price = 1
- depotWallet = 71
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 65
- productsFromA = 42 Price = 5
- productsFromB = 37 Price = 6
- productsFromC = 31 Price = 5
- depotWallet = 82
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 66
- productsFromA = 17 Price = 5
- productsFromB = 9 Price = 9
- productsFromC = 33 Price = 3
- depotWallet = 93
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 67
- productsFromA = 27 Price = 6
- productsFromB = 32 Price = 9
- productsFromC = 33 Price = 3
- depotWallet = 65
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 68
- productsFromA = 34 Price = 4
- productsFromB = 14 Price = 2
- productsFromC = 36 Price = 8
- depotWallet = 58
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 69
- productsFromA = 27 Price = 7
- productsFromB = 29 Price = 8
- productsFromC = 27 Price = 4
- depotWallet = 63
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 70
- productsFromA = 38 Price = 1
- productsFromB = 21 Price = 6
- productsFromC = 11 Price = 10
- depotWallet = 60
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 71
- productsFromA = 29 Price = 8
- productsFromB = 6 Price = 6
- productsFromC = 12 Price = 4
- depotWallet = 67
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 72
- productsFromA = 18 Price = 6
- productsFromB = 22 Price = 4
- productsFromC = 15 Price = 10
- depotWallet = 63
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 73
- productsFromA = 30 Price = 10
- productsFromB = 28 Price = 6
- productsFromC = 12 Price = 4
- depotWallet = 51
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 74
- productsFromA = 26 Price = 5
- productsFromB = 22 Price = 4
- productsFromC = 38 Price = 2
- depotWallet = 51
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 75
- productsFromA = 24 Price = 4
- productsFromB = 38 Price = 10
- productsFromC = 27 Price = 3
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 76
- productsFromA = 40 Price = 8
- productsFromB = 18 Price = 2
- productsFromC = 40 Price = 8
- depotWallet = 54
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 77
- productsFromA = 36 Price = 5
- productsFromB = 8 Price = 8
- productsFromC = 21 Price = 2
- depotWallet = 52
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 78
- productsFromA = 48 Price = 3
- productsFromB = 40 Price = 5
- productsFromC = 17 Price = 4
- depotWallet = 54
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 79
- productsFromA = 48 Price = 8
- productsFromB = 9 Price = 5
- productsFromC = 24 Price = 2
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 80
- productsFromA = 47 Price = 8
- productsFromB = 19 Price = 6
- productsFromC = 7 Price = 4
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 81
- productsFromA = 16 Price = 8
- productsFromB = 14 Price = 10
- productsFromC = 15 Price = 2
- depotWallet = 54
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 82
- productsFromA = 45 Price = 8
- productsFromB = 7 Price = 1
- productsFromC = 26 Price = 6
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 83
- productsFromA = 33 Price = 5
- productsFromB = 9 Price = 10
- productsFromC = 18 Price = 7
- depotWallet = 54
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 84
- productsFromA = 38 Price = 5
- productsFromB = 22 Price = 3
- productsFromC = 32 Price = 6
- depotWallet = 51
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 85
- productsFromA = 49 Price = 6
- productsFromB = 7 Price = 10
- productsFromC = 25 Price = 6
- depotWallet = 50
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 86
- productsFromA = 16 Price = 9
- productsFromB = 19 Price = 7
- productsFromC = 23 Price = 2
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 87
- productsFromA = 27 Price = 6
- productsFromB = 24 Price = 5
- productsFromC = 4 Price = 1
- depotWallet = 51
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 88
- productsFromA = 36 Price = 2
- productsFromB = 7 Price = 8
- productsFromC = 22 Price = 2
- depotWallet = 51
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 89
- productsFromA = 35 Price = 8
- productsFromB = 40 Price = 4
- productsFromC = 21 Price = 4
- depotWallet = 51
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 90
- productsFromA = 39 Price = 3
- productsFromB = 20 Price = 10
- productsFromC = 16 Price = 3
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 91
- productsFromA = 41 Price = 8
- productsFromB = 20 Price = 2
- productsFromC = 23 Price = 9
- depotWallet = 54
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 92
- productsFromA = 26 Price = 10
- productsFromB = 27 Price = 4
- productsFromC = 24 Price = 10
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 93
- productsFromA = 22 Price = 9
- productsFromB = 20 Price = 9
- productsFromC = 32 Price = 1
- depotWallet = 52
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 94
- productsFromA = 34 Price = 8
- productsFromB = 11 Price = 9
- productsFromC = 8 Price = 4
- depotWallet = 51
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 95
- productsFromA = 15 Price = 1
- productsFromB = 30 Price = 2
- productsFromC = 9 Price = 1
- depotWallet = 96
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 96
- productsFromA = 48 Price = 5
- productsFromB = 40 Price = 10
- productsFromC = 27 Price = 4
- depotWallet = 53
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 97
- productsFromA = 43 Price = 9
- productsFromB = 33 Price = 8
- productsFromC = 40 Price = 5
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
  depotId = 98
- productsFromA = 23 Price = 1
- productsFromB = 22 Price = 3
- productsFromC = 36 Price = 4
- depotWallet = 59
- deliveryPrice = 3
+ productsFromA = 28 Price = 2
+ productsFromB = 11 Price = 6
+ productsFromC = 29 Price = 8
+ depotWallet = 51
+ deliveryPrice = 4
  }
  ---------------------------
 Depot{
  depotId = 99
- productsFromA = 21 Price = 6
- productsFromB = 5 Price = 5
- productsFromC = 36 Price = 1
- depotWallet = 51
- deliveryPrice = 6
+ productsFromA = 30 Price = 5
+ productsFromB = 23 Price = 9
+ productsFromC = 35 Price = 10
+ depotWallet = 52
+ deliveryPrice = 4
  }
  ---------------------------
 Depot{
  depotId = 100
- productsFromA = 48 Price = 2
- productsFromB = 19 Price = 3
- productsFromC = 26 Price = 9
- depotWallet = 54
- deliveryPrice = 7
+ productsFromA = 32 Price = 7
+ productsFromB = 16 Price = 5
+ productsFromC = 30 Price = 6
+ depotWallet = 53
+ deliveryPrice = 9
  }
  ---------------------------
  ********************** End Company A **********************
  ********************** Start Company B **********************
 Depot{
  depotId = 1
- productsFromA = 40 Price = 10
- productsFromB = 16 Price = 6
- productsFromC = 40 Price = 5
- depotWallet = 113
- deliveryPrice = 4
+ productsFromA = 40 Price = 6
+ productsFromB = 16 Price = 7
+ productsFromC = 40 Price = 3
+ depotWallet = 80
+ deliveryPrice = 8
  }
  ---------------------------
 Depot{
  depotId = 2
- productsFromA = 23 Price = 8
+ productsFromA = 40 Price = 4
  productsFromB = 16 Price = 6
- productsFromC = 39 Price = 3
+ productsFromC = 33 Price = 5
  depotWallet = 52
  deliveryPrice = 1
  }
  ---------------------------
 Depot{
  depotId = 3
- productsFromA = 12 Price = 7
- productsFromB = 16 Price = 2
- productsFromC = 19 Price = 10
- depotWallet = 52
- deliveryPrice = 10
+ productsFromA = 21 Price = 5
+ productsFromB = 16 Price = 7
+ productsFromC = 40 Price = 1
+ depotWallet = 51
+ deliveryPrice = 6
  }
  ---------------------------
 Depot{
  depotId = 4
- productsFromA = 40 Price = 8
- productsFromB = 16 Price = 6
- productsFromC = 40 Price = 7
- depotWallet = 59
- deliveryPrice = 9
+ productsFromA = 34 Price = 4
+ productsFromB = 16 Price = 8
+ productsFromC = 27 Price = 6
+ depotWallet = 51
+ deliveryPrice = 5
  }
  ---------------------------
 Depot{
  depotId = 5
- productsFromA = 40 Price = 8
- productsFromB = 16 Price = 3
- productsFromC = 40 Price = 9
- depotWallet = 276
- deliveryPrice = 9
+ productsFromA = 23 Price = 1
+ productsFromB = 16 Price = 5
+ productsFromC = 16 Price = 1
+ depotWallet = 51
+ deliveryPrice = 4
  }
  ---------------------------
 Depot{
  depotId = 6
- productsFromA = 32 Price = 8
- productsFromB = 16 Price = 1
- productsFromC = 40 Price = 10
- depotWallet = 51
- deliveryPrice = 8
+ productsFromA = 19 Price = 3
+ productsFromB = 16 Price = 7
+ productsFromC = 10 Price = 5
+ depotWallet = 52
+ deliveryPrice = 3
  }
  ---------------------------
 Depot{
  depotId = 7
- productsFromA = 28 Price = 3
+ productsFromA = 27 Price = 10
  productsFromB = 16 Price = 8
- productsFromC = 32 Price = 3
- depotWallet = 51
- deliveryPrice = 10
+ productsFromC = 26 Price = 10
+ depotWallet = 52
+ deliveryPrice = 7
  }
  ---------------------------
 Depot{
  depotId = 8
- productsFromA = 8 Price = 3
- productsFromB = 16 Price = 2
- productsFromC = 18 Price = 1
+ productsFromA = 6 Price = 4
+ productsFromB = 16 Price = 4
+ productsFromC = 28 Price = 1
  depotWallet = 52
  deliveryPrice = 6
  }
@@ -977,1731 +977,1731 @@ Depot{
 Depot{
  depotId = 9
  productsFromA = 40 Price = 8
- productsFromB = 16 Price = 2
- productsFromC = 40 Price = 7
- depotWallet = 109
- deliveryPrice = 10
+ productsFromB = 16 Price = 6
+ productsFromC = 40 Price = 8
+ depotWallet = 165
+ deliveryPrice = 4
  }
  ---------------------------
 Depot{
  depotId = 10
- productsFromA = 40 Price = 2
- productsFromB = 16 Price = 9
- productsFromC = 40 Price = 6
- depotWallet = 222
- deliveryPrice = 9
+ productsFromA = 30 Price = 2
+ productsFromB = 16 Price = 1
+ productsFromC = 10 Price = 10
+ depotWallet = 52
+ deliveryPrice = 6
  }
  ---------------------------
 Depot{
  depotId = 11
- productsFromA = 38 Price = 1
- productsFromB = 16 Price = 6
- productsFromC = 20 Price = 7
- depotWallet = 51
- deliveryPrice = 3
+ productsFromA = 32 Price = 10
+ productsFromB = 16 Price = 7
+ productsFromC = 22 Price = 1
+ depotWallet = 52
+ deliveryPrice = 2
  }
  ---------------------------
 Depot{
  depotId = 12
- productsFromA = 34 Price = 7
- productsFromB = 16 Price = 9
- productsFromC = 24 Price = 5
- depotWallet = 51
- deliveryPrice = 8
+ productsFromA = 40 Price = 10
+ productsFromB = 16 Price = 8
+ productsFromC = 40 Price = 3
+ depotWallet = 152
+ deliveryPrice = 10
  }
  ---------------------------
 Depot{
  depotId = 13
- productsFromA = 25 Price = 1
- productsFromB = 16 Price = 4
- productsFromC = 18 Price = 9
- depotWallet = 52
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 14
- productsFromA = 14 Price = 3
- productsFromB = 16 Price = 8
- productsFromC = 40 Price = 7
- depotWallet = 51
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 15
- productsFromA = 15 Price = 1
- productsFromB = 16 Price = 1
- productsFromC = 21 Price = 8
+ productsFromA = 25 Price = 10
+ productsFromB = 16 Price = 10
+ productsFromC = 33 Price = 4
  depotWallet = 51
  deliveryPrice = 2
  }
  ---------------------------
 Depot{
- depotId = 16
- productsFromA = 39 Price = 9
- productsFromB = 16 Price = 6
- productsFromC = 40 Price = 9
+ depotId = 14
+ productsFromA = 22 Price = 8
+ productsFromB = 16 Price = 7
+ productsFromC = 40 Price = 3
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 15
+ productsFromA = 6 Price = 3
+ productsFromB = 16 Price = 10
+ productsFromC = 11 Price = 5
  depotWallet = 51
  deliveryPrice = 10
  }
  ---------------------------
 Depot{
+ depotId = 16
+ productsFromA = 30 Price = 5
+ productsFromB = 16 Price = 5
+ productsFromC = 40 Price = 6
+ depotWallet = 53
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
  depotId = 17
- productsFromA = 20 Price = 2
- productsFromB = 16 Price = 7
- productsFromC = 40 Price = 10
- depotWallet = 51
+ productsFromA = 14 Price = 3
+ productsFromB = 16 Price = 6
+ productsFromC = 23 Price = 1
+ depotWallet = 52
  deliveryPrice = 8
  }
  ---------------------------
 Depot{
  depotId = 18
- productsFromA = 40 Price = 2
- productsFromB = 16 Price = 4
- productsFromC = 40 Price = 6
- depotWallet = 206
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 19
- productsFromA = 23 Price = 1
- productsFromB = 16 Price = 6
- productsFromC = 40 Price = 8
- depotWallet = 51
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 20
- productsFromA = 40 Price = 4
- productsFromB = 16 Price = 9
- productsFromC = 27 Price = 4
- depotWallet = 53
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 21
- productsFromA = 40 Price = 8
- productsFromB = 16 Price = 9
- productsFromC = 40 Price = 10
- depotWallet = 73
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 22
- productsFromA = 22 Price = 9
- productsFromB = 16 Price = 1
- productsFromC = 24 Price = 10
- depotWallet = 52
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 23
- productsFromA = 19 Price = 8
- productsFromB = 16 Price = 7
- productsFromC = 14 Price = 4
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 24
- productsFromA = 15 Price = 2
- productsFromB = 16 Price = 4
- productsFromC = 11 Price = 6
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 25
- productsFromA = 21 Price = 4
- productsFromB = 16 Price = 8
- productsFromC = 9 Price = 8
+ productsFromA = 22 Price = 6
+ productsFromB = 15 Price = 5
+ productsFromC = 3 Price = 3
  depotWallet = 51
  deliveryPrice = 5
  }
  ---------------------------
 Depot{
- depotId = 26
- productsFromA = 18 Price = 6
- productsFromB = 16 Price = 2
- productsFromC = 22 Price = 1
+ depotId = 19
+ productsFromA = 13 Price = 9
+ productsFromB = 16 Price = 5
+ productsFromC = 23 Price = 9
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 20
+ productsFromA = 20 Price = 3
+ productsFromB = 16 Price = 9
+ productsFromC = 40 Price = 8
+ depotWallet = 53
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 21
+ productsFromA = 10 Price = 2
+ productsFromB = 16 Price = 7
+ productsFromC = 8 Price = 2
+ depotWallet = 52
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 22
+ productsFromA = 28 Price = 4
+ productsFromB = 16 Price = 4
+ productsFromC = 19 Price = 7
  depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 23
+ productsFromA = 37 Price = 6
+ productsFromB = 16 Price = 10
+ productsFromC = 37 Price = 2
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 24
+ productsFromA = 39 Price = 5
+ productsFromB = 16 Price = 9
+ productsFromC = 34 Price = 1
+ depotWallet = 53
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 25
+ productsFromA = 19 Price = 1
+ productsFromB = 16 Price = 7
+ productsFromC = 27 Price = 9
+ depotWallet = 53
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 26
+ productsFromA = 29 Price = 7
+ productsFromB = 16 Price = 4
+ productsFromC = 22 Price = 6
+ depotWallet = 52
  deliveryPrice = 2
  }
  ---------------------------
 Depot{
  depotId = 27
- productsFromA = 10 Price = 5
- productsFromB = 16 Price = 2
- productsFromC = 27 Price = 10
+ productsFromA = 24 Price = 6
+ productsFromB = 16 Price = 4
+ productsFromC = 38 Price = 7
  depotWallet = 52
- deliveryPrice = 4
+ deliveryPrice = 2
  }
  ---------------------------
 Depot{
  depotId = 28
- productsFromA = 7 Price = 1
- productsFromB = 16 Price = 2
- productsFromC = 20 Price = 2
- depotWallet = 51
- deliveryPrice = 6
+ productsFromA = 40 Price = 5
+ productsFromB = 16 Price = 1
+ productsFromC = 39 Price = 6
+ depotWallet = 218
+ deliveryPrice = 8
  }
  ---------------------------
 Depot{
  depotId = 29
- productsFromA = 40 Price = 9
- productsFromB = 16 Price = 2
- productsFromC = 16 Price = 3
- depotWallet = 85
+ productsFromA = 40 Price = 5
+ productsFromB = 16 Price = 5
+ productsFromC = 35 Price = 6
+ depotWallet = 402
  deliveryPrice = 9
  }
  ---------------------------
 Depot{
  depotId = 30
- productsFromA = 26 Price = 5
- productsFromB = 16 Price = 3
- productsFromC = 36 Price = 2
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 31
- productsFromA = 28 Price = 9
- productsFromB = 16 Price = 7
- productsFromC = 14 Price = 2
- depotWallet = 51
+ productsFromA = 40 Price = 1
+ productsFromB = 16 Price = 10
+ productsFromC = 13 Price = 9
+ depotWallet = 179
  deliveryPrice = 4
  }
  ---------------------------
 Depot{
+ depotId = 31
+ productsFromA = 32 Price = 7
+ productsFromB = 16 Price = 2
+ productsFromC = 7 Price = 7
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
  depotId = 32
- productsFromA = 19 Price = 2
+ productsFromA = 40 Price = 5
  productsFromB = 16 Price = 1
- productsFromC = 18 Price = 9
- depotWallet = 52
- deliveryPrice = 9
+ productsFromC = 22 Price = 8
+ depotWallet = 83
+ deliveryPrice = 6
  }
  ---------------------------
 Depot{
  depotId = 33
- productsFromA = 35 Price = 9
- productsFromB = 16 Price = 1
- productsFromC = 40 Price = 9
- depotWallet = 51
- deliveryPrice = 10
+ productsFromA = 36 Price = 6
+ productsFromB = 21 Price = 5
+ productsFromC = 6 Price = 10
+ depotWallet = 53
+ deliveryPrice = 2
  }
  ---------------------------
 Depot{
  depotId = 34
- productsFromA = 25 Price = 5
- productsFromB = 16 Price = 1
- productsFromC = 5 Price = 6
- depotWallet = 51
- deliveryPrice = 8
+ productsFromA = 40 Price = 4
+ productsFromB = 18 Price = 10
+ productsFromC = 11 Price = 7
+ depotWallet = 258
+ deliveryPrice = 1
  }
  ---------------------------
 Depot{
  depotId = 35
- productsFromA = 40 Price = 9
- productsFromB = 16 Price = 7
- productsFromC = 39 Price = 6
- depotWallet = 66
- deliveryPrice = 8
+ productsFromA = 7 Price = 2
+ productsFromB = 16 Price = 8
+ productsFromC = 29 Price = 8
+ depotWallet = 52
+ deliveryPrice = 3
  }
  ---------------------------
 Depot{
  depotId = 36
- productsFromA = 35 Price = 1
- productsFromB = 16 Price = 8
- productsFromC = 22 Price = 10
- depotWallet = 51
- deliveryPrice = 5
+ productsFromA = 40 Price = 8
+ productsFromB = 17 Price = 2
+ productsFromC = 27 Price = 9
+ depotWallet = 55
+ deliveryPrice = 9
  }
  ---------------------------
 Depot{
  depotId = 37
- productsFromA = 40 Price = 5
- productsFromB = 21 Price = 10
- productsFromC = 13 Price = 8
- depotWallet = 169
- deliveryPrice = 7
+ productsFromA = 34 Price = 1
+ productsFromB = 33 Price = 9
+ productsFromC = 22 Price = 10
+ depotWallet = 53
+ deliveryPrice = 2
  }
  ---------------------------
 Depot{
  depotId = 38
- productsFromA = 27 Price = 2
- productsFromB = 16 Price = 6
- productsFromC = 23 Price = 2
- depotWallet = 51
+ productsFromA = 40 Price = 10
+ productsFromB = 20 Price = 4
+ productsFromC = 33 Price = 3
+ depotWallet = 112
  deliveryPrice = 8
  }
  ---------------------------
 Depot{
  depotId = 39
- productsFromA = 17 Price = 6
- productsFromB = 16 Price = 3
- productsFromC = 32 Price = 7
- depotWallet = 52
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 40
- productsFromA = 33 Price = 1
- productsFromB = 16 Price = 1
- productsFromC = 23 Price = 6
- depotWallet = 51
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 41
- productsFromA = 40 Price = 5
- productsFromB = 21 Price = 6
- productsFromC = 15 Price = 9
- depotWallet = 142
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 42
- productsFromA = 40 Price = 6
- productsFromB = 16 Price = 2
- productsFromC = 7 Price = 3
- depotWallet = 106
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 43
- productsFromA = 40 Price = 6
- productsFromB = 22 Price = 8
- productsFromC = 9 Price = 5
- depotWallet = 59
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 44
- productsFromA = 40 Price = 1
- productsFromB = 17 Price = 9
- productsFromC = 4 Price = 6
- depotWallet = 225
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 45
- productsFromA = 40 Price = 6
- productsFromB = 16 Price = 7
- productsFromC = 39 Price = 2
- depotWallet = 53
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 46
- productsFromA = 39 Price = 9
- productsFromB = 20 Price = 3
- productsFromC = 7 Price = 3
- depotWallet = 52
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 47
- productsFromA = 19 Price = 10
- productsFromB = 16 Price = 2
- productsFromC = 11 Price = 4
- depotWallet = 52
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 48
- productsFromA = 13 Price = 3
- productsFromB = 35 Price = 10
- productsFromC = 25 Price = 2
- depotWallet = 52
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 49
- productsFromA = 10 Price = 3
- productsFromB = 29 Price = 7
- productsFromC = 22 Price = 2
- depotWallet = 53
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 50
- productsFromA = 21 Price = 5
- productsFromB = 28 Price = 4
- productsFromC = 5 Price = 10
- depotWallet = 52
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 51
- productsFromA = 13 Price = 5
- productsFromB = 20 Price = 5
- productsFromC = 25 Price = 9
- depotWallet = 52
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 52
- productsFromA = 19 Price = 2
- productsFromB = 43 Price = 10
- productsFromC = 35 Price = 3
- depotWallet = 53
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 53
- productsFromA = 23 Price = 7
- productsFromB = 26 Price = 7
- productsFromC = 6 Price = 9
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 54
- productsFromA = 21 Price = 5
- productsFromB = 44 Price = 6
- productsFromC = 10 Price = 8
- depotWallet = 51
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 55
- productsFromA = 11 Price = 7
- productsFromB = 17 Price = 4
- productsFromC = 36 Price = 6
- depotWallet = 51
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 56
- productsFromA = 27 Price = 4
- productsFromB = 16 Price = 5
- productsFromC = 13 Price = 4
- depotWallet = 51
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 57
- productsFromA = 21 Price = 5
- productsFromB = 23 Price = 1
- productsFromC = 20 Price = 6
- depotWallet = 53
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 58
- productsFromA = 26 Price = 10
- productsFromB = 24 Price = 2
- productsFromC = 34 Price = 7
- depotWallet = 52
+ productsFromA = 40 Price = 7
+ productsFromB = 21 Price = 9
+ productsFromC = 35 Price = 4
+ depotWallet = 82
  deliveryPrice = 3
  }
  ---------------------------
 Depot{
- depotId = 59
- productsFromA = 33 Price = 9
- productsFromB = 19 Price = 3
- productsFromC = 7 Price = 4
+ depotId = 40
+ productsFromA = 19 Price = 8
+ productsFromB = 23 Price = 3
+ productsFromC = 33 Price = 7
+ depotWallet = 54
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 41
+ productsFromA = 36 Price = 2
+ productsFromB = 15 Price = 1
+ productsFromC = 20 Price = 1
  depotWallet = 51
  deliveryPrice = 1
  }
  ---------------------------
 Depot{
- depotId = 60
- productsFromA = 25 Price = 7
- productsFromB = 20 Price = 3
- productsFromC = 18 Price = 5
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 61
- productsFromA = 24 Price = 1
- productsFromB = 45 Price = 6
- productsFromC = 35 Price = 2
- depotWallet = 52
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 62
- productsFromA = 11 Price = 9
- productsFromB = 29 Price = 10
- productsFromC = 21 Price = 5
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 63
- productsFromA = 17 Price = 2
- productsFromB = 41 Price = 9
- productsFromC = 27 Price = 3
- depotWallet = 52
+ depotId = 42
+ productsFromA = 40 Price = 2
+ productsFromB = 25 Price = 10
+ productsFromC = 35 Price = 1
+ depotWallet = 53
  deliveryPrice = 8
  }
  ---------------------------
 Depot{
- depotId = 64
- productsFromA = 26 Price = 1
- productsFromB = 20 Price = 7
- productsFromC = 34 Price = 4
- depotWallet = 52
- deliveryPrice = 5
+ depotId = 43
+ productsFromA = 40 Price = 8
+ productsFromB = 35 Price = 2
+ productsFromC = 36 Price = 7
+ depotWallet = 91
+ deliveryPrice = 6
  }
  ---------------------------
 Depot{
- depotId = 65
- productsFromA = 11 Price = 9
- productsFromB = 27 Price = 5
- productsFromC = 20 Price = 7
+ depotId = 44
+ productsFromA = 40 Price = 10
+ productsFromB = 37 Price = 8
+ productsFromC = 36 Price = 1
+ depotWallet = 77
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 45
+ productsFromA = 38 Price = 7
+ productsFromB = 44 Price = 5
+ productsFromC = 13 Price = 5
  depotWallet = 51
  deliveryPrice = 6
  }
  ---------------------------
 Depot{
- depotId = 66
- productsFromA = 30 Price = 7
- productsFromB = 46 Price = 5
- productsFromC = 17 Price = 1
+ depotId = 46
+ productsFromA = 39 Price = 3
+ productsFromB = 16 Price = 6
+ productsFromC = 20 Price = 5
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 47
+ productsFromA = 19 Price = 4
+ productsFromB = 21 Price = 2
+ productsFromC = 34 Price = 8
+ depotWallet = 53
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 48
+ productsFromA = 29 Price = 6
+ productsFromB = 29 Price = 2
+ productsFromC = 25 Price = 8
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 49
+ productsFromA = 11 Price = 8
+ productsFromB = 37 Price = 5
+ productsFromC = 14 Price = 5
+ depotWallet = 54
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 50
+ productsFromA = 40 Price = 8
+ productsFromB = 26 Price = 4
+ productsFromC = 37 Price = 1
+ depotWallet = 69
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 51
+ productsFromA = 25 Price = 2
+ productsFromB = 22 Price = 1
+ productsFromC = 32 Price = 10
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 52
+ productsFromA = 19 Price = 9
+ productsFromB = 33 Price = 5
+ productsFromC = 27 Price = 3
+ depotWallet = 54
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 53
+ productsFromA = 16 Price = 2
+ productsFromB = 42 Price = 4
+ productsFromC = 5 Price = 7
+ depotWallet = 54
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 54
+ productsFromA = 10 Price = 1
+ productsFromB = 34 Price = 8
+ productsFromC = 9 Price = 3
+ depotWallet = 54
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 55
+ productsFromA = 40 Price = 7
+ productsFromB = 18 Price = 4
+ productsFromC = 26 Price = 1
+ depotWallet = 59
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 56
+ productsFromA = 31 Price = 9
+ productsFromB = 42 Price = 1
+ productsFromC = 11 Price = 4
+ depotWallet = 54
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 57
+ productsFromA = 40 Price = 7
+ productsFromB = 43 Price = 8
+ productsFromC = 25 Price = 5
  depotWallet = 51
  deliveryPrice = 4
  }
  ---------------------------
 Depot{
- depotId = 67
- productsFromA = 13 Price = 9
- productsFromB = 30 Price = 3
- productsFromC = 7 Price = 7
+ depotId = 58
+ productsFromA = 11 Price = 8
+ productsFromB = 17 Price = 4
+ productsFromC = 26 Price = 4
+ depotWallet = 51
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 59
+ productsFromA = 40 Price = 5
+ productsFromB = 23 Price = 1
+ productsFromC = 25 Price = 4
+ depotWallet = 87
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 60
+ productsFromA = 15 Price = 7
+ productsFromB = 29 Price = 8
+ productsFromC = 27 Price = 8
  depotWallet = 52
  deliveryPrice = 8
  }
  ---------------------------
 Depot{
- depotId = 68
- productsFromA = 6 Price = 10
- productsFromB = 36 Price = 5
- productsFromC = 8 Price = 9
+ depotId = 61
+ productsFromA = 9 Price = 10
+ productsFromB = 42 Price = 8
+ productsFromC = 5 Price = 1
  depotWallet = 51
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 62
+ productsFromA = 32 Price = 1
+ productsFromB = 15 Price = 10
+ productsFromC = 37 Price = 4
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 63
+ productsFromA = 31 Price = 7
+ productsFromB = 16 Price = 1
+ productsFromC = 40 Price = 1
+ depotWallet = 53
  deliveryPrice = 1
  }
  ---------------------------
 Depot{
- depotId = 69
- productsFromA = 22 Price = 7
- productsFromB = 24 Price = 7
- productsFromC = 16 Price = 3
+ depotId = 64
+ productsFromA = 13 Price = 3
+ productsFromB = 21 Price = 5
+ productsFromC = 7 Price = 4
+ depotWallet = 52
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 65
+ productsFromA = 35 Price = 2
+ productsFromB = 34 Price = 5
+ productsFromC = 30 Price = 1
+ depotWallet = 52
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 66
+ productsFromA = 35 Price = 1
+ productsFromB = 50 Price = 2
+ productsFromC = 9 Price = 4
+ depotWallet = 52
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 67
+ productsFromA = 14 Price = 7
+ productsFromB = 26 Price = 8
+ productsFromC = 6 Price = 5
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 68
+ productsFromA = 14 Price = 3
+ productsFromB = 50 Price = 4
+ productsFromC = 29 Price = 8
  depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 69
+ productsFromA = 11 Price = 2
+ productsFromB = 42 Price = 6
+ productsFromC = 5 Price = 10
+ depotWallet = 52
  deliveryPrice = 9
  }
  ---------------------------
 Depot{
  depotId = 70
- productsFromA = 9 Price = 10
- productsFromB = 29 Price = 9
- productsFromC = 26 Price = 3
+ productsFromA = 17 Price = 4
+ productsFromB = 42 Price = 5
+ productsFromC = 30 Price = 1
  depotWallet = 51
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 71
- productsFromA = 16 Price = 3
- productsFromB = 15 Price = 1
- productsFromC = 40 Price = 8
- depotWallet = 52
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 72
- productsFromA = 19 Price = 1
- productsFromB = 26 Price = 7
- productsFromC = 24 Price = 7
- depotWallet = 53
  deliveryPrice = 4
  }
  ---------------------------
 Depot{
- depotId = 73
- productsFromA = 39 Price = 3
- productsFromB = 19 Price = 5
- productsFromC = 20 Price = 3
+ depotId = 71
+ productsFromA = 10 Price = 4
+ productsFromB = 28 Price = 3
+ productsFromC = 22 Price = 4
+ depotWallet = 52
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 72
+ productsFromA = 22 Price = 7
+ productsFromB = 43 Price = 8
+ productsFromC = 17 Price = 7
  depotWallet = 51
- deliveryPrice = 3
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 73
+ productsFromA = 21 Price = 8
+ productsFromB = 26 Price = 5
+ productsFromC = 26 Price = 10
+ depotWallet = 51
+ deliveryPrice = 2
  }
  ---------------------------
 Depot{
  depotId = 74
- productsFromA = 14 Price = 8
- productsFromB = 37 Price = 10
- productsFromC = 5 Price = 9
- depotWallet = 52
- deliveryPrice = 5
+ productsFromA = 40 Price = 3
+ productsFromB = 22 Price = 4
+ productsFromC = 26 Price = 7
+ depotWallet = 51
+ deliveryPrice = 6
  }
  ---------------------------
 Depot{
  depotId = 75
- productsFromA = 7 Price = 7
- productsFromB = 33 Price = 1
- productsFromC = 15 Price = 4
+ productsFromA = 35 Price = 8
+ productsFromB = 40 Price = 4
+ productsFromC = 30 Price = 7
  depotWallet = 51
  deliveryPrice = 5
  }
  ---------------------------
 Depot{
  depotId = 76
- productsFromA = 40 Price = 10
- productsFromB = 48 Price = 8
- productsFromC = 14 Price = 9
+ productsFromA = 29 Price = 4
+ productsFromB = 29 Price = 9
+ productsFromC = 10 Price = 3
  depotWallet = 51
- deliveryPrice = 7
+ deliveryPrice = 10
  }
  ---------------------------
 Depot{
  depotId = 77
- productsFromA = 33 Price = 7
- productsFromB = 26 Price = 7
- productsFromC = 7 Price = 9
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 78
- productsFromA = 15 Price = 7
- productsFromB = 37 Price = 1
- productsFromC = 33 Price = 1
- depotWallet = 52
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 79
- productsFromA = 22 Price = 1
- productsFromB = 47 Price = 2
- productsFromC = 3 Price = 7
- depotWallet = 51
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 80
- productsFromA = 34 Price = 1
- productsFromB = 21 Price = 7
- productsFromC = 26 Price = 1
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 81
- productsFromA = 27 Price = 6
- productsFromB = 32 Price = 5
+ productsFromA = 11 Price = 6
+ productsFromB = 27 Price = 6
  productsFromC = 35 Price = 1
  depotWallet = 51
  deliveryPrice = 7
  }
  ---------------------------
 Depot{
- depotId = 82
- productsFromA = 27 Price = 2
- productsFromB = 46 Price = 4
- productsFromC = 28 Price = 9
- depotWallet = 52
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 83
- productsFromA = 39 Price = 5
- productsFromB = 17 Price = 9
- productsFromC = 39 Price = 3
- depotWallet = 53
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 84
- productsFromA = 39 Price = 10
- productsFromB = 37 Price = 4
- productsFromC = 9 Price = 10
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 85
- productsFromA = 12 Price = 1
- productsFromB = 49 Price = 7
- productsFromC = 5 Price = 4
- depotWallet = 53
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 86
- productsFromA = 12 Price = 6
- productsFromB = 48 Price = 8
- productsFromC = 8 Price = 5
- depotWallet = 53
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 87
- productsFromA = 21 Price = 7
- productsFromB = 24 Price = 5
- productsFromC = 7 Price = 10
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 88
- productsFromA = 11 Price = 9
- productsFromB = 37 Price = 9
- productsFromC = 25 Price = 3
- depotWallet = 52
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 89
- productsFromA = 6 Price = 1
- productsFromB = 20 Price = 10
- productsFromC = 29 Price = 6
- depotWallet = 53
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 90
- productsFromA = 21 Price = 9
- productsFromB = 46 Price = 7
- productsFromC = 30 Price = 4
- depotWallet = 53
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 91
- productsFromA = 7 Price = 9
- productsFromB = 17 Price = 4
- productsFromC = 6 Price = 2
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 92
- productsFromA = 10 Price = 10
- productsFromB = 26 Price = 7
- productsFromC = 39 Price = 6
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 93
- productsFromA = 8 Price = 3
- productsFromB = 46 Price = 10
- productsFromC = 25 Price = 5
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 94
- productsFromA = 34 Price = 1
- productsFromB = 37 Price = 8
- productsFromC = 35 Price = 3
- depotWallet = 52
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 95
- productsFromA = 16 Price = 3
- productsFromB = 31 Price = 7
- productsFromC = 18 Price = 10
- depotWallet = 51
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 96
- productsFromA = 26 Price = 9
- productsFromB = 24 Price = 1
- productsFromC = 39 Price = 8
- depotWallet = 51
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 97
- productsFromA = 15 Price = 3
- productsFromB = 46 Price = 8
- productsFromC = 22 Price = 10
- depotWallet = 52
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 98
- productsFromA = 29 Price = 9
- productsFromB = 43 Price = 10
- productsFromC = 30 Price = 4
- depotWallet = 52
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 99
- productsFromA = 21 Price = 9
- productsFromB = 35 Price = 10
- productsFromC = 35 Price = 5
- depotWallet = 51
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 100
- productsFromA = 40 Price = 5
- productsFromB = 34 Price = 9
- productsFromC = 6 Price = 9
- depotWallet = 53
- deliveryPrice = 1
- }
- ---------------------------
- ********************** End Company B **********************
- ********************** Start Company C **********************
-Depot{
- depotId = 1
- productsFromA = 23 Price = 5
- productsFromB = 40 Price = 2
- productsFromC = 16 Price = 5
- depotWallet = 51
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 2
- productsFromA = 34 Price = 5
- productsFromB = 29 Price = 5
- productsFromC = 16 Price = 9
- depotWallet = 53
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 3
- productsFromA = 14 Price = 10
- productsFromB = 28 Price = 1
- productsFromC = 16 Price = 10
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 4
- productsFromA = 40 Price = 5
- productsFromB = 40 Price = 5
- productsFromC = 16 Price = 7
- depotWallet = 90
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 5
- productsFromA = 16 Price = 2
- productsFromB = 24 Price = 3
- productsFromC = 16 Price = 3
- depotWallet = 51
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 6
- productsFromA = 30 Price = 8
- productsFromB = 33 Price = 4
- productsFromC = 15 Price = 10
- depotWallet = 51
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 7
- productsFromA = 10 Price = 10
- productsFromB = 34 Price = 4
- productsFromC = 16 Price = 10
- depotWallet = 51
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 8
- productsFromA = 31 Price = 8
- productsFromB = 40 Price = 3
- productsFromC = 16 Price = 3
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 9
- productsFromA = 34 Price = 8
- productsFromB = 38 Price = 1
- productsFromC = 16 Price = 7
- depotWallet = 51
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 10
- productsFromA = 31 Price = 1
- productsFromB = 11 Price = 9
- productsFromC = 16 Price = 1
- depotWallet = 52
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 11
- productsFromA = 8 Price = 9
- productsFromB = 21 Price = 2
- productsFromC = 15 Price = 2
- depotWallet = 53
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 12
- productsFromA = 13 Price = 2
- productsFromB = 40 Price = 9
- productsFromC = 15 Price = 5
- depotWallet = 51
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 13
- productsFromA = 37 Price = 4
- productsFromB = 40 Price = 3
- productsFromC = 15 Price = 6
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 14
- productsFromA = 17 Price = 3
- productsFromB = 22 Price = 6
- productsFromC = 16 Price = 3
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 15
- productsFromA = 14 Price = 9
- productsFromB = 28 Price = 2
- productsFromC = 16 Price = 8
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 16
- productsFromA = 27 Price = 9
- productsFromB = 40 Price = 5
- productsFromC = 15 Price = 7
- depotWallet = 52
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 17
- productsFromA = 25 Price = 3
- productsFromB = 32 Price = 10
- productsFromC = 15 Price = 2
- depotWallet = 53
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 18
- productsFromA = 30 Price = 4
- productsFromB = 25 Price = 10
- productsFromC = 15 Price = 5
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 19
- productsFromA = 40 Price = 10
- productsFromB = 40 Price = 10
- productsFromC = 16 Price = 5
- depotWallet = 196
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 20
- productsFromA = 10 Price = 10
- productsFromB = 30 Price = 6
- productsFromC = 16 Price = 10
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 21
- productsFromA = 11 Price = 2
- productsFromB = 40 Price = 6
- productsFromC = 16 Price = 8
- depotWallet = 53
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 22
- productsFromA = 31 Price = 8
- productsFromB = 38 Price = 3
- productsFromC = 16 Price = 1
- depotWallet = 51
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 23
- productsFromA = 14 Price = 9
- productsFromB = 11 Price = 4
- productsFromC = 15 Price = 5
- depotWallet = 52
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 24
- productsFromA = 10 Price = 5
- productsFromB = 19 Price = 4
- productsFromC = 18 Price = 10
- depotWallet = 52
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 25
- productsFromA = 20 Price = 8
- productsFromB = 40 Price = 6
- productsFromC = 33 Price = 7
- depotWallet = 52
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 26
- productsFromA = 29 Price = 7
- productsFromB = 32 Price = 9
- productsFromC = 30 Price = 9
- depotWallet = 52
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 27
- productsFromA = 23 Price = 6
- productsFromB = 34 Price = 8
- productsFromC = 17 Price = 8
- depotWallet = 53
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 28
- productsFromA = 7 Price = 9
- productsFromB = 26 Price = 4
- productsFromC = 28 Price = 5
- depotWallet = 52
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 29
- productsFromA = 40 Price = 3
- productsFromB = 21 Price = 8
- productsFromC = 16 Price = 3
- depotWallet = 52
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 30
- productsFromA = 22 Price = 1
- productsFromB = 13 Price = 8
- productsFromC = 20 Price = 5
- depotWallet = 51
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 31
- productsFromA = 35 Price = 5
- productsFromB = 33 Price = 9
- productsFromC = 16 Price = 2
- depotWallet = 52
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 32
- productsFromA = 18 Price = 6
- productsFromB = 9 Price = 10
- productsFromC = 15 Price = 4
- depotWallet = 51
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 33
- productsFromA = 28 Price = 9
- productsFromB = 26 Price = 9
- productsFromC = 17 Price = 10
- depotWallet = 51
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 34
- productsFromA = 6 Price = 10
- productsFromB = 12 Price = 7
- productsFromC = 24 Price = 3
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 35
- productsFromA = 13 Price = 2
- productsFromB = 24 Price = 5
- productsFromC = 19 Price = 6
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 36
- productsFromA = 27 Price = 7
- productsFromB = 13 Price = 10
- productsFromC = 22 Price = 4
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 37
- productsFromA = 31 Price = 3
- productsFromB = 16 Price = 3
- productsFromC = 16 Price = 4
- depotWallet = 52
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 38
- productsFromA = 12 Price = 10
- productsFromB = 33 Price = 10
- productsFromC = 21 Price = 10
- depotWallet = 51
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 39
- productsFromA = 15 Price = 4
- productsFromB = 20 Price = 1
- productsFromC = 21 Price = 6
- depotWallet = 51
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 40
- productsFromA = 13 Price = 9
- productsFromB = 35 Price = 8
- productsFromC = 37 Price = 4
- depotWallet = 52
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 41
- productsFromA = 22 Price = 1
- productsFromB = 24 Price = 10
- productsFromC = 33 Price = 9
- depotWallet = 51
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 42
- productsFromA = 17 Price = 2
- productsFromB = 14 Price = 5
- productsFromC = 44 Price = 6
- depotWallet = 51
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 43
- productsFromA = 13 Price = 3
- productsFromB = 22 Price = 10
- productsFromC = 16 Price = 2
- depotWallet = 52
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 44
- productsFromA = 10 Price = 9
- productsFromB = 40 Price = 10
- productsFromC = 33 Price = 10
- depotWallet = 53
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 45
- productsFromA = 24 Price = 4
- productsFromB = 25 Price = 6
- productsFromC = 24 Price = 3
- depotWallet = 52
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 46
- productsFromA = 31 Price = 7
- productsFromB = 13 Price = 1
- productsFromC = 24 Price = 3
- depotWallet = 51
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 47
- productsFromA = 24 Price = 2
- productsFromB = 18 Price = 10
- productsFromC = 20 Price = 9
- depotWallet = 50
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 48
- productsFromA = 21 Price = 6
- productsFromB = 40 Price = 3
- productsFromC = 44 Price = 5
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 49
- productsFromA = 29 Price = 5
- productsFromB = 36 Price = 1
- productsFromC = 49 Price = 3
- depotWallet = 51
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 50
- productsFromA = 12 Price = 4
- productsFromB = 16 Price = 9
- productsFromC = 33 Price = 1
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 51
- productsFromA = 15 Price = 8
- productsFromB = 30 Price = 4
- productsFromC = 34 Price = 6
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 52
- productsFromA = 39 Price = 6
- productsFromB = 8 Price = 10
- productsFromC = 50 Price = 4
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 53
- productsFromA = 6 Price = 8
- productsFromB = 7 Price = 3
- productsFromC = 34 Price = 2
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 54
- productsFromA = 8 Price = 2
- productsFromB = 15 Price = 8
- productsFromC = 41 Price = 10
- depotWallet = 52
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 55
- productsFromA = 6 Price = 4
- productsFromB = 18 Price = 9
- productsFromC = 47 Price = 10
- depotWallet = 53
- deliveryPrice = 2
- }
- ---------------------------
-Depot{
- depotId = 56
- productsFromA = 15 Price = 3
- productsFromB = 13 Price = 10
- productsFromC = 40 Price = 6
- depotWallet = 51
- deliveryPrice = 9
- }
- ---------------------------
-Depot{
- depotId = 57
- productsFromA = 15 Price = 3
- productsFromB = 20 Price = 3
- productsFromC = 39 Price = 5
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 58
- productsFromA = 37 Price = 5
- productsFromB = 23 Price = 6
- productsFromC = 29 Price = 3
- depotWallet = 51
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 59
- productsFromA = 9 Price = 1
- productsFromB = 38 Price = 10
- productsFromC = 37 Price = 3
- depotWallet = 51
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 60
- productsFromA = 27 Price = 1
- productsFromB = 7 Price = 2
- productsFromC = 15 Price = 1
- depotWallet = 51
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 61
- productsFromA = 34 Price = 2
- productsFromB = 18 Price = 9
- productsFromC = 26 Price = 8
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 62
- productsFromA = 37 Price = 7
- productsFromB = 22 Price = 8
- productsFromC = 17 Price = 7
- depotWallet = 51
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 63
- productsFromA = 34 Price = 7
- productsFromB = 22 Price = 8
- productsFromC = 25 Price = 9
- depotWallet = 53
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 64
- productsFromA = 7 Price = 5
- productsFromB = 19 Price = 1
- productsFromC = 15 Price = 9
- depotWallet = 54
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 65
- productsFromA = 16 Price = 10
- productsFromB = 35 Price = 7
- productsFromC = 21 Price = 3
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 66
- productsFromA = 12 Price = 5
- productsFromB = 17 Price = 3
- productsFromC = 36 Price = 9
- depotWallet = 54
- deliveryPrice = 1
- }
- ---------------------------
-Depot{
- depotId = 67
- productsFromA = 7 Price = 10
- productsFromB = 3 Price = 1
- productsFromC = 31 Price = 5
- depotWallet = 51
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
- depotId = 68
- productsFromA = 12 Price = 8
- productsFromB = 18 Price = 7
- productsFromC = 18 Price = 9
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 69
- productsFromA = 17 Price = 4
- productsFromB = 23 Price = 8
- productsFromC = 19 Price = 6
- depotWallet = 51
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 70
- productsFromA = 14 Price = 1
- productsFromB = 21 Price = 5
- productsFromC = 24 Price = 1
- depotWallet = 51
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 71
- productsFromA = 16 Price = 10
- productsFromB = 13 Price = 2
- productsFromC = 24 Price = 10
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 72
- productsFromA = 21 Price = 4
- productsFromB = 26 Price = 2
- productsFromC = 17 Price = 7
- depotWallet = 51
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 73
- productsFromA = 16 Price = 3
- productsFromB = 7 Price = 9
- productsFromC = 44 Price = 10
- depotWallet = 53
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 74
- productsFromA = 10 Price = 8
- productsFromB = 40 Price = 1
- productsFromC = 37 Price = 6
- depotWallet = 52
- deliveryPrice = 6
- }
- ---------------------------
-Depot{
- depotId = 75
- productsFromA = 30 Price = 1
- productsFromB = 26 Price = 7
- productsFromC = 35 Price = 7
- depotWallet = 52
- deliveryPrice = 3
- }
- ---------------------------
-Depot{
- depotId = 76
- productsFromA = 37 Price = 3
- productsFromB = 11 Price = 2
- productsFromC = 41 Price = 3
- depotWallet = 52
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 77
- productsFromA = 40 Price = 10
- productsFromB = 40 Price = 10
- productsFromC = 28 Price = 3
- depotWallet = 78
- deliveryPrice = 10
- }
- ---------------------------
-Depot{
  depotId = 78
- productsFromA = 40 Price = 4
- productsFromB = 31 Price = 8
- productsFromC = 30 Price = 6
- depotWallet = 54
- deliveryPrice = 7
+ productsFromA = 13 Price = 8
+ productsFromB = 34 Price = 10
+ productsFromC = 20 Price = 1
+ depotWallet = 51
+ deliveryPrice = 9
  }
  ---------------------------
 Depot{
  depotId = 79
- productsFromA = 27 Price = 9
- productsFromB = 40 Price = 8
- productsFromC = 40 Price = 4
- depotWallet = 51
- deliveryPrice = 6
+ productsFromA = 38 Price = 1
+ productsFromB = 17 Price = 4
+ productsFromC = 24 Price = 1
+ depotWallet = 50
+ deliveryPrice = 8
  }
  ---------------------------
 Depot{
  depotId = 80
- productsFromA = 30 Price = 3
- productsFromB = 19 Price = 3
- productsFromC = 37 Price = 5
- depotWallet = 52
+ productsFromA = 10 Price = 10
+ productsFromB = 49 Price = 9
+ productsFromC = 16 Price = 2
+ depotWallet = 51
  deliveryPrice = 4
  }
  ---------------------------
 Depot{
  depotId = 81
- productsFromA = 29 Price = 10
- productsFromB = 21 Price = 2
- productsFromC = 45 Price = 9
- depotWallet = 52
- deliveryPrice = 5
- }
- ---------------------------
-Depot{
- depotId = 82
- productsFromA = 15 Price = 2
- productsFromB = 33 Price = 4
- productsFromC = 26 Price = 8
+ productsFromA = 30 Price = 1
+ productsFromB = 49 Price = 8
+ productsFromC = 12 Price = 5
  depotWallet = 51
  deliveryPrice = 10
  }
  ---------------------------
 Depot{
+ depotId = 82
+ productsFromA = 15 Price = 6
+ productsFromB = 36 Price = 3
+ productsFromC = 38 Price = 10
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
  depotId = 83
- productsFromA = 25 Price = 10
- productsFromB = 28 Price = 1
+ productsFromA = 39 Price = 5
+ productsFromB = 16 Price = 1
+ productsFromC = 34 Price = 10
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 84
+ productsFromA = 20 Price = 3
+ productsFromB = 42 Price = 3
+ productsFromC = 29 Price = 6
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 85
+ productsFromA = 22 Price = 5
+ productsFromB = 40 Price = 2
+ productsFromC = 17 Price = 8
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 86
+ productsFromA = 34 Price = 2
+ productsFromB = 28 Price = 3
+ productsFromC = 11 Price = 4
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 87
+ productsFromA = 20 Price = 9
+ productsFromB = 42 Price = 6
+ productsFromC = 32 Price = 6
+ depotWallet = 52
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 88
+ productsFromA = 12 Price = 4
+ productsFromB = 19 Price = 9
+ productsFromC = 17 Price = 6
+ depotWallet = 51
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 89
+ productsFromA = 11 Price = 2
+ productsFromB = 20 Price = 7
+ productsFromC = 4 Price = 4
+ depotWallet = 51
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 90
+ productsFromA = 32 Price = 10
+ productsFromB = 25 Price = 6
+ productsFromC = 31 Price = 2
+ depotWallet = 51
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 91
+ productsFromA = 20 Price = 2
+ productsFromB = 50 Price = 9
+ productsFromC = 8 Price = 2
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 92
+ productsFromA = 5 Price = 10
+ productsFromB = 39 Price = 2
+ productsFromC = 31 Price = 6
+ depotWallet = 52
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 93
+ productsFromA = 32 Price = 8
+ productsFromB = 26 Price = 1
+ productsFromC = 13 Price = 1
+ depotWallet = 51
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 94
+ productsFromA = 20 Price = 8
+ productsFromB = 20 Price = 2
+ productsFromC = 23 Price = 6
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 95
+ productsFromA = 34 Price = 2
+ productsFromB = 37 Price = 5
+ productsFromC = 37 Price = 10
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 96
+ productsFromA = 11 Price = 3
+ productsFromB = 34 Price = 3
  productsFromC = 19 Price = 5
  depotWallet = 52
  deliveryPrice = 8
  }
  ---------------------------
 Depot{
- depotId = 84
- productsFromA = 19 Price = 10
- productsFromB = 32 Price = 5
- productsFromC = 18 Price = 9
+ depotId = 97
+ productsFromA = 31 Price = 10
+ productsFromB = 34 Price = 1
+ productsFromC = 7 Price = 10
  depotWallet = 51
- deliveryPrice = 5
+ deliveryPrice = 6
  }
  ---------------------------
 Depot{
- depotId = 85
- productsFromA = 27 Price = 6
- productsFromB = 5 Price = 9
- productsFromC = 31 Price = 2
+ depotId = 98
+ productsFromA = 34 Price = 6
+ productsFromB = 29 Price = 3
+ productsFromC = 36 Price = 4
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 99
+ productsFromA = 12 Price = 9
+ productsFromB = 25 Price = 4
+ productsFromC = 4 Price = 4
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 100
+ productsFromA = 7 Price = 10
+ productsFromB = 32 Price = 2
+ productsFromC = 33 Price = 8
+ depotWallet = 52
+ deliveryPrice = 6
+ }
+ ---------------------------
+ ********************** End Company B **********************
+ ********************** Start Company C **********************
+Depot{
+ depotId = 1
+ productsFromA = 21 Price = 1
+ productsFromB = 40 Price = 4
+ productsFromC = 16 Price = 5
  depotWallet = 53
- deliveryPrice = 2
+ deliveryPrice = 10
  }
  ---------------------------
 Depot{
- depotId = 86
- productsFromA = 7 Price = 9
- productsFromB = 29 Price = 2
- productsFromC = 39 Price = 10
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 87
- productsFromA = 8 Price = 3
- productsFromB = 6 Price = 7
- productsFromC = 31 Price = 5
+ depotId = 2
+ productsFromA = 35 Price = 8
+ productsFromB = 24 Price = 9
+ productsFromC = 16 Price = 10
  depotWallet = 51
- deliveryPrice = 7
+ deliveryPrice = 3
  }
  ---------------------------
 Depot{
- depotId = 88
- productsFromA = 24 Price = 4
- productsFromB = 15 Price = 6
- productsFromC = 42 Price = 7
- depotWallet = 52
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 89
- productsFromA = 20 Price = 7
- productsFromB = 8 Price = 5
- productsFromC = 30 Price = 7
- depotWallet = 50
- deliveryPrice = 4
- }
- ---------------------------
-Depot{
- depotId = 90
- productsFromA = 29 Price = 3
- productsFromB = 27 Price = 4
- productsFromC = 15 Price = 9
- depotWallet = 52
+ depotId = 3
+ productsFromA = 40 Price = 4
+ productsFromB = 40 Price = 2
+ productsFromC = 16 Price = 2
+ depotWallet = 213
  deliveryPrice = 5
  }
  ---------------------------
 Depot{
- depotId = 91
- productsFromA = 16 Price = 4
- productsFromB = 13 Price = 7
- productsFromC = 49 Price = 5
- depotWallet = 51
- deliveryPrice = 7
- }
- ---------------------------
-Depot{
- depotId = 92
- productsFromA = 36 Price = 5
- productsFromB = 6 Price = 2
- productsFromC = 22 Price = 2
- depotWallet = 52
- deliveryPrice = 8
- }
- ---------------------------
-Depot{
- depotId = 93
- productsFromA = 27 Price = 10
- productsFromB = 20 Price = 3
- productsFromC = 48 Price = 9
+ depotId = 4
+ productsFromA = 8 Price = 8
+ productsFromB = 24 Price = 8
+ productsFromC = 16 Price = 5
  depotWallet = 52
  deliveryPrice = 2
  }
  ---------------------------
 Depot{
- depotId = 94
- productsFromA = 36 Price = 8
- productsFromB = 37 Price = 5
- productsFromC = 43 Price = 5
+ depotId = 5
+ productsFromA = 39 Price = 7
+ productsFromB = 40 Price = 7
+ productsFromC = 16 Price = 1
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 6
+ productsFromA = 40 Price = 5
+ productsFromB = 40 Price = 7
+ productsFromC = 16 Price = 7
+ depotWallet = 436
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 7
+ productsFromA = 40 Price = 1
+ productsFromB = 40 Price = 6
+ productsFromC = 15 Price = 2
+ depotWallet = 272
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 8
+ productsFromA = 40 Price = 10
+ productsFromB = 40 Price = 8
+ productsFromC = 16 Price = 9
+ depotWallet = 240
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 9
+ productsFromA = 20 Price = 1
+ productsFromB = 38 Price = 1
+ productsFromC = 16 Price = 4
+ depotWallet = 54
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 10
+ productsFromA = 40 Price = 3
+ productsFromB = 40 Price = 6
+ productsFromC = 16 Price = 10
+ depotWallet = 117
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 11
+ productsFromA = 40 Price = 7
+ productsFromB = 40 Price = 9
+ productsFromC = 21 Price = 6
+ depotWallet = 267
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 12
+ productsFromA = 40 Price = 6
+ productsFromB = 23 Price = 2
+ productsFromC = 16 Price = 7
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 13
+ productsFromA = 40 Price = 7
+ productsFromB = 40 Price = 6
+ productsFromC = 21 Price = 4
+ depotWallet = 58
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 14
+ productsFromA = 30 Price = 5
+ productsFromB = 28 Price = 4
+ productsFromC = 16 Price = 9
+ depotWallet = 54
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 15
+ productsFromA = 40 Price = 3
+ productsFromB = 34 Price = 2
+ productsFromC = 16 Price = 4
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 16
+ productsFromA = 39 Price = 6
+ productsFromB = 10 Price = 7
+ productsFromC = 16 Price = 4
  depotWallet = 53
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 17
+ productsFromA = 38 Price = 9
+ productsFromB = 35 Price = 5
+ productsFromC = 16 Price = 4
+ depotWallet = 52
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 18
+ productsFromA = 13 Price = 8
+ productsFromB = 6 Price = 1
+ productsFromC = 16 Price = 10
+ depotWallet = 52
  deliveryPrice = 1
  }
  ---------------------------
 Depot{
- depotId = 95
- productsFromA = 11 Price = 9
- productsFromB = 38 Price = 5
- productsFromC = 33 Price = 2
+ depotId = 19
+ productsFromA = 25 Price = 4
+ productsFromB = 40 Price = 7
+ productsFromC = 16 Price = 1
+ depotWallet = 54
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 20
+ productsFromA = 37 Price = 3
+ productsFromB = 40 Price = 2
+ productsFromC = 16 Price = 7
+ depotWallet = 51
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 21
+ productsFromA = 31 Price = 6
+ productsFromB = 39 Price = 3
+ productsFromC = 19 Price = 4
+ depotWallet = 51
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 22
+ productsFromA = 29 Price = 10
+ productsFromB = 40 Price = 1
+ productsFromC = 19 Price = 9
+ depotWallet = 53
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 23
+ productsFromA = 9 Price = 1
+ productsFromB = 34 Price = 9
+ productsFromC = 24 Price = 1
+ depotWallet = 52
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 24
+ productsFromA = 12 Price = 4
+ productsFromB = 25 Price = 2
+ productsFromC = 35 Price = 4
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 25
+ productsFromA = 40 Price = 8
+ productsFromB = 24 Price = 10
+ productsFromC = 16 Price = 3
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 26
+ productsFromA = 9 Price = 5
+ productsFromB = 40 Price = 3
+ productsFromC = 40 Price = 6
+ depotWallet = 52
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 27
+ productsFromA = 5 Price = 8
+ productsFromB = 37 Price = 8
+ productsFromC = 25 Price = 9
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 28
+ productsFromA = 32 Price = 5
+ productsFromB = 24 Price = 2
+ productsFromC = 23 Price = 5
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 29
+ productsFromA = 34 Price = 10
+ productsFromB = 25 Price = 8
+ productsFromC = 29 Price = 10
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 30
+ productsFromA = 39 Price = 9
+ productsFromB = 40 Price = 5
+ productsFromC = 15 Price = 5
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 31
+ productsFromA = 20 Price = 2
+ productsFromB = 31 Price = 7
+ productsFromC = 16 Price = 1
+ depotWallet = 54
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 32
+ productsFromA = 40 Price = 9
+ productsFromB = 20 Price = 8
+ productsFromC = 25 Price = 7
+ depotWallet = 52
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 33
+ productsFromA = 9 Price = 9
+ productsFromB = 39 Price = 10
+ productsFromC = 24 Price = 4
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 34
+ productsFromA = 29 Price = 3
+ productsFromB = 19 Price = 4
+ productsFromC = 16 Price = 1
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 35
+ productsFromA = 36 Price = 1
+ productsFromB = 34 Price = 8
+ productsFromC = 44 Price = 8
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 36
+ productsFromA = 23 Price = 1
+ productsFromB = 13 Price = 2
+ productsFromC = 22 Price = 8
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 37
+ productsFromA = 26 Price = 3
+ productsFromB = 18 Price = 6
+ productsFromC = 20 Price = 1
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 38
+ productsFromA = 26 Price = 7
+ productsFromB = 19 Price = 1
+ productsFromC = 23 Price = 3
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 39
+ productsFromA = 13 Price = 8
+ productsFromB = 40 Price = 1
+ productsFromC = 36 Price = 1
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 40
+ productsFromA = 39 Price = 3
+ productsFromB = 38 Price = 1
+ productsFromC = 16 Price = 7
+ depotWallet = 51
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 41
+ productsFromA = 23 Price = 10
+ productsFromB = 13 Price = 3
+ productsFromC = 49 Price = 2
+ depotWallet = 52
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 42
+ productsFromA = 22 Price = 7
+ productsFromB = 17 Price = 9
+ productsFromC = 37 Price = 3
+ depotWallet = 51
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 43
+ productsFromA = 12 Price = 4
+ productsFromB = 33 Price = 7
+ productsFromC = 19 Price = 4
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 44
+ productsFromA = 25 Price = 8
+ productsFromB = 19 Price = 8
+ productsFromC = 46 Price = 9
+ depotWallet = 52
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 45
+ productsFromA = 40 Price = 6
+ productsFromB = 12 Price = 5
+ productsFromC = 38 Price = 9
+ depotWallet = 52
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 46
+ productsFromA = 29 Price = 4
+ productsFromB = 8 Price = 4
+ productsFromC = 48 Price = 2
+ depotWallet = 52
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 47
+ productsFromA = 11 Price = 2
+ productsFromB = 22 Price = 2
+ productsFromC = 33 Price = 4
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 48
+ productsFromA = 35 Price = 2
+ productsFromB = 30 Price = 9
+ productsFromC = 36 Price = 1
  depotWallet = 51
  deliveryPrice = 9
  }
  ---------------------------
 Depot{
- depotId = 96
- productsFromA = 21 Price = 10
- productsFromB = 23 Price = 6
- productsFromC = 30 Price = 10
+ depotId = 49
+ productsFromA = 9 Price = 5
+ productsFromB = 27 Price = 7
+ productsFromC = 39 Price = 2
  depotWallet = 52
- deliveryPrice = 2
+ deliveryPrice = 6
  }
  ---------------------------
 Depot{
- depotId = 97
- productsFromA = 20 Price = 7
- productsFromB = 16 Price = 5
- productsFromC = 36 Price = 3
+ depotId = 50
+ productsFromA = 40 Price = 7
+ productsFromB = 27 Price = 1
+ productsFromC = 50 Price = 10
  depotWallet = 51
- deliveryPrice = 5
+ deliveryPrice = 6
  }
  ---------------------------
 Depot{
- depotId = 98
- productsFromA = 17 Price = 8
- productsFromB = 40 Price = 10
- productsFromC = 31 Price = 4
- depotWallet = 53
+ depotId = 51
+ productsFromA = 16 Price = 10
+ productsFromB = 31 Price = 10
+ productsFromC = 16 Price = 3
+ depotWallet = 52
  deliveryPrice = 1
  }
  ---------------------------
 Depot{
- depotId = 99
- productsFromA = 40 Price = 5
- productsFromB = 33 Price = 3
- productsFromC = 32 Price = 6
+ depotId = 52
+ productsFromA = 32 Price = 3
+ productsFromB = 22 Price = 8
+ productsFromC = 24 Price = 3
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 53
+ productsFromA = 7 Price = 2
+ productsFromB = 5 Price = 10
+ productsFromC = 37 Price = 5
+ depotWallet = 51
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 54
+ productsFromA = 24 Price = 1
+ productsFromB = 7 Price = 10
+ productsFromC = 31 Price = 7
+ depotWallet = 52
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 55
+ productsFromA = 10 Price = 2
+ productsFromB = 34 Price = 7
+ productsFromC = 27 Price = 6
+ depotWallet = 51
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 56
+ productsFromA = 10 Price = 1
+ productsFromB = 4 Price = 5
+ productsFromC = 29 Price = 1
+ depotWallet = 52
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 57
+ productsFromA = 18 Price = 9
+ productsFromB = 18 Price = 9
+ productsFromC = 42 Price = 5
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 58
+ productsFromA = 15 Price = 6
+ productsFromB = 27 Price = 9
+ productsFromC = 49 Price = 6
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 59
+ productsFromA = 17 Price = 6
+ productsFromB = 6 Price = 10
+ productsFromC = 30 Price = 3
+ depotWallet = 52
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 60
+ productsFromA = 9 Price = 9
+ productsFromB = 4 Price = 2
+ productsFromC = 42 Price = 1
  depotWallet = 51
  deliveryPrice = 8
  }
  ---------------------------
 Depot{
- depotId = 100
- productsFromA = 27 Price = 2
- productsFromB = 29 Price = 6
- productsFromC = 30 Price = 4
- depotWallet = 53
+ depotId = 61
+ productsFromA = 35 Price = 6
+ productsFromB = 14 Price = 1
+ productsFromC = 17 Price = 9
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 62
+ productsFromA = 8 Price = 5
+ productsFromB = 7 Price = 10
+ productsFromC = 19 Price = 5
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 63
+ productsFromA = 27 Price = 1
+ productsFromB = 11 Price = 8
+ productsFromC = 18 Price = 3
+ depotWallet = 51
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 64
+ productsFromA = 10 Price = 6
+ productsFromB = 22 Price = 7
+ productsFromC = 31 Price = 10
+ depotWallet = 52
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 65
+ productsFromA = 37 Price = 4
+ productsFromB = 23 Price = 5
+ productsFromC = 39 Price = 6
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 66
+ productsFromA = 7 Price = 1
+ productsFromB = 22 Price = 2
+ productsFromC = 18 Price = 4
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 67
+ productsFromA = 16 Price = 7
+ productsFromB = 7 Price = 1
+ productsFromC = 28 Price = 8
+ depotWallet = 51
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 68
+ productsFromA = 9 Price = 9
+ productsFromB = 12 Price = 3
+ productsFromC = 30 Price = 2
+ depotWallet = 51
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 69
+ productsFromA = 11 Price = 8
+ productsFromB = 22 Price = 9
+ productsFromC = 24 Price = 1
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 70
+ productsFromA = 21 Price = 9
+ productsFromB = 39 Price = 7
+ productsFromC = 18 Price = 6
+ depotWallet = 52
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 71
+ productsFromA = 34 Price = 5
+ productsFromB = 8 Price = 6
+ productsFromC = 36 Price = 10
+ depotWallet = 51
  deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 72
+ productsFromA = 6 Price = 9
+ productsFromB = 35 Price = 9
+ productsFromC = 42 Price = 2
+ depotWallet = 51
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 73
+ productsFromA = 17 Price = 6
+ productsFromB = 24 Price = 10
+ productsFromC = 33 Price = 1
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 74
+ productsFromA = 25 Price = 10
+ productsFromB = 29 Price = 3
+ productsFromC = 19 Price = 8
+ depotWallet = 52
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 75
+ productsFromA = 23 Price = 9
+ productsFromB = 9 Price = 4
+ productsFromC = 15 Price = 7
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 76
+ productsFromA = 22 Price = 7
+ productsFromB = 6 Price = 10
+ productsFromC = 24 Price = 10
+ depotWallet = 51
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 77
+ productsFromA = 20 Price = 4
+ productsFromB = 27 Price = 3
+ productsFromC = 44 Price = 8
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 78
+ productsFromA = 27 Price = 9
+ productsFromB = 32 Price = 5
+ productsFromC = 27 Price = 2
+ depotWallet = 52
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 79
+ productsFromA = 38 Price = 4
+ productsFromB = 21 Price = 8
+ productsFromC = 36 Price = 2
+ depotWallet = 51
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 80
+ productsFromA = 7 Price = 2
+ productsFromB = 17 Price = 3
+ productsFromC = 37 Price = 2
+ depotWallet = 51
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 81
+ productsFromA = 33 Price = 6
+ productsFromB = 6 Price = 2
+ productsFromC = 19 Price = 10
+ depotWallet = 52
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 82
+ productsFromA = 15 Price = 4
+ productsFromB = 8 Price = 4
+ productsFromC = 34 Price = 8
+ depotWallet = 51
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 83
+ productsFromA = 8 Price = 2
+ productsFromB = 40 Price = 7
+ productsFromC = 25 Price = 3
+ depotWallet = 51
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 84
+ productsFromA = 39 Price = 7
+ productsFromB = 32 Price = 10
+ productsFromC = 45 Price = 5
+ depotWallet = 51
+ deliveryPrice = 2
+ }
+ ---------------------------
+Depot{
+ depotId = 85
+ productsFromA = 28 Price = 4
+ productsFromB = 21 Price = 1
+ productsFromC = 16 Price = 8
+ depotWallet = 52
+ deliveryPrice = 1
+ }
+ ---------------------------
+Depot{
+ depotId = 86
+ productsFromA = 35 Price = 10
+ productsFromB = 31 Price = 8
+ productsFromC = 28 Price = 2
+ depotWallet = 53
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 87
+ productsFromA = 18 Price = 9
+ productsFromB = 38 Price = 5
+ productsFromC = 39 Price = 3
+ depotWallet = 53
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 88
+ productsFromA = 21 Price = 8
+ productsFromB = 9 Price = 6
+ productsFromC = 42 Price = 4
+ depotWallet = 53
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 89
+ productsFromA = 19 Price = 2
+ productsFromB = 35 Price = 6
+ productsFromC = 29 Price = 10
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 90
+ productsFromA = 32 Price = 1
+ productsFromB = 8 Price = 7
+ productsFromC = 33 Price = 10
+ depotWallet = 51
+ deliveryPrice = 7
+ }
+ ---------------------------
+Depot{
+ depotId = 91
+ productsFromA = 23 Price = 5
+ productsFromB = 35 Price = 2
+ productsFromC = 27 Price = 10
+ depotWallet = 53
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 92
+ productsFromA = 40 Price = 6
+ productsFromB = 10 Price = 2
+ productsFromC = 34 Price = 8
+ depotWallet = 52
+ deliveryPrice = 4
+ }
+ ---------------------------
+Depot{
+ depotId = 93
+ productsFromA = 27 Price = 10
+ productsFromB = 32 Price = 6
+ productsFromC = 31 Price = 1
+ depotWallet = 51
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 94
+ productsFromA = 5 Price = 4
+ productsFromB = 12 Price = 1
+ productsFromC = 42 Price = 2
+ depotWallet = 52
+ deliveryPrice = 5
+ }
+ ---------------------------
+Depot{
+ depotId = 95
+ productsFromA = 24 Price = 8
+ productsFromB = 16 Price = 8
+ productsFromC = 25 Price = 3
+ depotWallet = 53
+ deliveryPrice = 10
+ }
+ ---------------------------
+Depot{
+ depotId = 96
+ productsFromA = 23 Price = 10
+ productsFromB = 26 Price = 6
+ productsFromC = 46 Price = 10
+ depotWallet = 52
+ deliveryPrice = 3
+ }
+ ---------------------------
+Depot{
+ depotId = 97
+ productsFromA = 19 Price = 5
+ productsFromB = 7 Price = 8
+ productsFromC = 28 Price = 6
+ depotWallet = 53
+ deliveryPrice = 8
+ }
+ ---------------------------
+Depot{
+ depotId = 98
+ productsFromA = 28 Price = 6
+ productsFromB = 6 Price = 10
+ productsFromC = 39 Price = 6
+ depotWallet = 54
+ deliveryPrice = 9
+ }
+ ---------------------------
+Depot{
+ depotId = 99
+ productsFromA = 15 Price = 7
+ productsFromB = 39 Price = 6
+ productsFromC = 20 Price = 9
+ depotWallet = 52
+ deliveryPrice = 6
+ }
+ ---------------------------
+Depot{
+ depotId = 100
+ productsFromA = 28 Price = 1
+ productsFromB = 17 Price = 3
+ productsFromC = 19 Price = 2
+ depotWallet = 51
+ deliveryPrice = 6
  }
  ---------------------------
  ********************** End Company C **********************
