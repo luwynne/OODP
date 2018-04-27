@@ -7,4 +7,6 @@ package commercialtradesystem.OODP;
  */
 public class CommercialTradingSystemFacade {
     
+    
+    
 }

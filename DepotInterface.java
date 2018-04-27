@@ -3,11 +3,16 @@ package commercialtradesystem.OODP;
 
 import java.util.ArrayList;
 
-
+/**
+     * 
+     * Depot class interface 
+     * This ensures that the depot class assigns the required methods 
+     */
 public interface DepotInterface {
     
     //depot class interface
 
+    
     public abstract int getDepotId();
     public ArrayList<Products> getProductsA();
     public ArrayList<Products> getProductsB();

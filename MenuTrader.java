@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class MenuTrader {
     
-
+    
     public static void main(String args[]){
 
         Singleton sing = Singleton.getInstance();
