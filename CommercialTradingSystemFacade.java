@@ -69,7 +69,7 @@ public class CommercialTradingSystemFacade implements CommercialInter {
                 //System.out.println(eachTran);
             }
 
-            System.out.println("------------------------ end company transactions -----------------------------------");
+            //System.out.println("------------------------ end company transactions -----------------------------------");
 
         }
         //writingResultToFile(outputBeforeTrade,"before");
