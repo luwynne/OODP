@@ -14,8 +14,13 @@ public class CompanyFactory{
        return createCompanies();
     }
 
-    //arraylist of companies 
-    public ArrayList<CompanyInterface> createCompanies(){
+    
+ /**
+ * Factory design patter main method responsible for creating new companies
+ * Creates 3 new companies and returns a list with the 3 of them
+ * @return  list (list of companies)
+ */
+    public ArrayList<CompanyInterface> createCompanies(){//arraylist of companies 
         ArrayList<CompanyInterface> list = new ArrayList<>();
         DepotFactory factory = new DepotFactory();
 

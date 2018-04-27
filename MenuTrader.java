@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 public class MenuTrader {
-    
+
 
     public static void main(String args[]) throws IOException{
 
@@ -20,7 +20,7 @@ public class MenuTrader {
         Scanner scanner = new Scanner(System.in);
         String opt = scanner.nextLine();
         opt = opt.toLowerCase();
-        
+
         CommercialTradingSystemFacade myFacade = new CommercialTradingSystemFacade();
 
         if(null != opt)switch (opt) {

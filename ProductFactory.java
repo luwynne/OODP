@@ -18,7 +18,13 @@ public class ProductFactory {
     static int maxProducOthers =40;
 
 
-
+    /**
+     * Creates products and according to which company it belongs assigns max and mix amount of products to an ArrayList
+     * Holding those products
+     * @param productName (product name)
+     * @param owner (what company it belongs to)
+     * @return listOfProductsX (ArrayList of products)
+     */
     public ArrayList<Products> getProduct(String productName,boolean owner){
         ArrayList<Products> listOfProductsX = new ArrayList<>();
         int numberOfProducts=0;
@@ -62,9 +68,18 @@ public class ProductFactory {
            return listOfProductsX;
 
     }
+    
 
-    //creating an arraylist of products
+    /**
+     * This function is performed in the function above as a creator of new lists of products 
+     * Loops over the ArrayList of products and assigns a company and random product cost
+     * @param cost (new product price)
+     * @param numberOfProducts (amount of products)
+     * @param company (what company)
+     * @return list (list of products)
+     */
     public static ArrayList<Products> createListProductsX(int cost, int numberOfProducts,String company) {
+        //creating an arraylist of products
         ArrayList<Products> list = new ArrayList<>();
         for (int i=0;i<numberOfProducts;i++){
             list.add(new Product(cost, company));
@@ -72,8 +87,14 @@ public class ProductFactory {
         return list;
     }
 
-    //getting random min and max
-    public static int getRandom(int max, int min){
+    
+    /**
+     * Generates new random number between the min and max
+     * @param max (for random use)
+     * @param min (for random use)
+     * @return randNumber (generated)
+     */
+    public static int getRandom(int max, int min){ //getting random min and max
 
         int randNumber;
         Random rand = new Random();

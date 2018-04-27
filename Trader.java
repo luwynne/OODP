@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package commercialtradesystem.OODP;
 
 import java.util.ArrayList;
@@ -18,7 +14,11 @@ public class Trader {
     ArrayList<DepotInterface> depotsC ;
     int minCashAllowance=50;
 
-
+    /**
+     * Trade class constructor
+     * Receives 3 ArrayLists holding each of them depots from each of the 3 companies
+     * @param dA, dB, dC (depots from each of different companies)
+     */
     Trader(ArrayList<DepotInterface> dA,ArrayList<DepotInterface> dB,ArrayList<DepotInterface> dC){
 
         this.depotsA=dA;
@@ -26,8 +26,17 @@ public class Trader {
         this.depotsC=dC;
     }
 
+    /**
+     * Performs a transaction with company A as a trader
+     * This trader then can trade with companies B and C
+     * It goes through all the depots from the company A and bounces between all the depots from companies B and C
+     * It assigns value to an ArrayList of transactions holding the depot information and who the depot has traded with
+     */
     public void  tradingA(){
 
+
+        // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsA.get(i) and depotsB.get(counterDepot)
+        // you have to create the arraylist<transactions> in the depot class. and a method to add a transaction to the ArrayList
 
         for(int i=0;i<depotsA.size()-1;i++){
             int counterDepot =0;
@@ -60,13 +69,19 @@ public class Trader {
                     depotsA.get(i).addTransactions(tempTran);
                     depotsC.get(counterDepot).increaseProductsBuyInA();
 
-                    // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsA.get(i) and depotsC.get(counterDepot)
+
                 }
                 counterDepot++;
             }
         }
     }
 
+    /**
+     * Performs a transaction with company B as a trader
+     * This trader then can trade with companies A and C
+     * It goes through all the depots from the company B and bounces between all the depots from companies A and C
+     * It assigns value to an ArrayList of transactions holding the depot information and who the depot has traded with
+     */
     public void  tradingB(){
 
 
@@ -89,7 +104,7 @@ public class Trader {
                     depotsB.get(i).addTransactions(tempTran);
                     depotsA.get(counterDepot).increaseProductsBuyInB();
 
-                    // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsB.get(i) and depotsA.get(counterDepot)
+
 
                 }
 
@@ -104,7 +119,7 @@ public class Trader {
                     depotsC.get(i).addTransactions(tempTran);
                     depotsC.get(counterDepot).increaseProductsBuyInB();
 
-                    // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsB.get(i) and depotsC.get(counterDepot)
+
 
                 }
                 counterDepot++;
@@ -112,6 +127,12 @@ public class Trader {
         }
     }
 
+    /**
+     * Performs a transaction with company C as a trader
+     * This trader then can trade with companies A and B
+     * It goes through all the depots from the company C and bounces between all the depots from companies A and B
+     * It assigns value to an ArrayList of transactions holding the depot information and who the depot has traded with
+     */
     public void  tradingC(){
 
 
