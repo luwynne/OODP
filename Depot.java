@@ -7,18 +7,17 @@ import java.util.ArrayList;
 
 public class Depot implements DepotInterface{
 
+    //default values that each of the depots will haves    
     int depotId;
-//    String belongsTo;
     private ArrayList<Products> productsFromA = new ArrayList<>();
     private ArrayList<Products> productsFromB = new ArrayList<>();
     private ArrayList<Products> productsFromC = new ArrayList<>();
     private ArrayList<Transaction> listOfTransactions = new ArrayList<>();
     private int depotWallet;
     private final int deliveryPrice;
-    // create a arralist of transactions empty one;
 
     Depot(int id,ArrayList<Products> A, ArrayList<Products> B,ArrayList<Products> C,int deliveryPrice, int cash) {
-        //this.belongsTo=a; //To change body of generated methods, choose Tools | Templates.
+        
         this.depotId=id;
         this.productsFromA=A;
         this.productsFromB=B;
@@ -26,6 +25,9 @@ public class Depot implements DepotInterface{
         this.deliveryPrice=deliveryPrice;
         this.depotWallet=cash;
     }
+    
+    
+    //getters and setter for each of the class properties
 
 
     @Override
@@ -48,10 +50,6 @@ public class Depot implements DepotInterface{
         this.productsFromC.add(Newproduct);
     }
 
-    @Override
-    public String getBelongsTo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
     @Override
     public ArrayList<Products> getProductsA() {
@@ -84,7 +82,6 @@ public class Depot implements DepotInterface{
     }
 
 
-
     @Override
     public void setDepotWallet(int money){
         this.depotWallet += money;
@@ -97,7 +94,6 @@ public class Depot implements DepotInterface{
 
     @Override
     public int getDeliveryPrice() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         return this.deliveryPrice;
     }
 

@@ -23,7 +23,9 @@ public class ProductFactory {
         ArrayList<Products> listOfProductsX = new ArrayList<>();
         int numberOfProducts=0;
 
-           switch(productName){
+        //depending on the its company owner, the products will assign different numbers of min and max
+        //amount of products
+        switch(productName){
                case "A":
                    if(owner){
                        numberOfProducts=getRandom(maxProducOwner,minProducOwner);
@@ -61,10 +63,7 @@ public class ProductFactory {
 
     }
 
-
-
-
-
+    //creating an arraylist of products
     public static ArrayList<Products> createListProductsX(int cost, int numberOfProducts,String company) {
         ArrayList<Products> list = new ArrayList<>();
         for (int i=0;i<numberOfProducts;i++){
@@ -73,6 +72,7 @@ public class ProductFactory {
         return list;
     }
 
+    //getting random min and max
     public static int getRandom(int max, int min){
 
         int randNumber;

@@ -1,17 +1,11 @@
+package commercialtradesystem.OODP;
+
 
 import java.util.Scanner;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author drgth
- */
 public class MenuTrader {
+    
 
     public static void main(String args[]){
 
@@ -25,12 +19,14 @@ public class MenuTrader {
         Scanner scanner = new Scanner(System.in);
         String opt = scanner.nextLine();
         opt = opt.toLowerCase();
+        CommercialTradingSystemFacade myFacade = new CommercialTradingSystemFacade();
 
         if(null != opt)switch (opt) {
             case "a":
                 System.out.println("...");
                 System.out.println("|- Trading for company BigA");
                 System.out.println("...");
+                
                 break;
             case "b":
                 System.out.println("...");
@@ -54,7 +50,6 @@ public class MenuTrader {
         System.out.println("|--------------------------------------------------------------|");
         System.out.println("|------------------- COMPANY TRADE REPORT ---------------------|");
         System.out.println("|--------------------------------------------------------------|");
-        System.out.println("|- Bla: bla bla bla -|");
         System.out.println("|--------------------------------------------------------------|");
 
     }

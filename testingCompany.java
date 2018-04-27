@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package commercialtradesystem.OODP;
 
 import java.io.FileOutputStream;
@@ -21,17 +17,19 @@ public class testingCompany {
 
 
     CompanyFactory compa = new CompanyFactory();
-
+    
+            
             ArrayList<CompanyInterface> companies= compa.getCompany();
             String outputBeforeTrade = "";
-            String outputAfterTrafe="";
+            String outputAfterTrade="";
 
         for(CompanyInterface eachComp : companies){
 
             outputBeforeTrade+="\n ********************** Start Company "+eachComp.getCompanyType() +" **********************";
-
+            outputBeforeTrade+="\n"+eachComp+" ";
             for(DepotInterface  eachDepot: eachComp.getArrayListDepot()){
                 outputBeforeTrade +="\n"+ eachDepot+ "\n ---------------------------";
+           
             }
 
             outputBeforeTrade+="\n ********************** End Company "+eachComp.getCompanyType() +" **********************";
@@ -41,18 +39,15 @@ public class testingCompany {
         newTrader.tradingA();
         newTrader.tradingB();
         newTrader.tradingC();
-        newTrader.tradingC();
-        newTrader.tradingB();
-        newTrader.tradingA();
-
-
+        
+        
 
         for(CompanyInterface eachComp : companies){
-
-            outputAfterTrafe+="\n ********************** Start Company "+eachComp.getCompanyType() +" **********************";
-
+            eachComp.setWaletAfterTrade(); //assigning value to the afterwallet, which will then be used to display values after the trade
+            outputAfterTrade+="\n ********************** Start Company "+eachComp.getCompanyType() +" **********************";
+            outputAfterTrade+="\n"+eachComp+" ";
             for(DepotInterface  eachDepot: eachComp.getArrayListDepot()){
-                outputAfterTrafe +="\n"+ eachDepot+ "\n ---------------------------";
+                outputAfterTrade +="\n"+ eachDepot+ "\n ---------------------------";
                 eachComp.addListOfTransactions(eachDepot.getListOfTransactions());
 //                for(Transaction eachTran: eachDepot.getListOfTransactions()){
 //                    System.out.println(eachTran);
@@ -61,7 +56,7 @@ public class testingCompany {
 
             }
 
-            outputAfterTrafe+="\n ********************** End Company "+eachComp.getCompanyType() +" **********************";
+            outputAfterTrade+="\n ********************** End Company "+eachComp.getCompanyType() +" **********************";
 
         }
         //writingResultToFile();
@@ -76,7 +71,7 @@ public class testingCompany {
 
         }
         writingResultToFile(outputBeforeTrade,"before");
-        writingResultToFile(outputAfterTrafe,"after");
+        writingResultToFile(outputAfterTrade,"after");
         //System.out.println(outputBeforeTrade);
         // System.out.println("////////////////////////////////////////////////////////////////////////");
         //System.out.println(outputAfterTrafe);
@@ -87,7 +82,7 @@ public class testingCompany {
         throws IOException {
           //String fileName="before";
           //String str = "Hello";
-          FileOutputStream outputStream = new FileOutputStream("/Users/yoseph/NetBeansProjects/CommercialTradeSystem/src/commercialtradesystem/OODP/Results/"+fileName);
+          FileOutputStream outputStream = new FileOutputStream("/Users/mynahone0/commercialtradesystem/src/commercialtradesystem/OODP/Results/"+fileName);
           byte[] strToBytes = info.getBytes();
           outputStream.write(strToBytes);
 

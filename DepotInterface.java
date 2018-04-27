@@ -5,18 +5,16 @@ import java.util.ArrayList;
 
 
 public interface DepotInterface {
+    
+    //depot class interface
 
     public abstract int getDepotId();
-    public String getBelongsTo();
     public ArrayList<Products> getProductsA();
     public ArrayList<Products> getProductsB();
     public ArrayList<Products> getProductsC();
     public int getDepotWallet();
 
-    /**
-     *
-     * @param money
-     */
+   
     public void setDepotWallet(int money);
     public int getDeliveryPrice();
     public abstract Products sellProductsA();

@@ -14,12 +14,14 @@ public class CompanyFactory{
        return createCompanies();
     }
 
+    //arraylist of companies 
     public ArrayList<CompanyInterface> createCompanies(){
         ArrayList<CompanyInterface> list = new ArrayList<>();
         DepotFactory factory = new DepotFactory();
 
         for(int i=1;i<=3;i++){
 
+            //creating the 3 needed companies. Each has the name and depots
             switch(i){
                 case 1:
                     list.add(new Company("A",factory.getDepot("A")));
@@ -36,10 +38,6 @@ public class CompanyFactory{
         }
         return list;
     }
-
-
-
-
 
 
 }

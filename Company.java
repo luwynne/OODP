@@ -6,33 +6,28 @@ import java.util.ArrayList;
 
 public class Company implements CompanyInterface{
 
-
+    //default value of a company
     private String name;
     private double companyWallet = 0;
-
-
-//    private double deliveryPrice = 0;
     private double totalDeliveryExpenses = 0;
+    //this is ths company wallet after trading for comparison
+    private int walletBeforeTrade; 
+    private int walletAfterTrade; 
 
 
 
-    //private ArrayList<Transaction> transactions;
-    //this has to be populated or commented before testing
-    private ArrayList<DepotInterface> ArrayListDepot;
+    
+    private ArrayList<DepotInterface> ArrayListDepot; //depots of a company
 
-    private ArrayList<Transaction> ListOfTransactions= new ArrayList<>();
-
-
-
-
-
-
+    private ArrayList<Transaction> ListOfTransactions= new ArrayList<>(); //transactions of a company
 
 
    public Company(String name, ArrayList<DepotInterface> list){
 
        this.name = name;
        this.ArrayListDepot=list;
+       
+       setWaletBeforeTrade();//setting up the wallet when starting the class
 
    }
 
@@ -75,12 +70,28 @@ public class Company implements CompanyInterface{
     public void addListOfTransactions(ArrayList<Transaction> ListOfTransactions) {
         this.ListOfTransactions.addAll(ListOfTransactions);
     }
-    //@Override
-//    public ArrayList<Transaction> getTransactions() {
-//        return this.transactions;
-        //this has to be populated or commented before testing
-    //}
 
+    //giving a new value to the wallet before trading 
+    @Override
+    public void setWaletBeforeTrade() {
+        
+       for(DepotInterface eachdepotinterfaceitem: ArrayListDepot){
+           this.walletBeforeTrade += eachdepotinterfaceitem.getDepotWallet();
+       }
+        
+    }
 
+    //giving a new value to the wallet after the trade for a comparison matter
+    @Override
+    public void setWaletAfterTrade() {
+        for(DepotInterface eachdepotinterfaceitem: ArrayListDepot){
+           this.walletAfterTrade += eachdepotinterfaceitem.getDepotWallet();
+       }
+    }
+    
+    @Override
+    public String toString(){ //returning as a string the wallets after and before the transactions
+        return "Company "+this.name+" Wallet before trade "+ this.walletBeforeTrade +" Wallet after trade "+ this.walletAfterTrade ; 
+    }
 
 }
