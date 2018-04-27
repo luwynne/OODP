@@ -1,13 +1,14 @@
 package commercialtradesystem.OODP;
 
 
+import java.io.IOException;
 import java.util.Scanner;
 
 
 public class MenuTrader {
     
 
-    public static void main(String args[]){
+    public static void main(String args[]) throws IOException{
 
         Singleton sing = Singleton.getInstance();
 
@@ -19,37 +20,29 @@ public class MenuTrader {
         Scanner scanner = new Scanner(System.in);
         String opt = scanner.nextLine();
         opt = opt.toLowerCase();
+        
         CommercialTradingSystemFacade myFacade = new CommercialTradingSystemFacade();
 
         if(null != opt)switch (opt) {
             case "a":
-                System.out.println("...");
-                System.out.println("|- Trading for company BigA");
-                System.out.println("...");
-                
+                System.out.println("|-- Trading for company BigA");
+                myFacade.SelectCompany("a");
                 break;
             case "b":
-                System.out.println("...");
-                System.out.println("|- Trading for company BigB");
-                System.out.println("...");
+                System.out.println("|-- Trading for company BigB");
+                myFacade.SelectCompany("b");
                 break;
             case "c":
-                System.out.println("...");
-                System.out.println("|- Trading for company BigC");
-                System.out.println("...");
+                System.out.println("|-- Trading for company BigC");
+                myFacade.SelectCompany("c");
                 break;
             case "z":
-                System.out.println("...");
-                System.out.println("|- Trading autonomously");
-                System.out.println("...");
+                myFacade.AutoTrader();
                 break;
             default:
                 break;
         }
 
-        System.out.println("|--------------------------------------------------------------|");
-        System.out.println("|------------------- COMPANY TRADE REPORT ---------------------|");
-        System.out.println("|--------------------------------------------------------------|");
         System.out.println("|--------------------------------------------------------------|");
 
     }

@@ -13,6 +13,9 @@ public class Depot implements DepotInterface{
     private ArrayList<Products> productsFromB = new ArrayList<>();
     private ArrayList<Products> productsFromC = new ArrayList<>();
     private ArrayList<Transaction> listOfTransactions = new ArrayList<>();
+    private int productsBuyInA = 0;
+    private int productsBuyInB = 0;
+    private int productsBuyInC = 0;
     private int depotWallet;
     private final int deliveryPrice;
 
@@ -25,7 +28,8 @@ public class Depot implements DepotInterface{
         this.deliveryPrice=deliveryPrice;
         this.depotWallet=cash;
     }
-    
+
+   
     
     //getters and setter for each of the class properties
 
@@ -106,6 +110,32 @@ public class Depot implements DepotInterface{
     public void addTransactions(Transaction newTransaction) {
         this.listOfTransactions.add(newTransaction);
     }
+
+    public int getTotalProductsBuyInA() {
+        return productsBuyInA;
+    }
+
+    public int getTotalProductsBuyInB() {
+        return productsBuyInB;
+    }
+
+    public int getTotalProductsBuyInC() {
+        return productsBuyInC;
+    }
+    
+    public void increaseProductsBuyInA() {
+        this.productsBuyInA +=1;
+    }
+
+    public void increaseProductsBuyInB() {
+        this.productsBuyInB +=1;
+    }
+
+    public void increaseProductsBuyInC() {
+        this.productsBuyInC +=1;
+    }
+    
+    
 
     @Override
     public String toString() {

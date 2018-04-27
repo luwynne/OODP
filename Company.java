@@ -11,14 +11,39 @@ public class Company implements CompanyInterface{
     private double companyWallet = 0;
     private double totalDeliveryExpenses = 0;
     //this is ths company wallet after trading for comparison
+    
     private int walletBeforeTrade; 
     private int walletAfterTrade; 
 
+    public int getTotalProductsBuyInA() {
+        return totalProductsBuyInA;
+    }
 
+    public void setTotalProductsBuyInA(int addProductsBuyInA) {
+        this.totalProductsBuyInA += addProductsBuyInA;
+    }
 
+    public int getTotalProductsBuyInB() {
+        return totalProductsBuyInB;
+    }
+
+    public void setTotalProductsBuyInB(int addProductsBuyInB) {
+        this.totalProductsBuyInB += addProductsBuyInB;
+    }
+
+    public int getTotalProductsBuyInC() {
+        return totalProductsBuyInC;
+    }
+
+    public void setTotalProductsBuyInC(int addProductsBuyInC) {
+        this.totalProductsBuyInC += addProductsBuyInC;
+    }
+    
+    private int totalProductsBuyInA;
+    private int totalProductsBuyInB;
+    private int totalProductsBuyInC;
     
     private ArrayList<DepotInterface> ArrayListDepot; //depots of a company
-
     private ArrayList<Transaction> ListOfTransactions= new ArrayList<>(); //transactions of a company
 
 
@@ -92,6 +117,16 @@ public class Company implements CompanyInterface{
     @Override
     public String toString(){ //returning as a string the wallets after and before the transactions
         return "Company "+this.name+" Wallet before trade "+ this.walletBeforeTrade +" Wallet after trade "+ this.walletAfterTrade ; 
+    }
+    
+    @Override
+    public int getWalletBeforeTrade() {
+        return walletBeforeTrade;
+    }
+
+    @Override
+    public int getWalletAfterTrade() {
+        return walletAfterTrade;
     }
 
 }
