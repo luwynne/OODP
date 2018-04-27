@@ -18,6 +18,17 @@ public class Company implements CompanyInterface{
     private int totalProductsBuyInC;
     private ArrayList<DepotInterface> ArrayListDepot; //depots of a company
     private ArrayList<Transaction> ListOfTransactions= new ArrayList<>(); //transactions of a company
+    private int totalSpendInA=0;
+    private int totalSpendInB=0;
+    private int totalSpendInC=0;
+    
+    private int totalSpendDeliverA=0;
+    private int totalSpendDeliverB=0;
+    private int totalSpendDeliverC=0;
+    
+
+    
+
 
 
    public Company(String name, ArrayList<DepotInterface> list){
@@ -164,7 +175,56 @@ public class Company implements CompanyInterface{
     public void setTotalProductsBuyInC(int addProductsBuyInC) {
         this.totalProductsBuyInC += addProductsBuyInC;
     }
+    
+    public int getTotalSpendInA() {
+        return totalSpendInA;
+    }
 
+    public void setTotalSpendInA(int totalSpendInA) {
+        this.totalSpendInA += totalSpendInA;
+    }
+
+    public int getTotalSpendInB() {
+        return totalSpendInB;
+    }
+
+    public void setTotalSpendInB(int totalSpendInB) {
+        this.totalSpendInB += totalSpendInB;
+    }
+
+    public int getTotalSpendInC() {
+        return totalSpendInC;
+    }
+
+    public void setTotalSpendInC(int totalSpendInC) {
+        this.totalSpendInC += totalSpendInC;
+    }
+
+    public int getTotalSpendDeliverA() {
+        return totalSpendDeliverA;
+    }
+
+    public void setTotalSpendDeliverA(int totalSpendDeliverA) {
+        this.totalSpendDeliverA += totalSpendDeliverA;
+    }
+
+    public int getTotalSpendDeliverB() {
+        return totalSpendDeliverB;
+    }
+
+    public void setTotalSpendDeliverB(int totalSpendDeliverB) {
+        this.totalSpendDeliverB += totalSpendDeliverB;
+    }
+
+    public int getTotalSpendDeliverC() {
+        return totalSpendDeliverC;
+    }
+
+    public void setTotalSpendDeliverC(int totalSpendDeliverC) {
+        this.totalSpendDeliverC += totalSpendDeliverC;
+    }
+    
+    
     @Override
     public int getWalletAfterTrade() {
         return walletAfterTrade;

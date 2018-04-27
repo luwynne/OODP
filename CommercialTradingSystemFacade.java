@@ -67,6 +67,16 @@ public class CommercialTradingSystemFacade implements CommercialInter {
         for(CompanyInterface eachComp : companies){
             for (Transaction eachTran  : eachComp.getListOfTransactions()){
                 //System.out.println(eachTran);
+                if(eachTran.productTrade=="A"){
+                    eachComp.setTotalSpendInA(eachTran.productPrice);
+                    eachComp.setTotalSpendDeliverA(eachTran.deliveryPrice);
+                }else if(eachTran.productTrade=="B"){
+                    eachComp.setTotalSpendInB(eachTran.productPrice);
+                    eachComp.setTotalSpendDeliverB(eachTran.deliveryPrice);
+                }else{
+                    eachComp.setTotalSpendInC(eachTran.productPrice);
+                    eachComp.setTotalSpendDeliverC(eachTran.deliveryPrice);
+                }
             }
 
             //System.out.println("------------------------ end company transactions -----------------------------------");
@@ -101,9 +111,12 @@ public class CommercialTradingSystemFacade implements CommercialInter {
                 System.out.println("|-------------------------   BigA   ---------------------------|");
                 System.out.println("|-- Wallet before trade "+companies.get(0).getWalletBeforeTrade()+ " wallet after trade "+companies.get(0).getWalletAfterTrade());
                 System.out.println("|-- Total amount of BigB of products purchased: " + companies.get(0).getTotalProductsBuyInB());
+                System.out.println("|-- Total spend in BigB " + companies.get(0).getTotalSpendInB());
+                System.out.println("|-- Total spend in BigB Delivery " + companies.get(0).getTotalSpendDeliverB());
                 System.out.println("|-- Total amount of BigC of products purchased: " + companies.get(0).getTotalProductsBuyInC());
-                System.out.println("|-- Total cost of purchase price for products: ");
-                System.out.println("|-- Total cost of delivery for products: ");
+                System.out.println("|-- Total spend in BigC " + companies.get(0).getTotalSpendInC());
+                System.out.println("|-- Total spend in BigC Delivery " + companies.get(0).getTotalSpendDeliverC());
+                
                 break;
             case "b":
                 for(Transaction trans : companies.get(1).getListOfTransactions()){
@@ -112,9 +125,12 @@ public class CommercialTradingSystemFacade implements CommercialInter {
                 System.out.println("|-------------------------   BigB   ---------------------------|");
                 System.out.println("|-- Wallet before trade "+companies.get(1).getWalletBeforeTrade()+ " wallet after trade "+companies.get(1).getWalletAfterTrade());
                 System.out.println("|-- Total amount of BigA of products purchased: " + companies.get(1).getTotalProductsBuyInA());
+                System.out.println("|-- Total spend in BigA " + companies.get(1).getTotalSpendInA());
+                System.out.println("|-- Total spend in BigA Delivery " + companies.get(1).getTotalSpendDeliverA());
                 System.out.println("|-- Total amount of BigC of products purchased: " + companies.get(1).getTotalProductsBuyInC());
-                System.out.println("|-- Total cost of purchase price for products: ");
-                System.out.println("|-- Total cost of delivery for products: ");
+                System.out.println("|-- Total spend in BigC " + companies.get(1).getTotalSpendInC());
+                System.out.println("|-- Total spend in BigC Delivery " + companies.get(1).getTotalSpendDeliverC());
+                
                 break;
             case "c":
                 for(Transaction trans : companies.get(2).getListOfTransactions()){
@@ -123,9 +139,13 @@ public class CommercialTradingSystemFacade implements CommercialInter {
                 System.out.println("|-------------------------   BigC   ---------------------------|");
                 System.out.println("|-- Wallet before trade "+companies.get(2).getWalletBeforeTrade()+ " wallet after trade "+companies.get(2).getWalletAfterTrade());
                 System.out.println("|-- Total amount of BigA of products purchased: " + companies.get(2).getTotalProductsBuyInA());
+                System.out.println("|-- Total spend in BigA " + companies.get(2).getTotalSpendInA());
+                System.out.println("|-- Total spend in BigA Delivery " + companies.get(2).getTotalSpendDeliverA());
                 System.out.println("|-- Total amount of BigB of products purchased: " + companies.get(2).getTotalProductsBuyInB());
-                System.out.println("|-- Total cost of purchase price for products: ");
-                System.out.println("|-- Total cost of delivery for products: ");
+                System.out.println("|-- Total spend in BigB " + companies.get(2).getTotalSpendInB());
+                System.out.println("|-- Total spend in BigB Delivery " + companies.get(2).getTotalSpendDeliverB());
+                
+                
                 break;
             default:
                 break;

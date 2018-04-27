@@ -35,7 +35,31 @@ public interface CompanyInterface {
 
     public int getTotalProductsBuyInC() ;
 
-    public void setTotalProductsBuyInC(int addProductsBuyInC) ;
+    public void setTotalProductsBuyInC(int addProductsBuyInC);
+    
+     public int getTotalSpendInA();
+
+    public void setTotalSpendInA(int totalSpendInA) ;
+
+    public int getTotalSpendInB() ;
+
+    public void setTotalSpendInB(int totalSpendInB) ;
+
+    public int getTotalSpendInC();
+
+    public void setTotalSpendInC(int totalSpendInC);
+    
+     public int getTotalSpendDeliverA();
+
+    public void setTotalSpendDeliverA(int totalSpendDeliverA); 
+
+    public int getTotalSpendDeliverB();
+
+    public void setTotalSpendDeliverB(int totalSpendDeliverB); 
+
+    public int getTotalSpendDeliverC();
+
+    public void setTotalSpendDeliverC(int totalSpendDeliverC); 
     
     
     
