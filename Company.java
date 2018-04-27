@@ -10,17 +10,21 @@ public class Company implements CompanyInterface{
     private String name;
     private double companyWallet = 0;
     private double totalDeliveryExpenses = 0;
-    private int walletBeforeTrade; //this is ths company wallet after trading for comparison
-    private int walletAfterTrade; 
+
+    private int walletBeforeTrade;  //this is ths company wallet after trading for comparison
+    private int walletAfterTrade;
+    private int totalProductsBuyInA;
+    private int totalProductsBuyInB;
+    private int totalProductsBuyInC;
     private ArrayList<DepotInterface> ArrayListDepot; //depots of a company
-    private final ArrayList<Transaction> ListOfTransactions= new ArrayList<>(); //transactions of a company
+    private ArrayList<Transaction> ListOfTransactions= new ArrayList<>(); //transactions of a company
 
 
    public Company(String name, ArrayList<DepotInterface> list){
 
        this.name = name;
        this.ArrayListDepot=list;
-       
+
        setWaletBeforeTrade(); //setting up the wallet when starting the class
 
    }
@@ -54,7 +58,7 @@ public class Company implements CompanyInterface{
 
 /**
  * Returns the total amount of expenses of the company in delivery from every depot
- * @return totalDeliveryExpenses  (sun of all the delivery expenses) 
+ * @return totalDeliveryExpenses  (sun of all the delivery expenses)
  */
     @Override
     public double getTotalDeliveryExpenses() {
@@ -62,7 +66,7 @@ public class Company implements CompanyInterface{
     }
 
     /**
-     * Assigns value to company wallet 
+     * Assigns value to company wallet
      * @param companyWallet (company cash)
      */
     public void setCompanyWallet(double companyWallet) {
@@ -70,9 +74,9 @@ public class Company implements CompanyInterface{
     }
 
     /**
-     * Sets up total amount for delivery expenses of company 
+     * Sets up total amount for delivery expenses of company
      * Information comes from all the depots
-     * @param totalDeliveryExpenses (sun of all the delivery expenses) 
+     * @param totalDeliveryExpenses (sun of all the delivery expenses)
      */
     public void setTotalDeliveryExpenses(double totalDeliveryExpenses) {
         this.totalDeliveryExpenses = totalDeliveryExpenses;
@@ -101,18 +105,18 @@ public class Company implements CompanyInterface{
      * Updates the company wallet before the transactions are made
      */
     @Override
-    public void setWaletBeforeTrade() { //giving a new value to the wallet before trading 
-        
+    public void setWaletBeforeTrade() { //giving a new value to the wallet before trading
+
        for(DepotInterface eachdepotinterfaceitem: ArrayListDepot){
            this.walletBeforeTrade += eachdepotinterfaceitem.getDepotWallet();
        }
-        
+
     }
 
-    
+
     /**
      * Updates the company wallet after the transactions are made
-     * this information is useful when figuring out the companies total final wallet amount 
+     * this information is useful when figuring out the companies total final wallet amount
      * for a comparison matter
      */
     @Override
@@ -121,15 +125,49 @@ public class Company implements CompanyInterface{
            this.walletAfterTrade += eachdepotinterfaceitem.getDepotWallet();
        }
     }
-    
+
     /**
-     * 
+     *
      * Returns as a string the wallets after and before the transactions
      * @return name, walletBeforeTrade, walletAfterTrade
      */
     @Override //giving a new value to the wallet after the trade for a comparison matter
     public String toString(){ //
-        return "Company "+this.name+" Wallet before trade "+ this.walletBeforeTrade +" Wallet after trade "+ this.walletAfterTrade ; 
+        return "Company "+this.name+" Wallet before trade "+ this.walletBeforeTrade +" Wallet after trade "+ this.walletAfterTrade ;
+    }
+
+    @Override
+    public int getWalletBeforeTrade() {
+        return walletBeforeTrade;
+    }
+
+    public int getTotalProductsBuyInA() {
+        return totalProductsBuyInA;
+    }
+
+    public void setTotalProductsBuyInA(int addProductsBuyInA) {
+        this.totalProductsBuyInA += addProductsBuyInA;
+    }
+
+    public int getTotalProductsBuyInB() {
+        return totalProductsBuyInB;
+    }
+
+    public void setTotalProductsBuyInB(int addProductsBuyInB) {
+        this.totalProductsBuyInB += addProductsBuyInB;
+    }
+
+    public int getTotalProductsBuyInC() {
+        return totalProductsBuyInC;
+    }
+
+    public void setTotalProductsBuyInC(int addProductsBuyInC) {
+        this.totalProductsBuyInC += addProductsBuyInC;
+    }
+
+    @Override
+    public int getWalletAfterTrade() {
+        return walletAfterTrade;
     }
 
 }

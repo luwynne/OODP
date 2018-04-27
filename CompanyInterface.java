@@ -22,6 +22,23 @@ public interface CompanyInterface {
     public void setWaletBeforeTrade();
     public void setWaletAfterTrade();
     
+    public int getWalletBeforeTrade();
+    public int getWalletAfterTrade();
+    
+    public int getTotalProductsBuyInA() ;
+
+    public void setTotalProductsBuyInA(int addProductsBuyInA);
+
+    public int getTotalProductsBuyInB();
+
+    public void setTotalProductsBuyInB(int addProductsBuyInB);
+
+    public int getTotalProductsBuyInC() ;
+
+    public void setTotalProductsBuyInC(int addProductsBuyInC) ;
+    
+    
+    
 
 
 

@@ -28,7 +28,7 @@ public class Trader {
 
     /**
      * Performs a transaction with company A as a trader
-     * This trader then can trade with companies B and C 
+     * This trader then can trade with companies B and C
      * It goes through all the depots from the company A and bounces between all the depots from companies B and C
      * It assigns value to an ArrayList of transactions holding the depot information and who the depot has traded with
      */
@@ -37,7 +37,7 @@ public class Trader {
 
         // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsA.get(i) and depotsB.get(counterDepot)
         // you have to create the arraylist<transactions> in the depot class. and a method to add a transaction to the ArrayList
-                    
+
         for(int i=0;i<depotsA.size()-1;i++){
             int counterDepot =0;
             int deliveryPrice=depotsA.get(i).getDeliveryPrice();
@@ -53,7 +53,10 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from B id: "+depotsB.get(counterDepot).getDepotId(),"Depot from A id: "+depotsA.get(i).getDepotId(),"A",productPrice,deliveryPrice);
                     depotsB.get(counterDepot).addTransactions(tempTran);
                     depotsA.get(i).addTransactions(tempTran);
-  
+                    depotsB.get(counterDepot).increaseProductsBuyInA();
+
+                    // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsA.get(i) and depotsB.get(counterDepot)
+                    // you have to create the arraylist<transactions> in the depot class. and a method to add a transaction to the ArrayList
                 }
 
                 if((depotsC.get(counterDepot).getDepotWallet()-minCashAllowance>pricePlusDelivery) && (depotsC.get(counterDepot).getProductsA().size()<40) ){
@@ -64,8 +67,9 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from C id: "+depotsC.get(counterDepot).getDepotId(),"Depot from A id: "+depotsA.get(i).getDepotId(),"A",productPrice,deliveryPrice);
                     depotsC.get(counterDepot).addTransactions(tempTran);
                     depotsA.get(i).addTransactions(tempTran);
+                    depotsC.get(counterDepot).increaseProductsBuyInA();
 
-                    
+
                 }
                 counterDepot++;
             }
@@ -98,8 +102,9 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from A id: "+depotsA.get(counterDepot).getDepotId(),"Depot from B id: "+depotsB.get(i).getDepotId(),"B",productPrice,deliveryPrice);
                     depotsA.get(counterDepot).addTransactions(tempTran);
                     depotsB.get(i).addTransactions(tempTran);
+                    depotsA.get(counterDepot).increaseProductsBuyInB();
 
-                    
+
 
                 }
 
@@ -112,8 +117,9 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from C id: "+depotsC.get(counterDepot).getDepotId(),"Depot from B id: "+depotsB.get(i).getDepotId(),"B",productPrice,deliveryPrice);
                     depotsB.get(counterDepot).addTransactions(tempTran);
                     depotsC.get(i).addTransactions(tempTran);
+                    depotsC.get(counterDepot).increaseProductsBuyInB();
 
-                    
+
 
                 }
                 counterDepot++;
@@ -123,7 +129,7 @@ public class Trader {
 
     /**
      * Performs a transaction with company C as a trader
-     * This trader then can trade with companies A and B 
+     * This trader then can trade with companies A and B
      * It goes through all the depots from the company C and bounces between all the depots from companies A and B
      * It assigns value to an ArrayList of transactions holding the depot information and who the depot has traded with
      */
@@ -149,7 +155,8 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from A id: "+depotsA.get(counterDepot).getDepotId(),"Depot from C id: "+depotsC.get(i).getDepotId(),"C",productPrice,deliveryPrice);
                     depotsA.get(counterDepot).addTransactions(tempTran);
                     depotsC.get(i).addTransactions(tempTran);
-                    
+                    depotsA.get(counterDepot).increaseProductsBuyInC();
+                    // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsC.get(i) and depotsA.get(counterDepot)
                 }
 
                 if((depotsB.get(counterDepot).getDepotWallet()-minCashAllowance>pricePlusDelivery) && (depotsB.get(counterDepot).getProductsC().size()<40) ){
@@ -162,7 +169,8 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from B id: "+depotsB.get(counterDepot).getDepotId(),"Depot from C id: "+depotsC.get(i).getDepotId(),"C",productPrice,deliveryPrice);
                     depotsB.get(counterDepot).addTransactions(tempTran);
                     depotsC.get(i).addTransactions(tempTran);
-                    
+                    depotsB.get(counterDepot).increaseProductsBuyInC();
+                    // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsC.get(i) and depotsB.get(counterDepot)
                 }
                 counterDepot++;
             }

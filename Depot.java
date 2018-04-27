@@ -6,12 +6,15 @@ import java.util.ArrayList;
 
 public class Depot implements DepotInterface{
 
-    //default values that each of the depots will haves    
+    //default values that each of the depots will haves
     int depotId;
     private ArrayList<Products> productsFromA = new ArrayList<>();
     private ArrayList<Products> productsFromB = new ArrayList<>();
     private ArrayList<Products> productsFromC = new ArrayList<>();
     private ArrayList<Transaction> listOfTransactions = new ArrayList<>();
+    private int productsBuyInA = 0;
+    private int productsBuyInB = 0;
+    private int productsBuyInC = 0;
     private int depotWallet;
     private final int deliveryPrice;
 
@@ -24,7 +27,7 @@ public class Depot implements DepotInterface{
   * @param int cash (depot cash)
  */
     Depot(int id,ArrayList<Products> A, ArrayList<Products> B,ArrayList<Products> C,int deliveryPrice, int cash) {
-        
+
         this.depotId=id;
         this.productsFromA=A;
         this.productsFromB=B;
@@ -32,9 +35,10 @@ public class Depot implements DepotInterface{
         this.deliveryPrice=deliveryPrice;
         this.depotWallet=cash;
     }
-    
-    
-    
+
+
+
+
 
 /**
   * Returns depot if of the company
@@ -48,7 +52,7 @@ public class Depot implements DepotInterface{
  /**
   * Adds products from company A to an ArrayList of products
   * @param Newproduct (Object)
- */ 
+ */
     @Override
     public void buyProductsFromA(Products Newproduct) {
         this.productsFromA.add(Newproduct);
@@ -110,7 +114,7 @@ public class Depot implements DepotInterface{
         return this.productsFromA.remove((this.productsFromA.size()-1));
     }
 
-    
+
   /**
   * Performs sale of a products from company B
   * subtract the products sold from the amount of products
@@ -135,13 +139,13 @@ public class Depot implements DepotInterface{
    /**
   * Updates the depot wallet that has sold a products
   * @param money (old depot cash to be updated)
- */ 
+ */
     @Override
     public void setDepotWallet(int money){
         this.depotWallet += money;
     }
 
-    
+
     /**
      * Returns the depot wallet
      * @return depotWallet (depot cash)
@@ -160,10 +164,10 @@ public class Depot implements DepotInterface{
         return this.deliveryPrice;
     }
 
-    
-    
+
+
     /**
-     * Returns an ArrayList of transactions performed by that depot 
+     * Returns an ArrayList of transactions performed by that depot
      * @return listOfTransactions (transactions from depot as ArrayList)
      */
     @Override
@@ -181,12 +185,38 @@ public class Depot implements DepotInterface{
         this.listOfTransactions.add(newTransaction);
     }
 
-    /**
-     * Returns string with depot sale information from each of the companies products including his company
-     * This also returns the product price and delivery price of transaction and the current depot wallet 
-     * @return depotId (depot name), productsFromA.size() (how many depots from A), productsFromB.size() (how many depots from B), productsFromC.size() (how many depots from C)
-     * 
-     */
+    public int getTotalProductsBuyInA() {
+        return productsBuyInA;
+    }
+
+    public int getTotalProductsBuyInB() {
+        return productsBuyInB;
+    }
+
+    public int getTotalProductsBuyInC() {
+        return productsBuyInC;
+    }
+
+    public void increaseProductsBuyInA() {
+        this.productsBuyInA +=1;
+    }
+
+    public void increaseProductsBuyInB() {
+        this.productsBuyInB +=1;
+    }
+
+    public void increaseProductsBuyInC() {
+        this.productsBuyInC +=1;
+    }
+
+
+
+/**
+ * Returns string with depot sale information from each of the companies products including his company
+ * This also returns the product price and delivery price of transaction and the current depot wallet
+ * @return depotId (depot name), productsFromA.size() (how many depots from A), productsFromB.size() (how many depots from B), productsFromC.size() (how many depots from C)
+ *
+ */
     @Override
     public String toString() {
         return "Depot{" + "\n depotId = " + depotId + "\n productsFromA = " + productsFromA.size() + " Price = "+productsFromA.get(1)+ "\n productsFromB = " + productsFromB.size() + " Price = "+productsFromB.get(1)+ "\n productsFromC = " + productsFromC.size() + " Price = "+productsFromC.get(1)+"\n depotWallet = " + depotWallet + "\n deliveryPrice = " + deliveryPrice + "\n }";

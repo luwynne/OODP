@@ -30,5 +30,15 @@ public interface DepotInterface {
     public void buyProductsFromC(Products newProduct);
     public ArrayList<Transaction> getListOfTransactions();
     public void addTransactions(Transaction newTransaction);
+    
+    public void increaseProductsBuyInA();
+    public void increaseProductsBuyInB();
+    public void increaseProductsBuyInC();
+    
+    public int getTotalProductsBuyInA(); 
+
+    public int getTotalProductsBuyInB();
+
+    public int getTotalProductsBuyInC();
 
 }
