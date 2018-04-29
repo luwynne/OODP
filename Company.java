@@ -147,85 +147,165 @@ public class Company implements CompanyInterface{
         return "Company "+this.name+" Wallet before trade "+ this.walletBeforeTrade +" Wallet after trade "+ this.walletAfterTrade ;
     }
 
+    /**
+     *
+     * @return walletBeforeTrade Wallet before transaction
+     */
     @Override
     public int getWalletBeforeTrade() {
         return walletBeforeTrade;
     }
 
+    /**
+     * 
+     * @return totalProductsBuyInA products bought on A as trader
+     */
     public int getTotalProductsBuyInA() {
         return totalProductsBuyInA;
     }
 
+    /**
+     * Alters the number of products buy from A
+     * @param addProductsBuyInA coming from the Facade
+     */
     public void setTotalProductsBuyInA(int addProductsBuyInA) {
         this.totalProductsBuyInA += addProductsBuyInA;
     }
 
+    /**
+     * 
+     * @return totalProductsBuyInB products bought on B as trader
+     */
     public int getTotalProductsBuyInB() {
         return totalProductsBuyInB;
     }
 
+    /**
+     * Alters the number of products buy from B
+     * @param addProductsBuyInB coming from the Facade
+     */
     public void setTotalProductsBuyInB(int addProductsBuyInB) {
         this.totalProductsBuyInB += addProductsBuyInB;
     }
 
+    /**
+     * 
+     * @return totalProductsBuyInC products bought on A as trader
+     */
     public int getTotalProductsBuyInC() {
         return totalProductsBuyInC;
     }
 
+    /**
+     * Alters the number of products buy from C
+     * @param addProductsBuyInC coming from the Facade
+     */
     public void setTotalProductsBuyInC(int addProductsBuyInC) {
         this.totalProductsBuyInC += addProductsBuyInC;
     }
     
+    /**
+     * Expenses in A
+     * @return totalSpendInA total A expenses
+     */
     public int getTotalSpendInA() {
         return totalSpendInA;
     }
 
+    /**
+     * Setting total expenses in A
+     * @param totalSpendInA coming from Facade
+     */
     public void setTotalSpendInA(int totalSpendInA) {
         this.totalSpendInA += totalSpendInA;
     }
 
+    /**
+     * Expenses in B
+     * @return totalSpendInB total B expenses
+     */
     public int getTotalSpendInB() {
         return totalSpendInB;
     }
 
+    /**
+     * Setting total expenses in B
+     * @param totalSpendInB coming from Facade
+     */
     public void setTotalSpendInB(int totalSpendInB) {
         this.totalSpendInB += totalSpendInB;
     }
 
+    /**
+     * Expenses in C
+     * @return totalSpendInC total C expenses
+     */
     public int getTotalSpendInC() {
         return totalSpendInC;
     }
 
+    /**
+     * Setting total expenses in C
+     * @param totalSpendInC coming from Facade
+     */
     public void setTotalSpendInC(int totalSpendInC) {
         this.totalSpendInC += totalSpendInC;
     }
 
+    /**
+     * Total depots delivery expenses from A
+     * @return totalSpendDeliverA Delivery in A
+     */
     public int getTotalSpendDeliverA() {
         return totalSpendDeliverA;
     }
 
+    /**
+     * Updates the total delivery expense from A
+     * @param totalSpendDeliverA coming from facade
+     */
     public void setTotalSpendDeliverA(int totalSpendDeliverA) {
         this.totalSpendDeliverA += totalSpendDeliverA;
     }
 
+    /**
+     * Total depots delivery expenses from B
+     * @return totalSpendDeliverB Delivery in B
+     */
     public int getTotalSpendDeliverB() {
         return totalSpendDeliverB;
     }
 
+    /**
+     * updates the total delivery expense from B
+     * @param totalSpendDeliverB coming from facade
+     */
     public void setTotalSpendDeliverB(int totalSpendDeliverB) {
         this.totalSpendDeliverB += totalSpendDeliverB;
     }
 
+    /**
+     * Total depots delivery expenses from C
+     * @return totalSpendDeliverC Delivery in C
+     */
     public int getTotalSpendDeliverC() {
         return totalSpendDeliverC;
     }
 
+    /**
+     * updates the total delivery expense from C
+     * @param totalSpendDeliverC coming from facade
+     */
     public void setTotalSpendDeliverC(int totalSpendDeliverC) {
         this.totalSpendDeliverC += totalSpendDeliverC;
     }
     
     
     @Override
+    /**
+     * @return walletAfterTrade
+     * returning the wallet of company after trade
+     */
     public int getWalletAfterTrade() {
         return walletAfterTrade;
     }

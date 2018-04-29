@@ -14,6 +14,12 @@ public class CommercialTradingSystemFacade implements CommercialInter {
     
     ArrayList<CompanyInterface> companies;
 
+    /**
+     * Constructor of System Facade
+     * Instantiates the CompanyFactory and assigns values to afterWallets
+     * Brings each company's transactions
+     * @throws IOException capturing input output exception 
+     */
     public CommercialTradingSystemFacade() throws IOException {
         CompanyFactory compa = new CompanyFactory();
     
@@ -33,6 +39,7 @@ public class CommercialTradingSystemFacade implements CommercialInter {
 
             outputBeforeTrade+="\n ********************** End Company "+eachComp.getCompanyType() +" **********************";
         }
+        //creating the traders
        // System.out.println("////////////////////////////////////////////////////////////////////////");
         Trader newTrader = new Trader(companies.get(0).getArrayListDepot(),companies.get(1).getArrayListDepot(),companies.get(2).getArrayListDepot());
         newTrader.tradingA();
@@ -89,6 +96,12 @@ public class CommercialTradingSystemFacade implements CommercialInter {
         //System.out.println(outputAfterTrafe);
     }
     
+    /**
+     * 
+     * @param info information coming as string to be written
+     * @param fileName files that will be written
+     * @throws IOException detecting Io exception
+     */
     public static void writingResultToFile (String info, String fileName)
         throws IOException {
           //String fileName="before";
@@ -101,6 +114,10 @@ public class CommercialTradingSystemFacade implements CommercialInter {
     }
 
     @Override
+    /**
+     * Bringing individual data according to company selection
+     * @param CompanySelected input coming from the user on which company
+     */
     public void SelectCompany(String CompanySelected) {
         if(null != CompanySelected)switch (CompanySelected) {
             case "a":
