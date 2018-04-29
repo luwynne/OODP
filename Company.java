@@ -17,9 +17,9 @@ public class Company implements CompanyInterface{
 
     private int walletBeforeTrade;  //this is ths company wallet after trading for comparison
     private int walletAfterTrade;
-    private int totalProductsBuyInA;
-    private int totalProductsBuyInB;
-    private int totalProductsBuyInC;
+    private int totalProductsBuyInA=0;
+    private int totalProductsBuyInB=0;
+    private int totalProductsBuyInC=0;
     private ArrayList<DepotInterface> ArrayListDepot; //depots of a company
     private ArrayList<Transaction> ListOfTransactions= new ArrayList<>(); //transactions of a company
     private int totalSpendInA=0;
@@ -29,6 +29,10 @@ public class Company implements CompanyInterface{
     private int totalSpendDeliverA=0;
     private int totalSpendDeliverB=0;
     private int totalSpendDeliverC=0;
+    
+    private int profit;
+
+    
     
 
     
@@ -164,6 +168,7 @@ public class Company implements CompanyInterface{
      * 
      * @return totalProductsBuyInA products bought on A as trader
      */
+    @Override
     public int getTotalProductsBuyInA() {
         return totalProductsBuyInA;
     }
@@ -172,7 +177,8 @@ public class Company implements CompanyInterface{
      * Alters the number of products buy from A
      * @param addProductsBuyInA coming from the Facade
      */
-    public void setTotalProductsBuyInA(int addProductsBuyInA) {
+    @Override
+    public void increaseTotalProductsBuyInA(int addProductsBuyInA) {
         this.totalProductsBuyInA += addProductsBuyInA;
     }
 
@@ -180,6 +186,7 @@ public class Company implements CompanyInterface{
      * 
      * @return totalProductsBuyInB products bought on B as trader
      */
+    @Override
     public int getTotalProductsBuyInB() {
         return totalProductsBuyInB;
     }
@@ -188,7 +195,8 @@ public class Company implements CompanyInterface{
      * Alters the number of products buy from B
      * @param addProductsBuyInB coming from the Facade
      */
-    public void setTotalProductsBuyInB(int addProductsBuyInB) {
+    @Override
+    public void increaseTotalProductsBuyInB(int addProductsBuyInB) {
         this.totalProductsBuyInB += addProductsBuyInB;
     }
 
@@ -196,6 +204,7 @@ public class Company implements CompanyInterface{
      * 
      * @return totalProductsBuyInC products bought on A as trader
      */
+    @Override
     public int getTotalProductsBuyInC() {
         return totalProductsBuyInC;
     }
@@ -204,7 +213,8 @@ public class Company implements CompanyInterface{
      * Alters the number of products buy from C
      * @param addProductsBuyInC coming from the Facade
      */
-    public void setTotalProductsBuyInC(int addProductsBuyInC) {
+    @Override
+    public void increaseTotalProductsBuyInC(int addProductsBuyInC) {
         this.totalProductsBuyInC += addProductsBuyInC;
     }
     
@@ -212,6 +222,7 @@ public class Company implements CompanyInterface{
      * Expenses in A
      * @return totalSpendInA total A expenses
      */
+    @Override
     public int getTotalSpendInA() {
         return totalSpendInA;
     }
@@ -220,7 +231,8 @@ public class Company implements CompanyInterface{
      * Setting total expenses in A
      * @param totalSpendInA coming from Facade
      */
-    public void setTotalSpendInA(int totalSpendInA) {
+    @Override
+    public void increaseTotalSpendInA(int totalSpendInA) {
         this.totalSpendInA += totalSpendInA;
     }
 
@@ -228,6 +240,7 @@ public class Company implements CompanyInterface{
      * Expenses in B
      * @return totalSpendInB total B expenses
      */
+    @Override
     public int getTotalSpendInB() {
         return totalSpendInB;
     }
@@ -236,7 +249,8 @@ public class Company implements CompanyInterface{
      * Setting total expenses in B
      * @param totalSpendInB coming from Facade
      */
-    public void setTotalSpendInB(int totalSpendInB) {
+    @Override
+    public void increaseTotalSpendInB(int totalSpendInB) {
         this.totalSpendInB += totalSpendInB;
     }
 
@@ -244,6 +258,7 @@ public class Company implements CompanyInterface{
      * Expenses in C
      * @return totalSpendInC total C expenses
      */
+    @Override
     public int getTotalSpendInC() {
         return totalSpendInC;
     }
@@ -252,7 +267,8 @@ public class Company implements CompanyInterface{
      * Setting total expenses in C
      * @param totalSpendInC coming from Facade
      */
-    public void setTotalSpendInC(int totalSpendInC) {
+    @Override
+    public void increaseTotalSpendInC(int totalSpendInC) {
         this.totalSpendInC += totalSpendInC;
     }
 
@@ -260,6 +276,7 @@ public class Company implements CompanyInterface{
      * Total depots delivery expenses from A
      * @return totalSpendDeliverA Delivery in A
      */
+    @Override
     public int getTotalSpendDeliverA() {
         return totalSpendDeliverA;
     }
@@ -268,7 +285,8 @@ public class Company implements CompanyInterface{
      * Updates the total delivery expense from A
      * @param totalSpendDeliverA coming from facade
      */
-    public void setTotalSpendDeliverA(int totalSpendDeliverA) {
+    @Override
+    public void increaseTotalSpendDeliverA(int totalSpendDeliverA) {
         this.totalSpendDeliverA += totalSpendDeliverA;
     }
 
@@ -276,6 +294,7 @@ public class Company implements CompanyInterface{
      * Total depots delivery expenses from B
      * @return totalSpendDeliverB Delivery in B
      */
+    @Override
     public int getTotalSpendDeliverB() {
         return totalSpendDeliverB;
     }
@@ -284,7 +303,8 @@ public class Company implements CompanyInterface{
      * updates the total delivery expense from B
      * @param totalSpendDeliverB coming from facade
      */
-    public void setTotalSpendDeliverB(int totalSpendDeliverB) {
+    @Override
+    public void increaseTotalSpendDeliverB(int totalSpendDeliverB) {
         this.totalSpendDeliverB += totalSpendDeliverB;
     }
 
@@ -292,6 +312,7 @@ public class Company implements CompanyInterface{
      * Total depots delivery expenses from C
      * @return totalSpendDeliverC Delivery in C
      */
+    @Override
     public int getTotalSpendDeliverC() {
         return totalSpendDeliverC;
     }
@@ -300,7 +321,8 @@ public class Company implements CompanyInterface{
      * updates the total delivery expense from C
      * @param totalSpendDeliverC coming from facade
      */
-    public void setTotalSpendDeliverC(int totalSpendDeliverC) {
+    @Override
+    public void increaseTotalSpendDeliverC(int totalSpendDeliverC) {
         this.totalSpendDeliverC += totalSpendDeliverC;
     }
     
@@ -312,6 +334,16 @@ public class Company implements CompanyInterface{
      */
     public int getWalletAfterTrade() {
         return walletAfterTrade;
+    }
+    
+    @Override
+    public int getProfit() {
+        return profit;
+    }
+
+    @Override
+    public void calculateProfit() {
+        this.profit = walletAfterTrade-walletBeforeTrade;
     }
 
 }

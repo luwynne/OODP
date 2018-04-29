@@ -37,7 +37,16 @@ class Transaction {
      * @return transactionID, buyer, seller, productTrade, productPrice, deliveryPrice+productPrice
      */
     public String toString() {
-        return "Transaction{"+"transactionID= " + transactionID + ", buyer= " + buyer + ", seller= " + seller + ", productTrade= " + productTrade + ", productPrice= " + productPrice + ", deliveryPrice= " + deliveryPrice + ", Total= " + (deliveryPrice+productPrice) + '}';
+        String print="";
+            print+="Transaction{ \n"; 
+            print+="TransactionID = "+transactionID+ "\n";
+            print+="Buyer = "+buyer+ "\n";
+            print+="Seller = "+seller+ "\n";
+            print+="Price = "+productPrice+ "\n";
+            print+="Delivery Price = "+deliveryPrice+ "\n";
+            print+="Total = "+(productPrice+deliveryPrice)+"\n";
+            print+="}\n";
+        return print;
     }
     
 }

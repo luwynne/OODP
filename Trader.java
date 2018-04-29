@@ -53,7 +53,7 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from B id: "+depotsB.get(counterDepot).getDepotId(),"Depot from A id: "+depotsA.get(i).getDepotId(),"A",productPrice,deliveryPrice);
                     depotsB.get(counterDepot).addTransactions(tempTran);
                     depotsA.get(i).addTransactions(tempTran);
-                    depotsB.get(counterDepot).increaseProductsBuyInA();
+                   
 
                     // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsA.get(i) and depotsB.get(counterDepot)
                     // you have to create the arraylist<transactions> in the depot class. and a method to add a transaction to the ArrayList
@@ -67,7 +67,7 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from C id: "+depotsC.get(counterDepot).getDepotId(),"Depot from A id: "+depotsA.get(i).getDepotId(),"A",productPrice,deliveryPrice);
                     depotsC.get(counterDepot).addTransactions(tempTran);
                     depotsA.get(i).addTransactions(tempTran);
-                    depotsC.get(counterDepot).increaseProductsBuyInA();
+              
 
 
                 }
@@ -102,7 +102,7 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from A id: "+depotsA.get(counterDepot).getDepotId(),"Depot from B id: "+depotsB.get(i).getDepotId(),"B",productPrice,deliveryPrice);
                     depotsA.get(counterDepot).addTransactions(tempTran);
                     depotsB.get(i).addTransactions(tempTran);
-                    depotsA.get(counterDepot).increaseProductsBuyInB();
+                    
 
 
 
@@ -117,7 +117,7 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from C id: "+depotsC.get(counterDepot).getDepotId(),"Depot from B id: "+depotsB.get(i).getDepotId(),"B",productPrice,deliveryPrice);
                     depotsB.get(counterDepot).addTransactions(tempTran);
                     depotsC.get(i).addTransactions(tempTran);
-                    depotsC.get(counterDepot).increaseProductsBuyInB();
+                   
 
 
 
@@ -155,7 +155,7 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from A id: "+depotsA.get(counterDepot).getDepotId(),"Depot from C id: "+depotsC.get(i).getDepotId(),"C",productPrice,deliveryPrice);
                     depotsA.get(counterDepot).addTransactions(tempTran);
                     depotsC.get(i).addTransactions(tempTran);
-                    depotsA.get(counterDepot).increaseProductsBuyInC();
+                    
                     // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsC.get(i) and depotsA.get(counterDepot)
                 }
 
@@ -169,7 +169,7 @@ public class Trader {
                     Transaction tempTran = new Transaction("Depot from B id: "+depotsB.get(counterDepot).getDepotId(),"Depot from C id: "+depotsC.get(i).getDepotId(),"C",productPrice,deliveryPrice);
                     depotsB.get(counterDepot).addTransactions(tempTran);
                     depotsC.get(i).addTransactions(tempTran);
-                    depotsB.get(counterDepot).increaseProductsBuyInC();
+                    
                     // make a transaction object(details above) here and add it to the depot transaction arraylist of depotsC.get(i) and depotsB.get(counterDepot)
                 }
                 counterDepot++;

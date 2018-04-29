@@ -31,39 +31,43 @@ public interface CompanyInterface {
     
     public int getTotalProductsBuyInA() ;
 
-    public void setTotalProductsBuyInA(int addProductsBuyInA);
+    public void increaseTotalProductsBuyInA(int addProductsBuyInA);
 
     public int getTotalProductsBuyInB();
 
-    public void setTotalProductsBuyInB(int addProductsBuyInB);
+    public void increaseTotalProductsBuyInB(int addProductsBuyInB);
 
     public int getTotalProductsBuyInC() ;
 
-    public void setTotalProductsBuyInC(int addProductsBuyInC);
+    public void increaseTotalProductsBuyInC(int addProductsBuyInC);
     
      public int getTotalSpendInA();
 
-    public void setTotalSpendInA(int totalSpendInA) ;
+    public void increaseTotalSpendInA(int totalSpendInA) ;
 
     public int getTotalSpendInB() ;
 
-    public void setTotalSpendInB(int totalSpendInB) ;
+    public void increaseTotalSpendInB(int totalSpendInB) ;
 
     public int getTotalSpendInC();
 
-    public void setTotalSpendInC(int totalSpendInC);
+    public void increaseTotalSpendInC(int totalSpendInC);
     
      public int getTotalSpendDeliverA();
 
-    public void setTotalSpendDeliverA(int totalSpendDeliverA); 
+    public void increaseTotalSpendDeliverA(int totalSpendDeliverA); 
 
     public int getTotalSpendDeliverB();
 
-    public void setTotalSpendDeliverB(int totalSpendDeliverB); 
+    public void increaseTotalSpendDeliverB(int totalSpendDeliverB); 
 
     public int getTotalSpendDeliverC();
 
-    public void setTotalSpendDeliverC(int totalSpendDeliverC); 
+    public void increaseTotalSpendDeliverC(int totalSpendDeliverC); 
+    
+    public int getProfit();
+    
+    public void calculateProfit();
     
     
     
