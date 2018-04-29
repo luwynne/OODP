@@ -4,6 +4,10 @@ package commercialtradesystem.OODP;
 import java.util.ArrayList;
 
 
+/**
+ * Ensures the implementation of method on Depot Factory
+ * 
+ */
 public class Depot implements DepotInterface{
 
     //default values that each of the depots will haves

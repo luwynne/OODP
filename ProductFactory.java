@@ -7,6 +7,10 @@ import java.util.ArrayList;
 import java.util.Random;
 
 
+/**
+ * Responsible for creating Products
+ * 
+ */
 public class ProductFactory {
 
 

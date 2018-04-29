@@ -4,6 +4,10 @@ package commercialtradesystem.OODP;
 import java.util.ArrayList;
 
 
+/**
+ * 
+ * Ensures that the following methods are implemented when creating a new company
+ */
 public interface CompanyInterface {
     
     //interface for Company class

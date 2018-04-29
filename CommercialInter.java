@@ -8,8 +8,8 @@ package commercialtradesystem.OODP;
 import java.util.ArrayList;
 
 /**
- *
- * @author drgth
+ *Interface responsible to ensure that the required method are applied to the CommercialTradeSystem facade
+ * 
  */
 public interface CommercialInter {
     

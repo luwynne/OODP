@@ -4,7 +4,10 @@ package commercialtradesystem.OODP;
 import java.io.IOException;
 import java.util.Scanner;
 
-
+/**
+ * System menu class
+ * It contains a runnable main method
+ */
 public class MenuTrader {
 
 

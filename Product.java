@@ -1,5 +1,9 @@
 package commercialtradesystem.OODP;
 
+/**
+ * Products class
+ * Implements the Products interface
+ */
 public class Product implements  Products{
 
     int price=0;

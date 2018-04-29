@@ -7,8 +7,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- *
- * @author mynahone0
+ *Facade responsible for handling the system complexity
+ * Integration with the Factories and the trading logic
+ * 
  */
 public class CommercialTradingSystemFacade implements CommercialInter {
     

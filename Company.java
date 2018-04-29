@@ -4,6 +4,10 @@ package commercialtradesystem.OODP;
 import java.util.ArrayList;
 
 
+/**
+ * 
+ * Interface that ensures the application of its methods on Company class
+ */
 public class Company implements CompanyInterface{
 
     //default properties of a company

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author mynahone0
+ * Class with testing purposes
  */
 public class testingCompany {
 

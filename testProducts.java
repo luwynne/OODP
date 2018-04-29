@@ -2,6 +2,10 @@ package commercialtradesystem.OODP;
 
 import java.util.ArrayList;
 
+/**
+ * 
+ * Class with testing purposes
+ */
 public class testProducts {
 
     //ProductFactory factory = new ProductFactory();

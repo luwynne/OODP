@@ -4,8 +4,8 @@ package commercialtradesystem.OODP;
 import java.util.ArrayList;
 
 /**
- *
- * @author yoseph
+ * Class responsible for the system transaction and trading logic
+ * It performs the Company transaction as well as logic for cash, amount of products and its complexities
  */
 public class Trader {
 

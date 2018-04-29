@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 /**
      * 
-     * Depot class interface 
+     *  
      * This ensures that the depot class assigns the required methods 
      */
 public interface DepotInterface {

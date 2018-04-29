@@ -6,7 +6,7 @@ import java.util.Random;
 
 
 /**
- * Constructor of DepotFactory
+ * Responsible for building depots
  * 
  */
 public class DepotFactory {

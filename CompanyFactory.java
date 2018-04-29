@@ -4,7 +4,10 @@ package commercialtradesystem.OODP;
 import static commercialtradesystem.OODP.DepotFactory.getRandom;
 import java.util.ArrayList;
 
-
+/**
+ * 
+ * Responsible for creating companies
+ */
 public class CompanyFactory{
 
 
