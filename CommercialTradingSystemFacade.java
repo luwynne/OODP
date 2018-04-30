@@ -4,9 +4,10 @@ package commercialtradesystem.OODP;
 import java.util.ArrayList;
 
 /**
- *Facade responsible for handling the system complexity
+ * Facade responsible for handling the system complexity
  * Integration with the Factories and the trading logic
- * 
+ * @author youseph
+ * @version 1.0.0
  */
 public class CommercialTradingSystemFacade implements CommercialInter {
     
@@ -18,7 +19,8 @@ public class CommercialTradingSystemFacade implements CommercialInter {
      * Constructor of System Facade
      * Instantiates the CompanyFactory and assigns values to afterWallets
      * Brings each company's transactions
-     *  
+     * @param reportComp (single company report)
+     * @param reportCompanies (all companies report)
      */
     public CommercialTradingSystemFacade(reportByCompany reportComp,overallReportOfCompanies reportCompanies) {
         
@@ -79,7 +81,6 @@ public class CommercialTradingSystemFacade implements CommercialInter {
     public void SelectCompany(String CompanySelected) {
         if(null != CompanySelected)switch (CompanySelected) {
             case "a":
-                
                 reportComp.PrintReport(companies.get(0));
                 break;
                 

@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 /**
  * Ensures the implementation of method on Depot Factory
+ * @author youseph
+ * @version 1.0.0
  * 
  */
 public class Depot implements DepotInterface{

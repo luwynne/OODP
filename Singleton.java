@@ -3,7 +3,8 @@ package commercialtradesystem.OODP;
 
 /**
  * Singleton class responsible for single instantiation of Menu
- * 
+ * @author lwynne
+ * @version 1.0.0
  */
 class Singleton {
 

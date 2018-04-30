@@ -5,6 +5,8 @@ package commercialtradesystem.OODP;
 /**
  * 
  * Class responsible for the register of transactions performed in the system
+ * @author yoseph
+ * @version 1.0.0
  */
 class Transaction {
     static int TransactionCounter=1;

@@ -3,6 +3,8 @@ package commercialtradesystem.OODP;
 /**
  * Products class
  * Implements the Products interface
+ * @author yoseph
+ * @version 1.0.0
  */
 public class Product implements  Products{
 

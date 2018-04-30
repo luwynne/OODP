@@ -9,7 +9,8 @@ import java.util.ArrayList;
 
 /**
  *Interface responsible to ensure that the required method are applied to the CommercialTradeSystem facade
- * 
+ * @author yoseph
+ * @version 1.0.0
  */
 public interface CommercialInter {
     

@@ -6,6 +6,8 @@ import java.util.ArrayList;
 /**
  * Class responsible for the system transaction and trading logic
  * It performs the Company transaction as well as logic for cash, amount of products and its complexities
+ * @author yoseph
+ * @version 1.0.0
  */
 public class Trader {
 

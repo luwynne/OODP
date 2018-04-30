@@ -7,6 +7,8 @@ import java.util.Scanner;
 /**
  * System menu class
  * It contains a runnable main method
+ * @author thiago
+ * @version 1.0.0
  */
 public class MenuTrader {
 

@@ -7,6 +7,8 @@ import java.util.ArrayList;
      * 
      *  
      * This ensures that the depot class assigns the required methods 
+     * @author lwynne
+     * @version 1.0.0
      */
 public interface DepotInterface {
     

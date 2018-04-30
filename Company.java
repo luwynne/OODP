@@ -7,6 +7,8 @@ import java.util.ArrayList;
 /**
  * 
  * Interface that ensures the application of its methods on Company class
+ * @author youseph
+ * @version 1.0.0
  */
 public class Company implements CompanyInterface{
 

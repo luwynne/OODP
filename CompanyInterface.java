@@ -7,6 +7,8 @@ import java.util.ArrayList;
 /**
  * 
  * Ensures that the following methods are implemented when creating a new company
+ * @author youseph
+ * @version 1.0.0
  */
 public interface CompanyInterface {
     

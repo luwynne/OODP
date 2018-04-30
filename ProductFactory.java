@@ -9,6 +9,8 @@ import java.util.Random;
 
 /**
  * Responsible for creating Products
+ * @author lwynne
+ * @version 1.0.0
  * 
  */
 public class ProductFactory {

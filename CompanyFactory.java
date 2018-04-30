@@ -7,6 +7,8 @@ import java.util.ArrayList;
 /**
  * 
  * Responsible for creating companies
+ * @author youseph
+ * @version 1.0.0
  */
 public class CompanyFactory{
 

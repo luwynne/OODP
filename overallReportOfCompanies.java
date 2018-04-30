@@ -8,13 +8,18 @@ package commercialtradesystem.OODP;
 import java.util.ArrayList;
 
 /**
- *
+ * Brings the overall transactions register after the AutoTrade mode is selecteds
  * @author yoseph
+ * @version 1.0.0
  */
 public class overallReportOfCompanies {
     
     
     
+    /**
+     * Receives the companies ArrayList and prints the company reports
+     * @param companies (all the companies)
+     */
     public void printReportComapnies(ArrayList<CompanyInterface> companies){
         int spendTheMost=-1;
         int madeThemost=-1;

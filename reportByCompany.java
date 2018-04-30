@@ -6,11 +6,16 @@
 package commercialtradesystem.OODP;
 
 /**
- *
+ * Class responsible for individual company reports
  * @author yoseph
+ * @version 1.0.0
  */
 public class reportByCompany {
 
+    /**
+     * Brings individual report by company
+     * @param company (company selected)
+     */
     public void PrintReport(CompanyInterface company){
         
         for(Transaction trans : company.getListOfTransactions()){

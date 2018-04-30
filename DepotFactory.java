@@ -7,7 +7,8 @@ import java.util.Random;
 
 /**
  * Responsible for building depots
- * 
+ * @author lwynne
+ * @version 1.0.0
  */
 public class DepotFactory {
     int minDeliveryPrice=1;
