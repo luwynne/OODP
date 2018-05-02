@@ -31,7 +31,7 @@ public class CommercialTradingSystemFacade implements CommercialInter {
         CompanyFactory compa = new CompanyFactory();
     
   
-        companies= compa.getCompany();
+        this.companies= compa.getCompany();
         
         // the trader receives the ArrayList of depots of each company
         Trader newTrader = new Trader(companies.get(0).getArrayListDepot(),companies.get(1).getArrayListDepot(),companies.get(2).getArrayListDepot());
@@ -96,7 +96,7 @@ public class CommercialTradingSystemFacade implements CommercialInter {
 
     @Override
     public void AutoTrader() {
-        reportCompanies.printReportComapnies(companies);
+        reportCompanies.showResult(this.companies);
       
     }
     

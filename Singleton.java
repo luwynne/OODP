@@ -26,45 +26,22 @@
 
 package commercialtradesystem.OODP;
 
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 
 /**
  * Singleton class responsible for single instantiation of Menu
  *
  */
 class Singleton {
+    private static MenuTrader uniqueInstance;
 
+    public MenuTrader Singleton()  {
 
-    CommercialTradingSystemFacade myFacade;
+        if(uniqueInstance == null){
 
-    public void startFacade(String option) throws IOException{
-
-        if(myFacade == null){
-
-            switch (option){
-                case "a":
-                    myFacade = new CommercialTradingSystemFacade();
-                    myFacade.SelectCompany("a");
-                    break;
-                case "b":
-                    myFacade = new CommercialTradingSystemFacade();
-                    myFacade.SelectCompany("b");
-                    break;
-                case "c":
-                    myFacade = new CommercialTradingSystemFacade();
-                    myFacade.SelectCompany("c");
-                    break;
-                case "z":
-                        myFacade = new CommercialTradingSystemFacade();
-                        myFacade.AutoTrader();
-                    break;
-            }
-
+          uniqueInstance = new MenuTrader();
         }
-
+        
+        return uniqueInstance;
     }
 
 

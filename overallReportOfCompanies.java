@@ -48,5 +48,34 @@ public class overallReportOfCompanies {
 
     }
     
+    public void showResult(ArrayList<CompanyInterface> companies){
+        int spendTheMost=-1;
+        int madeThemost=-1;
+        
+        if(spendTheMost==-1){
+            for(int i=0;i<companies.size();i++){
+                if(companies.get(i).getProfit()<spendTheMost){
+
+                    spendTheMost=i;
+                }
+            }
+        }
+        
+        if(madeThemost==-1){
+            for(int i=0;i<companies.size();i++){
+                if(companies.get(i).getProfit()>spendTheMost){
+                  
+                    madeThemost=i;
+                }
+            }
+        }
+        
+        
+        System.out.println("Company that made the most profit is "+ companies.get(madeThemost)+" profit = "+ companies.get(madeThemost).getProfit());
+        System.out.println("Company that made the least profit is "+ companies.get(spendTheMost)+" profit = "+ companies.get(spendTheMost).getProfit());
+
+        
+    }
+    
     
 }
