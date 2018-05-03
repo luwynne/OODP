@@ -154,7 +154,28 @@ public class Company implements CompanyInterface{
      */
     @Override //giving a new value to the wallet after the trade for a comparison matter
     public String toString(){ //
-        return "Company "+this.name+" Wallet before trade "+ this.walletBeforeTrade +" Wallet after trade "+ this.walletAfterTrade ;
+        
+//        String print="";
+//            print+="Company{ \n"; 
+//            print+="Name = "+this.name+ "\n";
+//            if(this.name.equals("A")){
+//                print+="Total products sold for this company "+this.totalProductsBuyInA+ "\n";
+//                print+="Total products bought of company B "+this.totalProductsBuyInB+ " Total paid for products "+this.totalSpendInB +" Total paid for delivery "+this.totalSpendDeliverB+" Total "+(this.totalSpendInB+this.totalSpendDeliverB)+"\n";
+//                print+="Total products bought of company C "+this.totalProductsBuyInC+ " Total paid for products "+this.totalSpendInC +" Total paid for delivery "+this.totalSpendDeliverC+" Total "+(this.totalSpendInC+this.totalSpendDeliverC)+"\n";
+//            }else if(this.name.equals("B")){
+//                print+="Total products sold of this company "+this.totalProductsBuyInB+ "\n";
+//                print+="Total products bought of company A "+this.totalProductsBuyInA+ " Total paid for products "+this.totalSpendInA +" Total paid for delivery "+this.totalSpendDeliverA+" Total "+(this.totalSpendInA+this.totalSpendDeliverA)+"\n";
+//                print+="Total products bought of company C "+this.totalProductsBuyInC+ " Total paid for products "+this.totalSpendInC +" Total paid for delivery "+this.totalSpendDeliverC+" Total "+(this.totalSpendInC+this.totalSpendDeliverC)+"\n";
+//            }else{
+//                print+="Total products sold of this company "+this.totalProductsBuyInC+ "\n";
+//                print+="Total products bought of company A "+this.totalProductsBuyInA+ " Total paid for products "+this.totalSpendInA +" Total paid for delivery "+this.totalSpendDeliverA+" Total "+(this.totalSpendInA+this.totalSpendDeliverA)+"\n";
+//                print+="Total products bought of company B "+this.totalProductsBuyInB+ " Total paid for products "+this.totalSpendInB +" Total paid for delivery "+this.totalSpendDeliverB+" Total "+(this.totalSpendInB+this.totalSpendDeliverB)+"\n";
+//            }
+//            print+=" Wallet before trade "+ this.walletBeforeTrade +" Wallet after trade "+ this.walletAfterTrade +"\n";
+//            
+//            print+="}\n";
+        return this.name;
+        //return "Company "+this.name+" Wallet before trade "+ this.walletBeforeTrade +" Wallet after trade "+ this.walletAfterTrade ;
     }
 
     /**
@@ -340,6 +361,7 @@ public class Company implements CompanyInterface{
     
     @Override
     public int getProfit() {
+        calculateProfit();
         return profit;
     }
 
