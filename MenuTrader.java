@@ -1,52 +1,43 @@
-
 package commercialtradesystem.OODP;
-
-
 
 import java.util.Scanner;
 
 /**
- * System menu class
- * It contains a runnable main method
+ * System Menu. This is the door entry of the system It contains a runnable main
+ * method
  */
 public class MenuTrader {
 
-
     //public static void main(String args[]) throws IOException{
-    
-   
-    
-    public String showMenu(){
+    /**
+     * Key method that validates input from user and returns an output to Main
+     * class
+     *
+     * @return (option from user)
+     */
+    public String showMenu() {
         System.out.println("|----------- WELCOME TO COMMERCIAL TRADDING SYSTEM ------------|");
         System.out.println("|--------------------------------------------------------------|");
         System.out.println("|- Trade with the company BigA, BigB, BigC (Type: A / B / C )\n|- Trade autonomously (Type: Z)");
         System.out.println("|--------------------------------------------------------------|");
-        
-        Scanner scanner = new Scanner(System.in);
-        String opt = scanner.nextLine();
-        opt = opt.toLowerCase();
-        if(null != opt)switch (opt) {
-            case "a":
-                System.out.println("|-- Trading for company BigA");
-               /// myFacade.SelectCompany("a");
-                break;
-            case "b":
-                System.out.println("|-- Trading for company BigB");
-                //myFacade.SelectCompany("b");
-                break;
-            case "c":
-                System.out.println("|-- Trading for company BigC");
-               // myFacade.SelectCompany("c");
-                break;
-            case "z":
-                System.out.println("|-- Trading for company Z");
-                //myFacade.AutoTrader();
-                break;
-            
-        }
-        return opt;
-    }
-     
-     
-}
 
+        Scanner scanner = new Scanner(System.in);
+        String opt;
+        String pattern = "abcz";
+        //opt = opt.toLowerCase();
+
+        do {
+            opt = scanner.next();
+            opt = opt.toLowerCase();
+            
+            if(!pattern.contains(opt)){
+                System.out.println("Error: Please, type it again!");
+            }
+
+        } while (!pattern.contains(opt));
+
+        return opt; //returning option to Main class
+
+    }
+
+}

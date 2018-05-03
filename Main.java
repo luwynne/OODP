@@ -7,7 +7,7 @@ package commercialtradesystem.OODP;
 
 
 /**
- *
+ * 
  * @author yoseph
  */
 public class Main {
@@ -18,11 +18,10 @@ public class Main {
         CommercialTradingSystemFacade facade = new CommercialTradingSystemFacade(reportCompany,overall);
         Singleton newMenu = new Singleton();
         String opt = newMenu.Singleton().showMenu();
-        //System.out.println(opt);
         
+        //Working acordingly ABC for companies or Z to Autotrade()
         if(opt.equals("z")){
             facade.AutoTrader();
-            //System.out.println("hello");
         }else{
             facade.SelectCompany(opt);
         }
